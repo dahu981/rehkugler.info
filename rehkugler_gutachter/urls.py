@@ -16,6 +16,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('i18n/', include('django.conf.urls.i18n')),
     path('robots.txt', include('core.urls_robots')),
+    path('llms.txt', include('core.urls_llms')),
     path('sitemap.xml', sitemap, {'sitemaps': sitemaps}, name='django.contrib.sitemaps.views.sitemap'),
     re_path(r'^de/(?P<path>.*)$', lambda request, path: RedirectView.as_view(url='/%(path)s' % {'path': path}, permanent=True)(request)),
 ]
