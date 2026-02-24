@@ -1,0 +1,548 @@
+{% extends 'base.html' %}
+{% load static i18n %}
+
+{% block title %}Markus Rehkugler – {% trans "Struktur schafft Klarheit" %}{% endblock %}
+
+{% block content %}
+
+<!-- ============================================================
+     HERO — Fullscreen-Bild mit dunklem Overlay, zentrierter Text
+============================================================ -->
+<section id="hero" class="relative min-h-screen flex items-center justify-center overflow-hidden">
+
+    <!-- Hintergrundbild -->
+    <img src="{% static 'images/hero-architecture.jpg' %}"
+         alt="{% trans 'Modernes Architekturgebäude, klare geometrische Strukturen' %}"
+         class="absolute inset-0 w-full h-full object-cover" />
+    <!-- Dunkles Overlay -->
+    <div class="absolute inset-0 bg-brand-blue/90"></div>
+
+    <!-- Inhalt zentriert -->
+    <div class="relative z-10 text-center max-w-3xl mx-auto px-6 py-32" style="text-shadow: 0 1px 4px rgba(0,0,0,0.4);">
+
+        <p class="fade-up text-brand-gold text-xs font-semibold tracking-[0.25em] uppercase mb-8">
+            {% trans "Immobilienexperte & Sachverständiger" %}
+        </p>
+
+        <h1 class="fade-up delay-100 text-5xl lg:text-7xl font-bold text-white leading-[1.05] mb-5">
+            Markus Rehkugler
+        </h1>
+
+        <div class="fade-up delay-200 w-16 h-px bg-brand-gold mx-auto mb-5"></div>
+
+        <p class="fade-up delay-200 text-2xl lg:text-3xl font-semibold text-brand-gold mb-14">
+            {% trans "Struktur schafft Klarheit." %}
+        </p>
+
+        <!-- Zwei Textblöcke nebeneinander -->
+        <div class="fade-up delay-300 grid grid-cols-1 md:grid-cols-2 gap-10 text-left mb-14 max-w-2xl mx-auto">
+            <div>
+                <p class="text-brand-gold text-[10px] font-bold tracking-[0.2em] uppercase mb-3">{% trans "Immobilienexpertise" %}</p>
+                <p class="text-white/85 text-sm leading-relaxed mb-2">
+                    {% trans "Ich bin Immobilienexperte und Sachverständiger mit langjähriger Erfahrung in Bewertung, Strukturierung und strategischer Analyse – national und international." %}
+                </p>
+                <p class="text-white/85 text-sm leading-relaxed">
+                    {% trans "Ich arbeite analytisch, präzise und nachvollziehbar, um Immobilieneigentümern, Investoren und Profis belastbare Bewertungen und klare Entscheidungsgrundlagen zu liefern." %}
+                </p>
+            </div>
+            <div>
+                <p class="text-brand-gold text-[10px] font-bold tracking-[0.2em] uppercase mb-3">{% trans "Persönliche Transformation" %}</p>
+                <p class="text-white/85 text-sm leading-relaxed mb-2">
+                    {% trans "Parallel dazu bin ich Impulsgeber für persönliche Transformation – mit Schwerpunkt auf reflektierendem Perspektivwechsel, Bewusstheit und innerer Orientierung." %}
+                </p>
+                <p class="text-white/85 text-sm leading-relaxed">
+                    {% trans "Dabei geht es nicht um Therapie, sondern um Denk- und Wahrnehmungsimpulse, die Klarheit erzeugen und Orientierung schaffen." %}
+                </p>
+            </div>
+        </div>
+
+        <!-- Buttons -->
+        <div class="fade-up delay-400 flex flex-col sm:flex-row gap-3 justify-center">
+            <a href="https://calendly.com/markusrehkugler/15min" target="_blank" rel="noopener noreferrer"
+               class="inline-flex items-center justify-center gap-2 bg-brand-gold hover:bg-[#b8941e]
+                      text-brand-text font-semibold text-sm px-7 py-4 transition-colors"
+               aria-label="{% trans 'Kostenloses 15-minütiges Erstgespräch über Calendly buchen' %}">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                          d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+                </svg>
+                {% trans "15 Min. Erstgespräch" %}
+            </a>
+            <a href="https://wa.me/4915166555888" target="_blank" rel="noopener noreferrer"
+               class="inline-flex items-center justify-center gap-2 border border-brand-gold
+                      text-white font-medium text-sm px-7 py-4 hover:bg-brand-gold/10 transition-colors"
+               aria-label="{% trans 'WhatsApp Kontakt unter +49 151 66555888' %}">
+                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                </svg>
+                WhatsApp +49 151 66555888
+            </a>
+        </div>
+        <p class="fade-up delay-400 text-white/50 text-xs mt-5">
+            {% trans "15 Minuten Erstgespräch (kostenfrei)" %}
+        </p>
+    </div>
+</section>
+
+
+<!-- ============================================================
+     ÜBER MICH — zentrierte schmale Spalte, editorialer Stil
+============================================================ -->
+<section id="services" class="py-24 lg:py-32 bg-white">
+    <div class="max-w-2xl mx-auto px-6">
+
+        <p class="fade-up text-brand-muted text-xs font-semibold tracking-[0.2em] uppercase mb-3 text-center">{% trans "Profil" %}</p>
+        <h2 class="fade-up delay-100 text-3xl lg:text-4xl font-bold text-brand-text mb-12 text-center">{% trans "Über mich" %}</h2>
+
+        <div class="fade-up delay-100 space-y-6">
+            <p class="text-brand-body leading-relaxed">
+                {% trans "Ich bin seit über 25 Jahren im Immobilienmarkt aktiv und habe mich als Experte für Bewertung, Strukturierung und Marktanalyse etabliert – in Deutschland und international, insbesondere in Paraguay." %}
+            </p>
+            <p class="text-brand-body leading-relaxed">
+                {% trans "Ich bereite komplexe Sachverhalte fachlich präzise, verständlich und entscheidungsrelevant auf." %}
+            </p>
+            <p class="text-brand-body leading-relaxed">
+                {% trans "Parallel beschäftige ich mich seit über 30 Jahren mit persönlicher Transformation." %}
+            </p>
+            <p class="text-brand-body leading-relaxed">
+                {% trans "Dabei geht es um das Erkennen innerer Denk- und Wahrnehmungsmuster und um den reflektierten Perspektivwechsel, der Klarheit, Handlungsfähigkeit und Selbstverantwortung stärkt." %}
+            </p>
+        </div>
+
+        <!-- Impulse-Zitat -->
+        <div class="fade-up delay-200 mt-12 py-8 border-t border-b border-brand-muted/30 text-center">
+            <p class="text-brand-body leading-relaxed italic max-w-lg mx-auto">
+                {% trans "Impulse, die ich gebe, basieren auf analytischer Reflexion und strukturiertem Denken – sachlich, bodenständig und klar vermittelt." %}
+            </p>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ============================================================
+     IMMOBILIENBEWERTUNGEN — nummerierte Zeilen, #f3f3f3
+============================================================ -->
+<section class="py-24 lg:py-32 bg-brand-bg">
+    <div class="max-w-4xl mx-auto px-6">
+
+        <p class="fade-up text-brand-muted text-xs font-semibold tracking-[0.2em] uppercase mb-3">{% trans "Leistungen" %}</p>
+        <h2 class="fade-up text-3xl lg:text-4xl font-bold text-brand-text mb-3">
+            {% trans "Immobilienbewertungen & strukturierte Analyse" %}
+        </h2>
+        <p class="fade-up text-brand-body mb-14">{% trans "Ich unterstütze Eigentümer, Investoren und Profis in:" %}</p>
+
+        <!-- Nummerierte Leistungszeilen -->
+        <div class="fade-up delay-100 num-list mb-16">
+            <div class="num-item flex items-baseline gap-4 py-5 border-t border-brand-muted/30">
+                <p class="text-brand-body leading-relaxed">{% trans "Fundierten Marktwert- und Verkehrswertgutachten" %}</p>
+            </div>
+            <div class="num-item flex items-baseline gap-4 py-5 border-t border-brand-muted/30">
+                <p class="text-brand-body leading-relaxed">{% trans "Objektiver Strukturierung komplexer Bewertungsfragen" %}</p>
+            </div>
+            <div class="num-item flex items-baseline gap-4 py-5 border-t border-brand-muted/30">
+                <p class="text-brand-body leading-relaxed">{% trans "Strategischer Immobilienberatung" %}</p>
+            </div>
+            <div class="num-item flex items-baseline gap-4 py-5 border-t border-b border-brand-muted/30">
+                <p class="text-brand-body leading-relaxed">{% trans "Analytischen Bewertungen mit internationalem Bezug, insbesondere Deutschland & Paraguay" %}</p>
+            </div>
+        </div>
+
+        <!-- Arbeitsweise -->
+        <div class="fade-up delay-200">
+            <div class="w-full h-px bg-brand-gold mb-10"></div>
+            <p class="text-brand-muted text-xs font-semibold tracking-[0.2em] uppercase mb-3">{% trans "Arbeitsweise" %}</p>
+            <h3 class="text-2xl lg:text-3xl font-bold text-brand-text mb-6">{% trans "Ergebnisoffen" %}</h3>
+            <div class="space-y-4 max-w-xl">
+                <p class="text-brand-body text-sm leading-relaxed">{% trans "Ich arbeite methodisch, transparent und ergebnisorientiert." %}</p>
+                <p class="text-brand-body text-sm leading-relaxed">{% trans "Sachverhalte werden strukturiert, Daten eingeordnet und Risiken klar benannt." %}</p>
+                <p class="text-brand-body text-sm leading-relaxed">{% trans "Ziel ist eine belastbare Entscheidungsgrundlage – klar, nachvollziehbar, faktenbasiert." %}</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ============================================================
+     TRANSFORMATION & IMPULSE
+============================================================ -->
+<section class="py-24 lg:py-32 bg-white">
+    <div class="max-w-4xl mx-auto px-6">
+
+        <div class="max-w-2xl">
+            <p class="fade-up text-brand-muted text-xs font-semibold tracking-[0.2em] uppercase mb-3">{% trans "Impulse & Reflexion" %}</p>
+            <h2 class="fade-up text-3xl lg:text-4xl font-semibold text-brand-text mb-10">
+                {% trans "Transformation & Impulse" %}
+            </h2>
+
+            <div class="fade-up delay-100 space-y-5 mb-14">
+                <p class="text-brand-body leading-relaxed">
+                    {% trans "Transformation bedeutet bewusster Perspektivwechsel – das Erkennen der Strukturen, die Denken, Fühlen und Handeln prägen." %}
+                </p>
+                <p class="text-brand-body leading-relaxed">
+                    {% trans "Impulse, die ich gebe, richten sich auf die Reflexion innerer Haltungen und Wahrnehmungsmuster – nicht auf schnelle Lösungen oder Techniken." %}
+                </p>
+                <p class="text-brand-body leading-relaxed">
+                    {% trans "Dabei nutze ich reflektierende Fragestellungen und analytische Betrachtungen, die Denkprozesse sichtbar machen, zum Perspektivwechsel einladen und Orientierung in komplexen Situationen geben." %}
+                </p>
+            </div>
+        </div>
+
+        <div class="fade-up delay-200">
+            <p class="text-brand-body text-sm mb-5">{% trans "Impulse sollen:" %}</p>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+                <div class="bg-brand-bg px-6 py-5">
+                    <span class="text-brand-gold font-bold text-lg block mb-1">&#10004;</span>
+                    <p class="text-brand-body text-sm">{% trans "Denkanstöße schaffen" %}</p>
+                </div>
+                <div class="bg-brand-bg px-6 py-5">
+                    <span class="text-brand-gold font-bold text-lg block mb-1">&#10004;</span>
+                    <p class="text-brand-body text-sm">{% trans "zur Selbstreflexion anregen" %}</p>
+                </div>
+                <div class="bg-brand-bg px-6 py-5">
+                    <span class="text-brand-gold font-bold text-lg block mb-1">&#10004;</span>
+                    <p class="text-brand-body text-sm">{% trans "Einsichten in innere Muster ermöglichen" %}</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ============================================================
+     DEUTSCHLAND & PARAGUAY
+============================================================ -->
+<section class="py-24 lg:py-32 bg-brand-bg">
+    <div class="max-w-4xl mx-auto px-6">
+
+        <p class="fade-up text-brand-muted text-xs font-semibold tracking-[0.2em] uppercase mb-3">{% trans "International" %}</p>
+        <h2 class="fade-up text-3xl lg:text-4xl font-bold text-brand-text mb-4">
+            {% trans "Markterfahrung Deutschland & Paraguay" %}
+        </h2>
+        <p class="fade-up text-brand-body mb-14">
+            {% trans "Mein Blick auf Immobilien und Märkte ist international, mit Erfahrung in zwei sehr unterschiedlichen Kontexten:" %}
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+            <!-- Deutschland -->
+            <div class="fade-up delay-100 bg-white p-8 border-t-4 border-brand-blue">
+                <h3 class="text-xl font-bold text-brand-blue mb-5 flex items-center gap-3">
+                    <svg class="w-6 h-4 shrink-0" viewBox="0 0 640 480" aria-hidden="true">
+                        <rect width="640" height="160" fill="#000"/>
+                        <rect y="160" width="640" height="160" fill="#D00"/>
+                        <rect y="320" width="640" height="160" fill="#FFCE00"/>
+                    </svg>
+                    {% trans "Deutschland" %}
+                </h3>
+                <p class="text-brand-body leading-relaxed mb-3">
+                    {% trans "Ein etablierter, stark regulierter Markt mit klaren Regeln, Preisen und Risiken." %}
+                </p>
+                <p class="text-brand-body leading-relaxed">
+                    {% trans "Hier sind tiefes Marktverständnis, rechtliche Kenntnisse und belastbare Datenanalysen entscheidend." %}
+                </p>
+            </div>
+
+            <!-- Paraguay -->
+            <div class="fade-up delay-200 bg-white p-8 border-t-4 border-brand-gold">
+                <h3 class="text-xl font-bold text-brand-blue mb-5 flex items-center gap-3">
+                    <svg class="w-6 h-4 shrink-0" viewBox="0 0 640 480" aria-hidden="true">
+                        <rect width="640" height="160" fill="#D52B1E"/>
+                        <rect y="160" width="640" height="160" fill="#FFF"/>
+                        <rect y="320" width="640" height="160" fill="#0038A8"/>
+                    </svg>
+                    Paraguay
+                </h3>
+                <p class="text-brand-body leading-relaxed mb-3">
+                    {% trans "Ein wachsender Markt mit eigenen Dynamiken, Chancen und Herausforderungen." %}
+                </p>
+                <p class="text-brand-body leading-relaxed mb-5">
+                    {% trans "Hier ergeben sich Chancen durch Nachfrage- und Strukturveränderungen – aber auch Fragen des Alltags, z. B.:" %}
+                </p>
+                <ul class="space-y-2 mb-6" aria-label="{% trans 'Alltagsfragen Paraguay' %}">
+                    <li class="flex items-start gap-3 text-brand-body text-sm">
+                        <span class="text-brand-muted shrink-0 mt-0.5">&bull;</span>{% trans "Aufenthalts- und Visabestimmungen" %}
+                    </li>
+                    <li class="flex items-start gap-3 text-brand-body text-sm">
+                        <span class="text-brand-muted shrink-0 mt-0.5">&bull;</span>{% trans "Kontoeröffnungen und rechtliche Rahmen" %}
+                    </li>
+                    <li class="flex items-start gap-3 text-brand-body text-sm">
+                        <span class="text-brand-muted shrink-0 mt-0.5">&bull;</span>{% trans "Mobilität, Infrastruktur und Alltag" %}
+                    </li>
+                    <li class="flex items-start gap-3 text-brand-body text-sm">
+                        <span class="text-brand-muted shrink-0 mt-0.5">&bull;</span>{% trans "Marktprozesse bei Kauf/Verkauf" %}
+                    </li>
+                </ul>
+                <p class="text-brand-body leading-relaxed">
+                    {% trans "Ich verbinde analytische Kompetenz mit echter Alltagserfahrung vor Ort, um Entscheidungen in beiden Kontexten fundiert zu unterstützen." %}
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- ============================================================
+     KONTAKT — dunkle Vollbreiten-Sektion
+============================================================ -->
+<section id="contact" class="py-24 lg:py-32 bg-brand-blue">
+    <div class="max-w-4xl mx-auto px-6">
+
+        <div class="grid grid-cols-1 lg:grid-cols-5 gap-16 items-start">
+
+            <!-- Portrait links -->
+            <div class="fade-up lg:col-span-2">
+                <div class="relative aspect-[4/5] max-w-xs mx-auto lg:mx-0">
+                    <div class="absolute inset-0 border border-brand-gold/40 shadow-lg shadow-black/30 overflow-hidden">
+                        <img src="{% static 'images/portrait-markus-rehkugler.jpg' %}"
+                             alt="{% trans 'Professionelles Porträtfoto von Markus Rehkugler' %}"
+                             class="w-full h-full object-cover" />
+                        <div class="absolute inset-x-0 bottom-0 h-1/4 bg-gradient-to-t from-brand-blue/70 to-transparent"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Kontaktinfo rechts -->
+            <div class="lg:col-span-3">
+                <p class="fade-up text-brand-muted text-xs font-semibold tracking-[0.2em] uppercase mb-4">{% trans "Kontakt" %}</p>
+                <h2 class="fade-up delay-100 text-3xl lg:text-4xl font-bold text-white mb-6 leading-snug">
+                    {% trans "Ich freue mich auf Austausch – fachlich, strategisch oder inspirierend." %}
+                </h2>
+                <p class="fade-up delay-100 text-white/50 text-sm mb-10 flex items-center gap-2">
+                    <svg class="w-3.5 h-3.5 text-brand-gold shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                    </svg>
+                    {% trans "15 Minuten Erstgespräch (kostenfrei)" %}
+                </p>
+
+                <div aria-label="{% trans 'Kontaktmöglichkeiten' %}" class="space-y-0">
+                    <a href="mailto:mr@markus-rehkugler.info"
+                       class="fade-up delay-200 border-t border-white/10 flex items-center gap-4 py-5 group transition-colors hover:bg-white/5 px-3 -mx-3"
+                       aria-label="{% trans 'E-Mail senden an mr@markus-rehkugler.info' %}">
+                        <svg class="w-5 h-5 text-brand-gold shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                  d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                        </svg>
+                        <div>
+                            <p class="text-xs text-white/30 mb-0.5">{% trans "E-Mail" %}</p>
+                            <p class="text-white text-sm font-medium group-hover:text-brand-gold transition-colors">mr@markus-rehkugler.info</p>
+                        </div>
+                    </a>
+
+                    <a href="https://wa.me/4915166555888" target="_blank" rel="noopener noreferrer"
+                       class="fade-up delay-300 border-t border-white/10 flex items-center gap-4 py-5 group transition-colors hover:bg-white/5 px-3 -mx-3"
+                       aria-label="{% trans 'WhatsApp Nachricht an +49 151 66555888' %}">
+                        <svg class="w-5 h-5 text-brand-gold shrink-0" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                        </svg>
+                        <div>
+                            <p class="text-xs text-white/30 mb-0.5">WhatsApp</p>
+                            <p class="text-white text-sm font-medium group-hover:text-brand-gold transition-colors">+49 151 66555888</p>
+                        </div>
+                    </a>
+
+                    <a href="https://www.instagram.com/markusrehkugler" target="_blank" rel="noopener noreferrer"
+                       class="fade-up delay-400 border-t border-b border-white/10 flex items-center gap-4 py-5 group transition-colors hover:bg-white/5 px-3 -mx-3"
+                       aria-label="{% trans 'Instagram-Profil @markusrehkugler besuchen' %}">
+                        <svg class="w-5 h-5 text-brand-gold shrink-0" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                        </svg>
+                        <div>
+                            <p class="text-xs text-white/30 mb-0.5">Instagram</p>
+                            <p class="text-white text-sm font-medium group-hover:text-brand-gold transition-colors">@markusrehkugler</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- CTA -->
+                <div class="fade-up delay-400 mt-10">
+                    <a href="https://calendly.com/markusrehkugler/15min" target="_blank" rel="noopener noreferrer"
+                       class="inline-flex items-center justify-center gap-2 bg-brand-gold hover:bg-[#b8941e]
+                              text-brand-text font-semibold text-sm px-8 py-4 transition-colors"
+                       aria-label="{% trans 'Kostenloses Erstgespräch über Calendly buchen' %}">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                  d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+                        </svg>
+                        {% trans "Termin vereinbaren – Calendly" %}
+                    </a>
+                    <p class="text-white/30 text-xs mt-3">{% trans "Kostenfrei und unverbindlich." %}</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+{% endblock %}
+
+{% block structured_data %}
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Person",
+            "@id": "{{ SITE_URL }}/#person",
+            "name": "Markus Rehkugler",
+            "url": "{{ SITE_URL }}",
+            "image": "{{ SITE_URL }}{% static 'images/portrait-markus-rehkugler.jpg' %}",
+            "description": "Immobilienexperte, Sachverständiger und Impulsgeber für persönliche Transformation mit über 25 Jahren Markterfahrung – national und international, insbesondere Deutschland & Paraguay.",
+            "email": "mr@markus-rehkugler.info",
+            "telephone": "+4915166555888",
+            "jobTitle": "Immobilienexperte & Sachverständiger",
+            "knowsAbout": [
+                "Immobilienbewertung",
+                "Verkehrswertgutachten",
+                "Marktwertgutachten",
+                "Immobilienberatung",
+                "Strategische Immobilienanalyse",
+                "Persönliche Transformation",
+                "Immobilienmarkt Deutschland",
+                "Immobilienmarkt Paraguay"
+            ],
+            "knowsLanguage": ["de", "es"],
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Dr. Toribio Pacheco 4750",
+                "addressLocality": "Asunción",
+                "addressRegion": "Recoleta",
+                "postalCode": "1412",
+                "addressCountry": "PY"
+            },
+            "sameAs": [
+                "https://www.instagram.com/markusrehkugler",
+                "https://www.youtube.com/@RehkuglerImmobilien",
+                "https://www.youtube.com/@Markus.Rehkugler",
+                "https://www.markus-rehkugler.de",
+                "https://www.immo-gutachter.info"
+            ]
+        },
+        {
+            "@type": "ProfessionalService",
+            "@id": "{{ SITE_URL }}/#business",
+            "name": "Markus Rehkugler – Immobilienexperte & Sachverständiger",
+            "url": "{{ SITE_URL }}",
+            "image": "{{ SITE_URL }}{% static 'images/hero-architecture.jpg' %}",
+            "description": "Fundierte Marktwert- und Verkehrswertgutachten, strategische Immobilienberatung und strukturierte Analysen – national und international, insbesondere Deutschland & Paraguay.",
+            "founder": { "@id": "{{ SITE_URL }}/#person" },
+            "telephone": "+4915166555888",
+            "email": "mr@markus-rehkugler.info",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Dr. Toribio Pacheco 4750",
+                "addressLocality": "Asunción",
+                "addressRegion": "Recoleta",
+                "postalCode": "1412",
+                "addressCountry": "PY"
+            },
+            "areaServed": [
+                {
+                    "@type": "Country",
+                    "name": "Deutschland"
+                },
+                {
+                    "@type": "Country",
+                    "name": "Paraguay"
+                }
+            ],
+            "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "Immobiliendienstleistungen",
+                "itemListElement": [
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Marktwert- und Verkehrswertgutachten",
+                            "description": "Fundierte Gutachten zur Ermittlung des Markt- und Verkehrswerts von Immobilien."
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Strategische Immobilienberatung",
+                            "description": "Objektive Strukturierung komplexer Bewertungsfragen und strategische Beratung."
+                        }
+                    },
+                    {
+                        "@type": "Offer",
+                        "itemOffered": {
+                            "@type": "Service",
+                            "name": "Internationale Immobilienanalyse",
+                            "description": "Analytische Bewertungen mit internationalem Bezug, insbesondere Deutschland und Paraguay."
+                        }
+                    }
+                ]
+            },
+            "sameAs": [
+                "https://www.rehkugler.info",
+                "https://www.markus-rehkugler.de",
+                "https://www.immo-gutachter.info"
+            ]
+        },
+        {
+            "@type": "WebSite",
+            "@id": "{{ SITE_URL }}/#website",
+            "name": "Markus Rehkugler",
+            "url": "{{ SITE_URL }}",
+            "description": "Markus Rehkugler – Immobilienexperte, Sachverständiger und Impulsgeber für persönliche Transformation.",
+            "inLanguage": ["de", "es"],
+            "publisher": { "@id": "{{ SITE_URL }}/#person" }
+        }
+    ]
+}
+</script>
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "Was bietet Markus Rehkugler als Immobilienexperte an?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Markus Rehkugler bietet fundierte Marktwert- und Verkehrswertgutachten, objektive Strukturierung komplexer Bewertungsfragen, strategische Immobilienberatung sowie analytische Bewertungen mit internationalem Bezug, insbesondere für Deutschland und Paraguay."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "In welchen Ländern ist Markus Rehkugler tätig?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Markus Rehkugler arbeitet national und international mit Schwerpunkt auf Deutschland und Paraguay. Er verbindet analytische Kompetenz mit Alltagserfahrung vor Ort in beiden Märkten."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Was versteht Markus Rehkugler unter persönlicher Transformation?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Persönliche Transformation bedeutet bewusster Perspektivwechsel – das Erkennen innerer Denk- und Wahrnehmungsmuster. Es geht nicht um Therapie, sondern um Denk- und Wahrnehmungsimpulse, die Klarheit erzeugen und Orientierung schaffen."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Wie kann ich ein Erstgespräch mit Markus Rehkugler vereinbaren?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ein kostenfreies 15-minütiges Erstgespräch kann über Calendly gebucht werden. Alternativ ist Markus Rehkugler per E-Mail unter mr@markus-rehkugler.info oder über WhatsApp unter +49 151 66555888 erreichbar."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Welche Erfahrung hat Markus Rehkugler im Immobilienbereich?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Markus Rehkugler ist seit über 25 Jahren im Immobilienmarkt aktiv und hat sich als Experte für Bewertung, Strukturierung und Marktanalyse etabliert. Er arbeitet methodisch, transparent und ergebnisorientiert."
+            }
+        }
+    ]
+}
+</script>
+{% endblock %}

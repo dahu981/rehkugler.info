@@ -1,0 +1,154 @@
+{% extends 'base.html' %}
+{% load static i18n %}
+
+{% block title %}{% trans "Datenschutz" %} – Markus Rehkugler{% endblock %}
+{% block meta_description %}{% trans "Datenschutzerklärung der Webseite von Markus Rehkugler." %}{% endblock %}
+
+{% block extra_css %}
+<style>
+    #navbar { background: rgba(51, 65, 85, 0.97); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); }
+</style>
+{% endblock %}
+
+{% block content %}
+
+<!-- Spacer für fixed Navbar -->
+<div class="h-20"></div>
+
+<section class="py-20 lg:py-28">
+    <div class="max-w-2xl mx-auto px-6">
+
+        <p class="text-brand-muted text-xs font-semibold tracking-[0.2em] uppercase mb-3">{% trans "Rechtliches" %}</p>
+        <h1 class="text-3xl lg:text-4xl font-bold text-brand-text mb-12">{% trans "Datenschutzerklärung" %}</h1>
+
+        <div class="space-y-10 text-sm leading-relaxed">
+
+            <p>
+                Datenschutzerklärung der Markus Rehkugler. In dieser Datenschutzerklärung wird beschrieben, wie Ihre personenbezogenen Daten erfasst, verwendet und weitergegeben werden, wenn Sie www.rehkugler.info (die &bdquo;Website&ldquo;) nutzen oder dort etwas kaufen.
+            </p>
+
+            <!-- Erfasste Daten -->
+            <div>
+                <h2 class="text-lg font-bold text-brand-text mb-3">{% trans "Von uns erfasste personenbezogene Daten" %}</h2>
+                <p class="mb-4">
+                    Wenn Sie die Website besuchen, erfassen wir automatisch bestimmte Informationen über Ihr Gerät, darunter Informationen zum Webbrowser, der IP-Adresse, der Zeitzone und einigen der Cookies, die auf Ihrem Gerät installiert sind. Wenn Sie auf der Website navigieren, erfassen wir außerdem Informationen zu den einzelnen Webseiten oder Produkten, die Sie aufrufen, zu den Websites oder Suchbegriffen, die Sie auf die Website geführt haben, sowie Informationen darüber, wie Sie mit der Website interagieren. Wir bezeichnen diese automatisch erfassten Informationen als &bdquo;Geräteinformationen&ldquo;.
+                </p>
+                <p class="mb-4">{% trans "Wir erfassen Geräteinformationen mithilfe der folgenden Technologien:" %}</p>
+                <ul class="space-y-3 ml-4">
+                    <li class="flex items-start gap-3">
+                        <span class="text-brand-muted shrink-0 mt-0.5">&ndash;</span>
+                        <span><strong>&bdquo;Cookies&ldquo;</strong> sind Datendateien, die auf einem Gerät oder Computer gespeichert werden und häufig eine anonyme eindeutige Kennung enthalten. Weitere Informationen zu Cookies und zum Deaktivieren von Cookies sind unter <a href="http://www.allaboutcookies.org" target="_blank" rel="noopener noreferrer" class="text-brand-gold hover:underline">allaboutcookies.org</a> zu finden.</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <span class="text-brand-muted shrink-0 mt-0.5">&ndash;</span>
+                        <span><strong>&bdquo;Protokolldateien&ldquo;</strong> protokollieren Aktionen auf der Website und erfassen Daten wie IP-Adresse, Browsertyp, Internetdienstanbieter, verweisende/Ausstiegsseiten sowie Datums-/Uhrzeitstempel.</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <span class="text-brand-muted shrink-0 mt-0.5">&ndash;</span>
+                        <span><strong>&bdquo;Web Beacons&ldquo;, &bdquo;Tags&ldquo; und &bdquo;Pixel&ldquo;</strong> sind elektronische Dateien zur Erfassung von Informationen dazu, wie Sie auf der Website navigieren.</span>
+                    </li>
+                </ul>
+                <p class="mt-4">
+                    Wenn Sie auf der Website etwas kaufen oder versuchen, etwas zu kaufen, erfassen wir außerdem bestimmte Informationen über Ihrer Person. Dazu gehören Name, Rechnungsadresse, Lieferadresse, Zahlungsinformationen, E-Mail-Adresse und Telefonnummer. Wir bezeichnen diese Angaben als &bdquo;Bestellinformationen&ldquo;.
+                </p>
+                <p class="mt-4">
+                    Mit &bdquo;personenbezogene Daten&ldquo; in dieser Datenschutzerklärung bezeichnen wir sowohl Geräteinformationen als auch Bestellinformationen.
+                </p>
+            </div>
+
+            <!-- Verwendung -->
+            <div>
+                <h2 class="text-lg font-bold text-brand-text mb-3">{% trans "Wie verwenden wir Ihre personenbezogenen Daten?" %}</h2>
+                <p class="mb-4">
+                    {% trans "Wir verwenden die von uns erfassten Bestellinformationen in der Regel zur Ausführung von Bestellungen, die wir über die Website erhalten (unter anderem zur Verarbeitung Ihrer Zahlungsinformationen, Versandbereitstellung und Zusendung von Rechnungen und/oder Bestellbestätigungen)." %}
+                </p>
+                <p class="mb-4">{% trans "Außerdem verwenden wir diese Bestellinformation zur:" %}</p>
+                <ul class="space-y-2 ml-4">
+                    <li class="flex items-start gap-3"><span class="text-brand-muted shrink-0 mt-0.5">&ndash;</span><span>{% trans "Kommunikation mit Ihnen" %}</span></li>
+                    <li class="flex items-start gap-3"><span class="text-brand-muted shrink-0 mt-0.5">&ndash;</span><span>{% trans "Prüfung unserer Bestellungen auf potenzielle Risiken oder Betrug" %}</span></li>
+                    <li class="flex items-start gap-3"><span class="text-brand-muted shrink-0 mt-0.5">&ndash;</span><span>{% trans "Bereitstellung von Informationen oder Werbung im Zusammenhang mit unseren Produkten oder Dienstleistungen an Sie, sofern dies mit Ihren Datenschutzeinstellungen im Einklang steht" %}</span></li>
+                </ul>
+                <p class="mt-4">
+                    Wir verwenden die von uns erfassten Geräteinformationen für die Prüfung auf potenzielle Risiken und Betrug (insbesondere Ihre IP-Adresse) und allgemein zur Verbesserung und Optimierung unserer Website (z.B. mithilfe von Analysen zum Navigationsverhalten unserer Kunden und ihrer Interaktion mit der Website sowie zum Beurteilen des Erfolgs unserer Marketing- und Werbekampagnen). Ebenfalls zur Nutzung von Werbung und Retargeting.
+                </p>
+            </div>
+
+            <!-- Weitergabe -->
+            <div>
+                <h2 class="text-lg font-bold text-brand-text mb-3">{% trans "Weitergabe Ihrer personenbezogenen Daten" %}</h2>
+                <p class="mb-4">
+                    Wir geben Ihre personenbezogenen Daten an Dritte weiter, die uns bei der Verwendung Ihrer personenbezogenen Daten wie oben beschrieben unterstützen. Wir verwenden bspw. Google Analytics, um zu verstehen, wie unsere Kunden die Website nutzen. Weitere Informationen zur Verwendung Ihrer personenbezogenen Daten durch Google finden Sie hier: <a href="https://policies.google.com/privacy?hl=de" target="_blank" rel="noopener noreferrer" class="text-brand-gold hover:underline">policies.google.com/privacy</a>. Hier können Sie Google Analytics deaktivieren: <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer" class="text-brand-gold hover:underline">tools.google.com/dlpage/gaoptout</a>.
+                </p>
+                <p>
+                    {% trans "Schließlich können wir Ihre personenbezogenen Daten auch weitergeben, um geltende Gesetze und Vorschriften einzuhalten, um auf eine Vorladung, einen Durchsuchungsbefehl oder eine andere rechtmäßige Anfrage nach Informationen, die wir erhalten, zu reagieren oder um unsere Rechte anderweitig zu schützen." %}
+                </p>
+            </div>
+
+            <!-- Verhaltensbasierte Werbung -->
+            <div>
+                <h2 class="text-lg font-bold text-brand-text mb-3">{% trans "Verhaltensbasierte Werbung" %}</h2>
+                <p class="mb-4">
+                    {% trans "Wie oben beschrieben verwenden wir Ihre personenbezogenen Daten, um Ihnen zielgerichtete Werbung oder Marketingmitteilungen zur Verfügung zu stellen, von denen wir glauben, dass sie für Sie von Interesse sein könnten." %}
+                </p>
+                <p class="mb-4">{% trans "Sie können zielgerichtete Anzeigen hier deaktivieren:" %}</p>
+                <ul class="space-y-2 ml-4">
+                    <li class="flex items-start gap-3"><span class="text-brand-muted shrink-0 mt-0.5">&ndash;</span><a href="https://www.facebook.com/settings/?tab=ads" target="_blank" rel="noopener noreferrer" class="text-brand-gold hover:underline">Facebook</a></li>
+                    <li class="flex items-start gap-3"><span class="text-brand-muted shrink-0 mt-0.5">&ndash;</span><a href="https://www.google.com/settings/ads/anonymous" target="_blank" rel="noopener noreferrer" class="text-brand-gold hover:underline">Google</a></li>
+                    <li class="flex items-start gap-3"><span class="text-brand-muted shrink-0 mt-0.5">&ndash;</span><a href="https://advertise.bingads.microsoft.com/en-us/resources/policies/personalized-ads" target="_blank" rel="noopener noreferrer" class="text-brand-gold hover:underline">Bing</a></li>
+                </ul>
+            </div>
+
+            <!-- Do Not Track -->
+            <div>
+                <h2 class="text-lg font-bold text-brand-text mb-3">Do Not Track</h2>
+                <p>
+                    Wir weisen Sie darauf hin, dass wir die Datenerfassungs- und -nutzungsverfahren unserer Website nicht ändern, wenn wir von Ihrem Browser ein &bdquo;Do Not Track&ldquo;-Signal erhalten.
+                </p>
+            </div>
+
+            <!-- Ihre Rechte -->
+            <div>
+                <h2 class="text-lg font-bold text-brand-text mb-3">{% trans "Ihre Rechte" %}</h2>
+                <p class="mb-4">
+                    {% trans "Wenn Sie in Europa ansässig sind, haben Sie das Recht, auf die personenbezogenen Daten, die wir über Sie besitzen, zuzugreifen und deren Korrektur, Aktualisierung oder Löschung zu fordern. Wenn Sie dieses Recht ausüben möchten, setzen Sie sich über die nachstehenden Kontaktdaten mit uns in Verbindung." %}
+                </p>
+                <p>
+                    {% trans "Wenn Sie in Europa ansässig sind, weisen wir außerdem darauf hin, dass wir Ihre Daten verarbeiten, um Verträge mit Ihnen zu erfüllen (z.B. wenn Sie über die Website eine Bestellung aufgeben) oder um unsere oben genannten berechtigten Geschäftsinteressen zu verfolgen. Bitte beachten Sie außerdem, dass Ihre Daten außerhalb von Europa, einschließlich Kanada und den Vereinigten Staaten, übertragen werden." %}
+                </p>
+            </div>
+
+            <!-- Aufbewahrung -->
+            <div>
+                <h2 class="text-lg font-bold text-brand-text mb-3">{% trans "Aufbewahrung von Daten" %}</h2>
+                <p>
+                    {% trans "Wenn Sie eine Bestellung über die Website aufgeben, bewahren wir Ihre Bestellinformationen für unsere Aufzeichnungen auf, sofern Sie uns nicht auffordern, diese Daten zu löschen." %}
+                </p>
+            </div>
+
+            <!-- Änderungen -->
+            <div>
+                <h2 class="text-lg font-bold text-brand-text mb-3">{% trans "Änderungen" %}</h2>
+                <p>
+                    {% trans "Wir können diese Datenschutzerklärung gelegentlich ändern, um Änderungen unserer Vorgehensweisen zu berücksichtigen, oder aus anderen betrieblichen, rechtlichen oder aufsichtsrechtlichen Gründen." %}
+                </p>
+            </div>
+
+            <!-- Kontakt -->
+            <div>
+                <h2 class="text-lg font-bold text-brand-text mb-3">{% trans "Kontakt" %}</h2>
+                <p>
+                    Wenn Sie weitere Informationen zu unseren Datenschutzverfahren benötigen, Fragen haben oder eine Beschwerde einreichen möchten, kontaktieren Sie uns per E-Mail an <a href="mailto:info@rehkugler.info" class="text-brand-gold hover:underline">info@rehkugler.info</a> oder per Post an die folgende Adresse:
+                </p>
+                <p class="mt-3">
+                    Markus Rehkugler<br />
+                    Dr. Toribio Pacheco 4750<br />
+                    1412 Asunci&oacute;n – Recoleta (Paraguay)
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+{% endblock %}

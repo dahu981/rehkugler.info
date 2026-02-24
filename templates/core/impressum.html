@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+{% load static i18n %}
+
+{% block title %}{% trans "Impressum" %} – Markus Rehkugler{% endblock %}
+{% block meta_description %}{% trans "Impressum der Webseite von Markus Rehkugler." %}{% endblock %}
+
+{% block extra_css %}
+<style>
+    #navbar { background: rgba(51, 65, 85, 0.97); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); }
+</style>
+{% endblock %}
+
+{% block content %}
+
+<!-- Spacer für fixed Navbar -->
+<div class="h-20"></div>
+
+<section class="py-20 lg:py-28">
+    <div class="max-w-2xl mx-auto px-6">
+
+        <p class="text-brand-muted text-xs font-semibold tracking-[0.2em] uppercase mb-3">{% trans "Rechtliches" %}</p>
+        <h1 class="text-3xl lg:text-4xl font-bold text-brand-text mb-12">{% trans "Impressum" %}</h1>
+
+        <div class="space-y-8">
+
+            <div>
+                <h2 class="text-lg font-bold text-brand-text mb-3">{% trans "Webseitenbetreiber" %}</h2>
+                <p class="leading-relaxed">
+                    Markus Rehkugler<br />
+                    Dr. Toribio Pacheco 4750<br />
+                    1412 Asunci&oacute;n – Recoleta (Paraguay)
+                </p>
+            </div>
+
+            <div>
+                <h2 class="text-lg font-bold text-brand-text mb-3">{% trans "Kontakt" %}</h2>
+                <p class="leading-relaxed">
+                    {% trans "E-Mail:" %} <a href="mailto:info@rehkugler.info" class="text-brand-gold hover:underline">info@rehkugler.info</a>
+                </p>
+            </div>
+
+            <div>
+                <h2 class="text-lg font-bold text-brand-text mb-3">{% trans "Online-Streitbeilegung" %}</h2>
+                <p class="leading-relaxed">
+                    {% trans 'Informationen zur Online-Streitbeilegung: Die EU-Kommission hat eine Internetplattform zur Online-Beilegung von Streitigkeiten (sog. „OS-Plattform") geschaffen. Die OS-Plattform dient als Anlaufstelle zur außergerichtlichen Beilegung von Streitigkeiten betreffend vertragliche Verpflichtungen, die aus Online-Kaufverträgen erwachsen. Sie können die OS-Plattform unter dem folgenden Link erreichen:' %}
+                    <a href="http://ec.europa.eu/consumers/odr" target="_blank" rel="noopener noreferrer" class="text-brand-gold hover:underline">ec.europa.eu/consumers/odr</a>
+                </p>
+                <p class="leading-relaxed mt-3">
+                    {% trans "Hinweis gemäß § 36 Verbraucherstreitbeilegungsgesetz (VSBG)." %}
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+{% endblock %}

@@ -1,0 +1,411 @@
+# Spanish translations for Markus Rehkugler website
+# Copyright (C) 2026 Markus Rehkugler
+# This file is distributed under the same license as the rehkugler.info project.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: rehkugler.info 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-02-24 00:00+0000\n"
+"PO-Revision-Date: 2026-02-24 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: Spanish\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Navigation
+msgid "Hauptnavigation"
+msgstr "Navegación principal"
+
+msgid "Startseite"
+msgstr "Página de inicio"
+
+msgid "Struktur schafft Klarheit."
+msgstr "La estructura genera claridad."
+
+msgid "Start"
+msgstr "Inicio"
+
+msgid "Leistungen"
+msgstr "Servicios"
+
+msgid "Kontakt"
+msgstr "Contacto"
+
+msgid "15-minütiges Erstgespräch buchen"
+msgstr "Reservar primera reunión de 15 minutos"
+
+msgid "15 Min. Erstgespräch"
+msgstr "15 min. primera reunión"
+
+msgid "Menü öffnen"
+msgstr "Abrir menú"
+
+msgid "Menü schließen"
+msgstr "Cerrar menú"
+
+msgid "Mobile Navigation"
+msgstr "Navegación móvil"
+
+msgid "Mobile Hauptnavigation"
+msgstr "Navegación principal móvil"
+
+msgid "Kostenloses Erstgespräch über Calendly buchen"
+msgstr "Reservar primera reunión gratuita vía Calendly"
+
+# Hero Section
+msgid "Immobilienexperte & Sachverständiger"
+msgstr "Experto inmobiliario & perito valuador"
+
+msgid "Struktur schafft Klarheit"
+msgstr "La estructura genera claridad"
+
+msgid "Immobilienexpertise"
+msgstr "Experiencia inmobiliaria"
+
+msgid "Ich bin Immobilienexperte und Sachverständiger mit langjähriger Erfahrung in Bewertung, Strukturierung und strategischer Analyse – national und international."
+msgstr "Soy experto inmobiliario y perito valuador, con amplia trayectoria en valoración, estructuración y análisis estratégico de bienes inmuebles, tanto en Alemania como en Paraguay."
+
+msgid "Ich arbeite analytisch, präzise und nachvollziehbar, um Immobilieneigentümern, Investoren und Profis belastbare Bewertungen und klare Entscheidungsgrundlagen zu liefern."
+msgstr "Trabajo de forma analítica, precisa y transparente para ofrecer a propietarios, inversionistas y profesionales bases sólidas y técnicamente fundamentadas para la toma de decisiones."
+
+msgid "Persönliche Transformation"
+msgstr "Transformación personal"
+
+msgid "Parallel dazu bin ich Impulsgeber für persönliche Transformation – mit Schwerpunkt auf reflektierendem Perspektivwechsel, Bewusstheit und innerer Orientierung."
+msgstr "Paralelamente, soy impulsor de transformación personal, con enfoque en el cambio consciente de perspectiva, la claridad mental y la orientación interior."
+
+msgid "Dabei geht es nicht um Therapie, sondern um Denk- und Wahrnehmungsimpulse, die Klarheit erzeugen und Orientierung schaffen."
+msgstr "No se trata de terapia ni de asesoramiento clínico, sino de generar reflexiones estructuradas que permitan comprender patrones de pensamiento y ampliar la visión en situaciones complejas."
+
+msgid "Kostenloses 15-minütiges Erstgespräch über Calendly buchen"
+msgstr "Reservar primera reunión gratuita de 15 minutos vía Calendly"
+
+msgid "WhatsApp Kontakt unter +49 151 66555888"
+msgstr "Contacto WhatsApp +49 151 66555888"
+
+msgid "15 Minuten Erstgespräch (kostenfrei)"
+msgstr "Primera reunión de 15 minutos (sin costo)"
+
+msgid "Modernes Architekturgebäude, klare geometrische Strukturen"
+msgstr "Edificio de arquitectura moderna, estructuras geométricas claras"
+
+# Über mich Section
+msgid "Profil"
+msgstr "Perfil"
+
+msgid "Über mich"
+msgstr "Sobre mí"
+
+msgid "Ich bin seit über 25 Jahren im Immobilienmarkt aktiv und habe mich als Experte für Bewertung, Strukturierung und Marktanalyse etabliert – in Deutschland und international, insbesondere in Paraguay."
+msgstr "Desde hace más de 25 años me desempeño en el sector inmobiliario y me he consolidado como especialista en valoración y análisis estructural de inmuebles, con experiencia en mercados regulados como Alemania y en mercados en crecimiento como Paraguay."
+
+msgid "Ich bereite komplexe Sachverhalte fachlich präzise, verständlich und entscheidungsrelevant auf."
+msgstr "Preparo situaciones complejas de forma técnicamente precisa, clara y orientada a decisiones estratégicas."
+
+msgid "Parallel beschäftige ich mich seit über 30 Jahren mit persönlicher Transformation."
+msgstr "Desde hace más de 30 años me interesa el desarrollo personal y la reflexión profunda."
+
+msgid "Dabei geht es um das Erkennen innerer Denk- und Wahrnehmungsmuster und um den reflektierten Perspektivwechsel, der Klarheit, Handlungsfähigkeit und Selbstverantwortung stärkt."
+msgstr "Mi enfoque se centra en el análisis de patrones internos de pensamiento y en el cambio consciente de perspectiva, fortaleciendo claridad, responsabilidad y capacidad de acción."
+
+msgid "Impulse, die ich gebe, basieren auf analytischer Reflexion und strukturiertem Denken – sachlich, bodenständig und klar vermittelt."
+msgstr "Los impulsos que comparto se basan en reflexión analítica y pensamiento estructurado, comunicados de forma objetiva y práctica."
+
+# Immobilienbewertungen Section
+msgid "Immobilienbewertungen & strukturierte Analyse"
+msgstr "Valoración inmobiliaria y análisis estructurado"
+
+msgid "Ich unterstütze Eigentümer, Investoren und Profis in:"
+msgstr "Acompaño a propietarios, inversionistas y profesionales en:"
+
+msgid "Fundierten Marktwert- und Verkehrswertgutachten"
+msgstr "Informes técnicos de valor de mercado y peritajes de valoración inmobiliaria"
+
+msgid "Objektiver Strukturierung komplexer Bewertungsfragen"
+msgstr "Estructuración objetiva de situaciones complejas"
+
+msgid "Strategischer Immobilienberatung"
+msgstr "Asesoramiento estratégico en operaciones inmobiliarias"
+
+msgid "Analytischen Bewertungen mit internationalem Bezug, insbesondere Deutschland & Paraguay"
+msgstr "Evaluaciones con enfoque internacional, especialmente Alemania & Paraguay"
+
+msgid "Arbeitsweise"
+msgstr "Metodología"
+
+msgid "Ergebnisoffen"
+msgstr "Con criterios claros"
+
+msgid "Ich arbeite methodisch, transparent und ergebnisorientiert."
+msgstr "Trabajo con criterios técnicos claros, análisis de datos y estructura lógica."
+
+msgid "Sachverhalte werden strukturiert, Daten eingeordnet und Risiken klar benannt."
+msgstr "Los hechos se organizan, los riesgos se identifican y las conclusiones se fundamentan en información verificable."
+
+msgid "Ziel ist eine belastbare Entscheidungsgrundlage – klar, nachvollziehbar, faktenbasiert."
+msgstr "El objetivo es brindar seguridad técnica y claridad en la toma de decisiones."
+
+# Transformation Section
+msgid "Impulse & Reflexion"
+msgstr "Impulsos & Reflexión"
+
+msgid "Transformation & Impulse"
+msgstr "Transformación & Reflexión"
+
+msgid "Transformation bedeutet bewusster Perspektivwechsel – das Erkennen der Strukturen, die Denken, Fühlen und Handeln prägen."
+msgstr "Transformación implica reconocer las estructuras que influyen en el pensamiento, la percepción y la acción."
+
+msgid "Impulse, die ich gebe, richten sich auf die Reflexion innerer Haltungen und Wahrnehmungsmuster – nicht auf schnelle Lösungen oder Techniken."
+msgstr "Los impulsos que comparto no buscan soluciones rápidas, sino fomentar una reflexión profunda que permita ampliar la perspectiva y comprender mejor situaciones personales o profesionales complejas."
+
+msgid "Dabei nutze ich reflektierende Fragestellungen und analytische Betrachtungen, die Denkprozesse sichtbar machen, zum Perspektivwechsel einladen und Orientierung in komplexen Situationen geben."
+msgstr "Utilizo preguntas reflexivas y análisis estructurados que hacen visibles los procesos de pensamiento, invitan al cambio de perspectiva y ofrecen orientación en situaciones complejas."
+
+msgid "Impulse sollen:"
+msgstr "Estos impulsos buscan:"
+
+msgid "Denkanstöße schaffen"
+msgstr "Generar claridad mental"
+
+msgid "zur Selbstreflexion anregen"
+msgstr "Fomentar la autorreflexión"
+
+msgid "Einsichten in innere Muster ermöglichen"
+msgstr "Ampliar la perspectiva"
+
+# Deutschland & Paraguay Section
+msgid "International"
+msgstr "Internacional"
+
+msgid "Markterfahrung Deutschland & Paraguay"
+msgstr "Experiencia de mercado: Alemania & Paraguay"
+
+msgid "Mein Blick auf Immobilien und Märkte ist international, mit Erfahrung in zwei sehr unterschiedlichen Kontexten:"
+msgstr "Mi visión inmobiliaria es internacional, con experiencia en dos contextos distintos:"
+
+msgid "Deutschland"
+msgstr "Alemania"
+
+msgid "Ein etablierter, stark regulierter Markt mit klaren Regeln, Preisen und Risiken."
+msgstr "Un mercado consolidado, altamente regulado y con estándares técnicos definidos."
+
+msgid "Hier sind tiefes Marktverständnis, rechtliche Kenntnisse und belastbare Datenanalysen entscheidend."
+msgstr "Aquí son esenciales el conocimiento normativo, el análisis detallado y la precisión metodológica."
+
+msgid "Ein wachsender Markt mit eigenen Dynamiken, Chancen und Herausforderungen."
+msgstr "Un mercado en crecimiento, con dinámicas propias y oportunidades estructurales."
+
+msgid "Hier ergeben sich Chancen durch Nachfrage- und Strukturveränderungen – aber auch Fragen des Alltags, z. B.:"
+msgstr "Además del análisis técnico, la experiencia práctica local es fundamental para comprender:"
+
+msgid "Alltagsfragen Paraguay"
+msgstr "Aspectos prácticos Paraguay"
+
+msgid "Aufenthalts- und Visabestimmungen"
+msgstr "Marco migratorio y regulatorio"
+
+msgid "Kontoeröffnungen und rechtliche Rahmen"
+msgstr "Aspectos legales y administrativos"
+
+msgid "Mobilität, Infrastruktur und Alltag"
+msgstr "Infraestructura y entorno operativo"
+
+msgid "Marktprozesse bei Kauf/Verkauf"
+msgstr "Procesos de compra y venta"
+
+msgid "Ich verbinde analytische Kompetenz mit echter Alltagserfahrung vor Ort, um Entscheidungen in beiden Kontexten fundiert zu unterstützen."
+msgstr "Combino análisis técnico con experiencia real en el contexto paraguayo para ofrecer una visión integral y fundamentada."
+
+# Kontakt Section
+msgid "Ich freue mich auf Austausch – fachlich, strategisch oder inspirierend."
+msgstr "Estoy disponible para intercambio profesional y estratégico."
+
+msgid "Kontaktmöglichkeiten"
+msgstr "Opciones de contacto"
+
+msgid "E-Mail senden an mr@markus-rehkugler.info"
+msgstr "Enviar e-mail a mr@markus-rehkugler.info"
+
+msgid "E-Mail"
+msgstr "E-Mail"
+
+msgid "WhatsApp Nachricht an +49 151 66555888"
+msgstr "Mensaje de WhatsApp a +49 151 66555888"
+
+msgid "Instagram-Profil @markusrehkugler besuchen"
+msgstr "Visitar perfil de Instagram @markusrehkugler"
+
+msgid "Termin vereinbaren – Calendly"
+msgstr "Agendar reunión – Calendly"
+
+msgid "Kostenfrei und unverbindlich."
+msgstr "Sin costo y sin compromiso."
+
+msgid "Professionelles Porträtfoto von Markus Rehkugler"
+msgstr "Foto profesional de Markus Rehkugler"
+
+# Footer
+msgid "Seitenfooter"
+msgstr "Pie de página"
+
+msgid "zur Startseite"
+msgstr "a la página de inicio"
+
+msgid "Immobilienexperte & Sachverständiger mit über 25 Jahre Markterfahrung – national und international und Impulsgeber für persönliche Transformation."
+msgstr "Experto inmobiliario y perito valuador con más de 25 años de experiencia – nacional e internacional e impulsor de transformación personal."
+
+msgid "Immobilien"
+msgstr "Inmuebles"
+
+msgid "Immobilien-Links"
+msgstr "Enlaces inmobiliarios"
+
+msgid "Erstellt von"
+msgstr "Creado por"
+
+msgid "Impressum"
+msgstr "Aviso legal"
+
+msgid "Datenschutz"
+msgstr "Política de privacidad"
+
+# Datenschutz page
+msgid "Rechtliches"
+msgstr "Legal"
+
+msgid "Datenschutzerklärung"
+msgstr "Política de privacidad"
+
+msgid "Datenschutzerklärung der Webseite von Markus Rehkugler."
+msgstr "Política de privacidad del sitio web de Markus Rehkugler."
+
+msgid "Datenschutzerklärung der Markus Rehkugler. In dieser Datenschutzerklärung wird beschrieben, wie Ihre personenbezogenen Daten erfasst, verwendet und weitergegeben werden, wenn Sie www.rehkugler.info (die „Website\") nutzen oder dort etwas kaufen."
+msgstr "Política de privacidad de Markus Rehkugler. En esta política de privacidad se describe cómo se recopilan, utilizan y comparten sus datos personales cuando utiliza www.rehkugler.info (el „sitio web\") o realiza una compra en él."
+
+msgid "Von uns erfasste personenbezogene Daten"
+msgstr "Datos personales que recopilamos"
+
+msgid "Wenn Sie die Website besuchen, erfassen wir automatisch bestimmte Informationen über Ihr Gerät, darunter Informationen zum Webbrowser, der IP-Adresse, der Zeitzone und einigen der Cookies, die auf Ihrem Gerät installiert sind. Wenn Sie auf der Website navigieren, erfassen wir außerdem Informationen zu den einzelnen Webseiten oder Produkten, die Sie aufrufen, zu den Websites oder Suchbegriffen, die Sie auf die Website geführt haben, sowie Informationen darüber, wie Sie mit der Website interagieren. Wir bezeichnen diese automatisch erfassten Informationen als „Geräteinformationen\"."
+msgstr "Cuando visita el sitio web, recopilamos automáticamente cierta información sobre su dispositivo, incluida información sobre su navegador web, dirección IP, zona horaria y algunas de las cookies instaladas en su dispositivo. Cuando navega por el sitio web, también recopilamos información sobre las páginas web o productos individuales que visita, los sitios web o términos de búsqueda que lo llevaron al sitio web y cómo interactúa con el sitio web. Nos referimos a esta información recopilada automáticamente como „información del dispositivo\"."
+
+msgid "Wir erfassen Geräteinformationen mithilfe der folgenden Technologien:"
+msgstr "Recopilamos información del dispositivo mediante las siguientes tecnologías:"
+
+msgid "„Cookies\""
+msgstr "„Cookies\""
+
+msgid "sind Datendateien, die auf einem Gerät oder Computer gespeichert werden und häufig eine anonyme eindeutige Kennung enthalten. Weitere Informationen zu Cookies und zum Deaktivieren von Cookies sind unter"
+msgstr "son archivos de datos almacenados en un dispositivo o computadora que a menudo contienen un identificador único anónimo. Más información sobre cookies y cómo desactivarlas en"
+
+msgid "zu finden."
+msgstr ""
+
+msgid "„Protokolldateien\""
+msgstr "„Archivos de registro\""
+
+msgid "protokollieren Aktionen auf der Website und erfassen Daten wie IP-Adresse, Browsertyp, Internetdienstanbieter, verweisende/Ausstiegsseiten sowie Datums-/Uhrzeitstempel."
+msgstr "registran acciones en el sitio web y recopilan datos como dirección IP, tipo de navegador, proveedor de servicios de Internet, páginas de referencia/salida y marcas de fecha/hora."
+
+msgid "„Web Beacons\", „Tags\" und „Pixel\""
+msgstr "„Web Beacons\", „Tags\" y „Pixels\""
+
+msgid "sind elektronische Dateien zur Erfassung von Informationen dazu, wie Sie auf der Website navigieren."
+msgstr "son archivos electrónicos para recopilar información sobre cómo navega por el sitio web."
+
+msgid "Wenn Sie auf der Website etwas kaufen oder versuchen, etwas zu kaufen, erfassen wir außerdem bestimmte Informationen über Ihrer Person. Dazu gehören Name, Rechnungsadresse, Lieferadresse, Zahlungsinformationen, E-Mail-Adresse und Telefonnummer. Wir bezeichnen diese Angaben als „Bestellinformationen\"."
+msgstr "Cuando compra o intenta comprar algo en el sitio web, también recopilamos cierta información sobre usted. Esto incluye nombre, dirección de facturación, dirección de envío, información de pago, correo electrónico y número de teléfono. Nos referimos a estos datos como „información de pedido\"."
+
+msgid "Mit „personenbezogene Daten\" in dieser Datenschutzerklärung bezeichnen wir sowohl Geräteinformationen als auch Bestellinformationen."
+msgstr "Con „datos personales\" en esta política de privacidad nos referimos tanto a la información del dispositivo como a la información de pedido."
+
+msgid "Wie verwenden wir Ihre personenbezogenen Daten?"
+msgstr "¿Cómo utilizamos sus datos personales?"
+
+msgid "Wir verwenden die von uns erfassten Bestellinformationen in der Regel zur Ausführung von Bestellungen, die wir über die Website erhalten (unter anderem zur Verarbeitung Ihrer Zahlungsinformationen, Versandbereitstellung und Zusendung von Rechnungen und/oder Bestellbestätigungen)."
+msgstr "Utilizamos la información de pedido recopilada generalmente para procesar pedidos recibidos a través del sitio web (incluyendo el procesamiento de su información de pago, organización del envío y envío de facturas y/o confirmaciones de pedido)."
+
+msgid "Außerdem verwenden wir diese Bestellinformation zur:"
+msgstr "Además, utilizamos esta información de pedido para:"
+
+msgid "Kommunikation mit Ihnen"
+msgstr "Comunicación con usted"
+
+msgid "Prüfung unserer Bestellungen auf potenzielle Risiken oder Betrug"
+msgstr "Verificación de pedidos en busca de riesgos potenciales o fraude"
+
+msgid "Bereitstellung von Informationen oder Werbung im Zusammenhang mit unseren Produkten oder Dienstleistungen an Sie, sofern dies mit Ihren Datenschutzeinstellungen im Einklang steht"
+msgstr "Proporcionarle información o publicidad relacionada con nuestros productos o servicios, siempre que sea compatible con su configuración de privacidad"
+
+msgid "Wir verwenden die von uns erfassten Geräteinformationen für die Prüfung auf potenzielle Risiken und Betrug (insbesondere Ihre IP-Adresse) und allgemein zur Verbesserung und Optimierung unserer Website (z.B. mithilfe von Analysen zum Navigationsverhalten unserer Kunden und ihrer Interaktion mit der Website sowie zum Beurteilen des Erfolgs unserer Marketing- und Werbekampagnen). Ebenfalls zur Nutzung von Werbung und Retargeting."
+msgstr "Utilizamos la información del dispositivo recopilada para verificar riesgos potenciales y fraude (especialmente su dirección IP) y en general para mejorar y optimizar nuestro sitio web. También para publicidad y retargeting."
+
+msgid "Weitergabe Ihrer personenbezogenen Daten"
+msgstr "Divulgación de sus datos personales"
+
+msgid "Wir geben Ihre personenbezogenen Daten an Dritte weiter, die uns bei der Verwendung Ihrer personenbezogenen Daten wie oben beschrieben unterstützen. Wir verwenden bspw. Google Analytics, um zu verstehen, wie unsere Kunden die Website nutzen."
+msgstr "Compartimos sus datos personales con terceros que nos ayudan a utilizar sus datos personales como se describe anteriormente. Utilizamos, por ejemplo, Google Analytics para comprender cómo nuestros clientes utilizan el sitio web."
+
+msgid "Schließlich können wir Ihre personenbezogenen Daten auch weitergeben, um geltende Gesetze und Vorschriften einzuhalten, um auf eine Vorladung, einen Durchsuchungsbefehl oder eine andere rechtmäßige Anfrage nach Informationen, die wir erhalten, zu reagieren oder um unsere Rechte anderweitig zu schützen."
+msgstr "Finalmente, también podemos compartir sus datos personales para cumplir con las leyes y regulaciones aplicables, para responder a una citación, orden de registro u otra solicitud legal de información que recibamos, o para proteger nuestros derechos de otra manera."
+
+msgid "Verhaltensbasierte Werbung"
+msgstr "Publicidad basada en comportamiento"
+
+msgid "Wie oben beschrieben verwenden wir Ihre personenbezogenen Daten, um Ihnen zielgerichtete Werbung oder Marketingmitteilungen zur Verfügung zu stellen, von denen wir glauben, dass sie für Sie von Interesse sein könnten."
+msgstr "Como se describe anteriormente, utilizamos sus datos personales para proporcionarle publicidad dirigida o comunicaciones de marketing que creemos pueden ser de su interés."
+
+msgid "Sie können zielgerichtete Anzeigen hier deaktivieren:"
+msgstr "Puede desactivar los anuncios dirigidos aquí:"
+
+msgid "Wir weisen Sie darauf hin, dass wir die Datenerfassungs- und -nutzungsverfahren unserer Website nicht ändern, wenn wir von Ihrem Browser ein „Do Not Track\"-Signal erhalten."
+msgstr "Le informamos que no modificamos los procedimientos de recopilación y uso de datos de nuestro sitio web cuando recibimos una señal „Do Not Track\" de su navegador."
+
+msgid "Ihre Rechte"
+msgstr "Sus derechos"
+
+msgid "Wenn Sie in Europa ansässig sind, haben Sie das Recht, auf die personenbezogenen Daten, die wir über Sie besitzen, zuzugreifen und deren Korrektur, Aktualisierung oder Löschung zu fordern. Wenn Sie dieses Recht ausüben möchten, setzen Sie sich über die nachstehenden Kontaktdaten mit uns in Verbindung."
+msgstr "Si reside en Europa, tiene derecho a acceder a los datos personales que tenemos sobre usted y a solicitar su corrección, actualización o eliminación. Si desea ejercer este derecho, póngase en contacto con nosotros a través de los datos de contacto que se indican a continuación."
+
+msgid "Wenn Sie in Europa ansässig sind, weisen wir außerdem darauf hin, dass wir Ihre Daten verarbeiten, um Verträge mit Ihnen zu erfüllen (z.B. wenn Sie über die Website eine Bestellung aufgeben) oder um unsere oben genannten berechtigten Geschäftsinteressen zu verfolgen. Bitte beachten Sie außerdem, dass Ihre Daten außerhalb von Europa, einschließlich Kanada und den Vereinigten Staaten, übertragen werden."
+msgstr "Si reside en Europa, también le informamos que procesamos sus datos para cumplir contratos con usted o para perseguir nuestros intereses comerciales legítimos mencionados anteriormente. Tenga en cuenta que sus datos pueden ser transferidos fuera de Europa, incluidos Canadá y los Estados Unidos."
+
+msgid "Aufbewahrung von Daten"
+msgstr "Conservación de datos"
+
+msgid "Wenn Sie eine Bestellung über die Website aufgeben, bewahren wir Ihre Bestellinformationen für unsere Aufzeichnungen auf, sofern Sie uns nicht auffordern, diese Daten zu löschen."
+msgstr "Si realiza un pedido a través del sitio web, conservamos su información de pedido para nuestros registros, a menos que nos solicite eliminar estos datos."
+
+msgid "Änderungen"
+msgstr "Cambios"
+
+msgid "Wir können diese Datenschutzerklärung gelegentlich ändern, um Änderungen unserer Vorgehensweisen zu berücksichtigen, oder aus anderen betrieblichen, rechtlichen oder aufsichtsrechtlichen Gründen."
+msgstr "Podemos modificar esta política de privacidad ocasionalmente para reflejar cambios en nuestras prácticas, o por otras razones operativas, legales o regulatorias."
+
+msgid "Wenn Sie weitere Informationen zu unseren Datenschutzverfahren benötigen, Fragen haben oder eine Beschwerde einreichen möchten, kontaktieren Sie uns per E-Mail an"
+msgstr "Si necesita más información sobre nuestros procedimientos de privacidad, tiene preguntas o desea presentar una queja, contáctenos por correo electrónico a"
+
+msgid "oder per Post an die folgende Adresse:"
+msgstr "o por correo postal a la siguiente dirección:"
+
+# Impressum page
+msgid "Impressum der Webseite von Markus Rehkugler."
+msgstr "Aviso legal del sitio web de Markus Rehkugler."
+
+msgid "Webseitenbetreiber"
+msgstr "Titular del sitio web"
+
+msgid "E-Mail:"
+msgstr "Correo electrónico:"
+
+msgid "Online-Streitbeilegung"
+msgstr "Resolución de disputas en línea"
+
+msgid "Informationen zur Online-Streitbeilegung: Die EU-Kommission hat eine Internetplattform zur Online-Beilegung von Streitigkeiten (sog. „OS-Plattform\") geschaffen. Die OS-Plattform dient als Anlaufstelle zur außergerichtlichen Beilegung von Streitigkeiten betreffend vertragliche Verpflichtungen, die aus Online-Kaufverträgen erwachsen. Sie können die OS-Plattform unter dem folgenden Link erreichen:"
+msgstr "Información sobre la resolución de disputas en línea: La Comisión Europea ha creado una plataforma de Internet para la resolución en línea de disputas (la llamada „plataforma OS\"). La plataforma OS sirve como punto de contacto para la resolución extrajudicial de disputas relativas a obligaciones contractuales derivadas de contratos de compra en línea. Puede acceder a la plataforma OS en el siguiente enlace:"
+
+msgid "Hinweis gemäß § 36 Verbraucherstreitbeilegungsgesetz (VSBG)."
+msgstr "Aviso conforme al § 36 de la Ley de resolución de disputas de consumidores (VSBG)."

@@ -1,0 +1,116 @@
+{% load static i18n %}
+<!DOCTYPE html>
+<html lang="{{ LANGUAGE_CODE }}" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Markus Rehkugler – Struktur schafft Klarheit{% endblock %}</title>
+    <meta name="description" content="{% block meta_description %}Markus Rehkugler – Immobilienexperte, Sachverständiger und Impulsgeber für persönliche Transformation. National und international, insbesondere Deutschland & Paraguay.{% endblock %}">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="{{ SITE_URL }}{{ request.path }}">
+
+    <!-- hreflang: DE/ES -->
+    {% get_current_language as CURRENT_LANGUAGE %}
+    <link rel="alternate" hreflang="de" href="{{ SITE_URL }}{{ request.path }}">
+    <link rel="alternate" hreflang="es" href="{{ SITE_URL }}/es{{ request.path }}">
+    <link rel="alternate" hreflang="x-default" href="{{ SITE_URL }}{{ request.path }}">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ SITE_URL }}{{ request.path }}">
+    <meta property="og:locale" content="{{ LANGUAGE_CODE }}_{{ LANGUAGE_CODE|upper }}">
+    <meta property="og:locale:alternate" content="{% if LANGUAGE_CODE == 'de' %}es_ES{% else %}de_DE{% endif %}">
+    <meta property="og:site_name" content="Markus Rehkugler">
+    <meta property="og:title" content="{% block og_title %}Markus Rehkugler – Struktur schafft Klarheit{% endblock %}">
+    <meta property="og:description" content="{% block og_description %}Immobilienexperte, Sachverständiger und Impulsgeber für persönliche Transformation.{% endblock %}">
+    <meta property="og:image" content="{% block og_image %}{{ SITE_URL }}{% static 'images/hero-architecture.jpg' %}{% endblock %}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{% block twitter_title %}Markus Rehkugler – Struktur schafft Klarheit{% endblock %}">
+    <meta name="twitter:description" content="{% block twitter_description %}Immobilienexperte, Sachverständiger und Impulsgeber für persönliche Transformation.{% endblock %}">
+    <meta name="twitter:image" content="{% block twitter_image %}{{ SITE_URL }}{% static 'images/hero-architecture.jpg' %}{% endblock %}">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/svg+xml" href="{% static 'images/favicon.svg' %}">
+    <link rel="apple-touch-icon" href="{% static 'images/favicon.svg' %}">
+
+    <!-- Inter Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="{% static 'css/tailwind.css' %}">
+    <link rel="stylesheet" href="{% static 'css/custom.css' %}">
+
+    <style>
+        /* Scroll animations */
+        .fade-up {
+            opacity: 0;
+            transform: translateY(28px);
+            transition: opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+                        transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+        }
+        .fade-up.is-visible { opacity: 1; transform: translateY(0); }
+        .delay-100 { transition-delay: 0.12s; }
+        .delay-200 { transition-delay: 0.24s; }
+        .delay-300 { transition-delay: 0.36s; }
+        .delay-400 { transition-delay: 0.48s; }
+
+        /* Nav transparent → solid */
+        #navbar { background: transparent; }
+        #navbar.nav-solid {
+            background: rgba(51, 65, 85, 0.97);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+        }
+
+        /* Gold accent line on hover */
+        .gold-line {
+            position: relative;
+            transition: color 0.2s;
+        }
+        .gold-line::after {
+            content: '';
+            position: absolute;
+            left: 0; bottom: -2px;
+            width: 0; height: 1px;
+            background: #cfa935;
+            transition: width 0.25s ease;
+        }
+        .gold-line:hover::after { width: 100%; }
+
+        /* Numbered list counter */
+        .num-list { counter-reset: service; }
+        .num-item { counter-increment: service; }
+        .num-item::before {
+            content: '0' counter(service);
+            font-size: 0.7rem;
+            font-weight: 700;
+            color: #334155;
+            letter-spacing: 0.05em;
+            min-width: 1.75rem;
+            display: inline-block;
+        }
+    </style>
+    {% block extra_css %}{% endblock %}
+</head>
+<body class="bg-white text-brand-body font-sans antialiased">
+
+    {% include 'partials/_header.html' %}
+
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+
+    {% include 'partials/_footer.html' %}
+
+    <script src="{% static 'js/main.js' %}"></script>
+    {% block structured_data %}{% endblock %}
+    {% block extra_js %}{% endblock %}
+</body>
+</html>

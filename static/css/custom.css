@@ -1,0 +1,31 @@
+/* ── Rehkugler Custom CSS ── */
+
+/* Smooth scroll + padding for fixed navbar */
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+}
+
+/* Selection color */
+::selection {
+    background-color: #cfa935;
+    color: #181818;
+}
+
+/* Images default styling */
+img:not([alt*="Logo"]) {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Form focus styling */
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+    border-color: #cfa935;
+    box-shadow: 0 0 0 2px rgba(207, 169, 53, 0.2);
+}

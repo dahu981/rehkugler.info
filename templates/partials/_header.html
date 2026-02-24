@@ -1,0 +1,85 @@
+{% load static i18n %}
+
+<!-- Navigation — transparent, wird solid beim Scrollen -->
+<nav id="navbar" aria-label="{% trans 'Hauptnavigation' %}"
+     class="fixed top-0 left-0 right-0 z-50 transition-all duration-500 py-5 px-6 lg:px-12">
+    <div class="max-w-6xl mx-auto flex items-center justify-between">
+
+        <a href="{% url 'core:home' %}" class="flex items-center gap-3" aria-label="Markus Rehkugler – {% trans 'Startseite' %}">
+            <img src="{% static 'images/LogoMR.webp' %}" alt="MR Logo" class="w-6 h-6 object-contain shrink-0 drop-shadow-[0_0_1px_rgba(207,169,53,0.6)]">
+            <div class="leading-snug">
+                <span class="block text-white font-semibold text-sm tracking-wide">Markus Rehkugler</span>
+                <span class="block text-brand-gold text-[11px]">{% trans "Struktur schafft Klarheit." %}</span>
+            </div>
+        </a>
+
+        <div class="hidden lg:flex items-center gap-8">
+            <a href="{% url 'core:home' %}#hero" class="text-white/70 hover:text-white text-sm transition-colors gold-line">{% trans "Start" %}</a>
+            <a href="{% url 'core:home' %}#services" class="text-white/70 hover:text-white text-sm transition-colors gold-line">{% trans "Leistungen" %}</a>
+            <a href="{% url 'core:home' %}#contact" class="text-white/70 hover:text-white text-sm transition-colors gold-line">{% trans "Kontakt" %}</a>
+            {% include 'partials/_language_switcher.html' %}
+            <a href="https://calendly.com/markusrehkugler/15min" target="_blank" rel="noopener noreferrer"
+               class="bg-brand-gold hover:bg-[#b8941e] text-brand-text text-sm font-semibold px-5 py-2.5 transition-colors"
+               aria-label="{% trans '15-minütiges Erstgespräch buchen' %}">
+                {% trans "15 Min. Erstgespräch" %}
+            </a>
+        </div>
+
+        <button id="mobile-toggle" aria-label="{% trans 'Menü öffnen' %}" aria-expanded="false"
+                class="lg:hidden p-2 text-white">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 6h16M4 12h16M4 18h16"/>
+            </svg>
+        </button>
+    </div>
+</nav>
+
+<!-- Mobile menu -->
+<div id="mobile-menu" role="dialog" aria-modal="true" aria-label="{% trans 'Mobile Navigation' %}"
+     class="fixed inset-0 z-40 bg-brand-blue transform translate-x-full transition-transform duration-300 flex flex-col">
+    <div class="flex items-center justify-between px-6 pt-5 pb-4 border-b border-white/10">
+        <span class="text-white font-semibold text-sm">Markus Rehkugler</span>
+        <button id="close-menu" aria-label="{% trans 'Menü schließen' %}" class="p-2 text-white/70 hover:text-white">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 18L18 6M6 6l12 12"/>
+            </svg>
+        </button>
+    </div>
+    <nav class="flex-1 flex flex-col items-center justify-center gap-8" aria-label="{% trans 'Mobile Hauptnavigation' %}">
+        <a href="{% url 'core:home' %}#hero" class="text-white text-2xl font-light hover:text-brand-gold transition-colors">{% trans "Start" %}</a>
+        <a href="{% url 'core:home' %}#services" class="text-white text-2xl font-light hover:text-brand-gold transition-colors">{% trans "Leistungen" %}</a>
+        <a href="{% url 'core:home' %}#contact" class="text-white text-2xl font-light hover:text-brand-gold transition-colors">{% trans "Kontakt" %}</a>
+
+        <!-- Mobile Language Switcher -->
+        {% get_current_language as CURRENT_LANGUAGE %}
+        {% get_available_languages as languages %}
+        <div class="flex items-center gap-3 text-sm text-white/40">
+            {% for lang_code, lang_name in languages %}
+                {% if lang_code == CURRENT_LANGUAGE %}
+                    <span class="text-white font-semibold" aria-current="true">{{ lang_code|upper }}</span>
+                {% else %}
+                    <form method="post" action="{% url 'set_language' %}" class="inline">
+                        {% csrf_token %}
+                        <input type="hidden" name="language" value="{{ lang_code }}">
+                        <input type="hidden" name="next" value="{% if CURRENT_LANGUAGE == 'de' %}{{ request.path }}{% else %}{{ request.path|slice:'3:' }}{% endif %}">
+                        <button type="submit" class="hover:text-brand-gold transition-colors">{{ lang_code|upper }}</button>
+                    </form>
+                {% endif %}
+                {% if not forloop.last %}<span>|</span>{% endif %}
+            {% endfor %}
+        </div>
+
+        <div class="mt-4 flex flex-col gap-3 w-64">
+            <a href="https://calendly.com/markusrehkugler/15min" target="_blank" rel="noopener noreferrer"
+               class="text-center bg-brand-gold hover:bg-[#b8941e] text-brand-text font-semibold py-3.5 transition-colors"
+               aria-label="{% trans 'Kostenloses Erstgespräch über Calendly buchen' %}">
+                {% trans "15 Min. Erstgespräch" %}
+            </a>
+            <a href="https://wa.me/4915166555888" target="_blank" rel="noopener noreferrer"
+               class="text-center border border-brand-gold text-white font-medium py-3.5 text-sm hover:bg-brand-gold/10 transition-colors"
+               aria-label="WhatsApp +49 151 66555888">
+                WhatsApp +49 151 66555888
+            </a>
+        </div>
+    </nav>
+</div>

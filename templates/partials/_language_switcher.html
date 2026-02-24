@@ -1,0 +1,19 @@
+{% load i18n %}
+{% get_current_language as CURRENT_LANGUAGE %}
+{% get_available_languages as languages %}
+
+<span class="text-white/40 text-xs tracking-widest">
+    {% for lang_code, lang_name in languages %}
+        {% if lang_code == CURRENT_LANGUAGE %}
+            <span class="text-white font-semibold" aria-current="true">{{ lang_code|upper }}</span>
+        {% else %}
+            <form method="post" action="{% url 'set_language' %}" class="inline">
+                {% csrf_token %}
+                <input type="hidden" name="language" value="{{ lang_code }}">
+                <input type="hidden" name="next" value="{% if CURRENT_LANGUAGE == 'de' %}{{ request.path }}{% else %}{{ request.path|slice:'3:' }}{% endif %}">
+                <button type="submit" class="hover:text-brand-gold transition-colors" aria-label="{{ lang_name }}">{{ lang_code|upper }}</button>
+            </form>
+        {% endif %}
+        {% if not forloop.last %}<span class="mx-1">|</span>{% endif %}
+    {% endfor %}
+</span>

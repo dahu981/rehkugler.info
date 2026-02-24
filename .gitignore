@@ -1,0 +1,29 @@
+# Müll / alte Dateien
+_muell/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+db.sqlite3
+
+# Environment
+.env
+
+# Node
+node_modules/
+package-lock.json
+
+# Django
+staticfiles/
+media/
+logs/
+
+# IDE
+.vscode/
+.idea/
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
