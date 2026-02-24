@@ -3,6 +3,7 @@ module.exports = {
   content: [
     './templates/**/*.html',
   ],
+  safelist: ['translate-y-0'],
   theme: {
     extend: {
       colors: {

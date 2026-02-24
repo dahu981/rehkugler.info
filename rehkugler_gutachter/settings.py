@@ -250,4 +250,10 @@ SECURE_HSTS_INCLUDE_SUBDOMAINS = os.getenv('SECURE_HSTS_INCLUDE_SUBDOMAINS', str
 SECURE_HSTS_PRELOAD = os.getenv('SECURE_HSTS_PRELOAD', str(not DEBUG)) == 'True'
 
 SECURE_REFERRER_POLICY = os.getenv('SECURE_REFERRER_POLICY', 'strict-origin-when-cross-origin')
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 X_FRAME_OPTIONS = os.getenv('X_FRAME_OPTIONS', 'DENY')
+
+CSRF_TRUSTED_ORIGINS = os.getenv(
+    'CSRF_TRUSTED_ORIGINS',
+    'https://rehkugler.info,https://www.rehkugler.info'
+).split(',')

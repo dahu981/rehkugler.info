@@ -35,8 +35,10 @@
     <meta name="twitter:image" content="{% block twitter_image %}{{ SITE_URL }}{% static 'images/hero-architecture.jpg' %}{% endblock %}">
 
     <!-- Favicons -->
-    <link rel="icon" type="image/svg+xml" href="{% static 'images/favicon.svg' %}">
-    <link rel="apple-touch-icon" href="{% static 'images/favicon.svg' %}">
+    <link rel="icon" type="image/x-icon" href="{% static 'images/favicon.ico' %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static 'images/favicon-32x32.png' %}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% static 'images/favicon-16x16.png' %}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static 'images/apple-touch-icon.png' %}">
 
     <!-- Inter Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -109,6 +111,33 @@
 
     {% include 'partials/_footer.html' %}
 
+    {# ── Cookie Consent Banner ── #}
+    <div id="cookie-consent"
+         role="dialog"
+         aria-label="{% trans 'Cookie-Hinweis' %}"
+         class="fixed bottom-0 left-0 right-0 z-50 translate-y-full transition-transform duration-500 ease-out">
+        <div class="bg-brand-text/95 backdrop-blur-sm border-t border-white/10">
+            <div class="max-w-6xl mx-auto px-6 py-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+                <p class="text-white/70 text-xs leading-relaxed text-center sm:text-left max-w-2xl">
+                    {% trans "Diese Website verwendet Cookies, um Ihnen das beste Erlebnis zu bieten." %}
+                    <a href="{% url 'core:datenschutz' %}"
+                       class="text-brand-gold hover:underline whitespace-nowrap">{% trans "Mehr erfahren" %}</a>
+                </p>
+                <div class="flex items-center gap-3 shrink-0">
+                    <button id="cookie-accept-necessary" type="button"
+                            class="text-white/50 hover:text-white text-xs font-medium px-4 py-2 border border-white/20 hover:border-white/40 transition-colors">
+                        {% trans "Nur notwendige" %}
+                    </button>
+                    <button id="cookie-accept-all" type="button"
+                            class="bg-brand-gold hover:bg-[#b8941e] text-brand-text text-xs font-semibold px-5 py-2 transition-colors">
+                        {% trans "Akzeptieren" %}
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="{% static 'js/cookie-consent.js' %}"></script>
     <script src="{% static 'js/main.js' %}"></script>
     {% block structured_data %}{% endblock %}
     {% block extra_js %}{% endblock %}

@@ -409,3 +409,19 @@ msgstr "Información sobre la resolución de disputas en línea: La Comisión Eu
 
 msgid "Hinweis gemäß § 36 Verbraucherstreitbeilegungsgesetz (VSBG)."
 msgstr "Aviso conforme al § 36 de la Ley de resolución de disputas de consumidores (VSBG)."
+
+# Cookie Consent Banner
+msgid "Cookie-Hinweis"
+msgstr "Aviso de cookies"
+
+msgid "Diese Website verwendet Cookies, um Ihnen das beste Erlebnis zu bieten."
+msgstr "Este sitio web utiliza cookies para ofrecerle la mejor experiencia."
+
+msgid "Mehr erfahren"
+msgstr "Más información"
+
+msgid "Nur notwendige"
+msgstr "Solo necesarias"
+
+msgid "Akzeptieren"
+msgstr "Aceptar"
