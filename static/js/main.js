@@ -114,7 +114,7 @@ function initCookieConsent() {
                   },
                   {
                     title: "Streng notwendige Cookies <span class=\"cc__badge cc__badge--primary\">Immer aktiv</span>",
-                    description: "Diese Cookies sind notwendig, damit die Website funktioniert und können in unseren Systemen nicht ausgeschaltet werden.<br><br><strong>cookie_consent</strong>: Speichert den Zustimmungsstatus des Benutzers für Cookies auf der aktuellen Domäne.<br><strong>csrftoken</strong>: Wird verwendet, um Anfragen vor CSRF-Angriffen zu schützen.<br><strong>sessionid</strong>: Eindeutige Session-ID zur Identifizierung Ihrer Browser-Sitzung.",
+                    description: "Diese Cookies sind notwendig, damit die Website funktioniert und können in unseren Systemen nicht ausgeschaltet werden.<br><br><strong>cookie_consent</strong>: Speichert den Zustimmungsstatus des Benutzers für Cookies auf der aktuellen Domäne.<br><strong>csrftoken</strong>: Wird verwendet, um Anfragen vor CSRF-Angriffen zu schützen.",
                     linkedCategory: "necessary"
                   },
                   {
@@ -151,7 +151,7 @@ function initCookieConsent() {
                   },
                   {
                     title: "Cookies estrictamente necesarias <span class=\"cc__badge cc__badge--primary\">Siempre activas</span>",
-                    description: "Estas cookies son necesarias para que el sitio web funcione y no se pueden desactivar en nuestros sistemas.<br><br><strong>cookie_consent</strong>: Almacena el estado de consentimiento del usuario para las cookies en el dominio actual.<br><strong>csrftoken</strong>: Se utiliza para proteger contra ataques de falsificación de solicitudes entre sitios.<br><strong>sessionid</strong>: ID de sesión único para identificar su sesión de navegador.",
+                    description: "Estas cookies son necesarias para que el sitio web funcione y no se pueden desactivar en nuestros sistemas.<br><br><strong>cookie_consent</strong>: Almacena el estado de consentimiento del usuario para las cookies en el dominio actual.<br><strong>csrftoken</strong>: Se utiliza para proteger contra ataques de falsificación de solicitudes entre sitios.",
                     linkedCategory: "necessary"
                   },
                   {

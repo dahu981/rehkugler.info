@@ -19,7 +19,7 @@
     <div class="max-w-2xl mx-auto px-6">
 
         <p class="text-brand-muted text-xs font-semibold tracking-[0.2em] uppercase mb-3">{% trans "Rechtliches" %}</p>
-        <h1 class="text-3xl lg:text-4xl font-bold text-brand-text mb-12">{% trans "Datenschutzerklärung" %}</h1>
+        <h1 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-brand-text mb-12">{% trans "Datenschutzerklärung" %}</h1>
 
         <div class="space-y-10 text-sm leading-relaxed">
 
@@ -90,37 +90,22 @@
                 </p>
                 <p class="mb-3">{% trans "Folgende Cookies werden auf dieser Website eingesetzt:" %}</p>
 
-                <div class="overflow-x-auto">
-                    <table class="w-full text-sm border border-brand-muted/30">
-                        <thead>
-                            <tr class="bg-brand-bg text-left">
-                                <th class="px-3 py-2 border-b border-brand-muted/30 font-semibold">Cookie</th>
-                                <th class="px-3 py-2 border-b border-brand-muted/30 font-semibold">{% trans "Zweck" %}</th>
-                                <th class="px-3 py-2 border-b border-brand-muted/30 font-semibold">{% trans "Speicherdauer" %}</th>
-                                <th class="px-3 py-2 border-b border-brand-muted/30 font-semibold">{% trans "Typ" %}</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td class="px-3 py-2 border-b border-brand-muted/30 font-mono text-xs">cookie_consent</td>
-                                <td class="px-3 py-2 border-b border-brand-muted/30">{% trans "Speichert Ihre Cookie-Einstellung" %}</td>
-                                <td class="px-3 py-2 border-b border-brand-muted/30">1 {% trans "Jahr" %}</td>
-                                <td class="px-3 py-2 border-b border-brand-muted/30">{% trans "Notwendig" %}</td>
-                            </tr>
-                            <tr>
-                                <td class="px-3 py-2 border-b border-brand-muted/30 font-mono text-xs">csrftoken</td>
-                                <td class="px-3 py-2 border-b border-brand-muted/30">{% trans "Schutz vor Cross-Site-Request-Forgery-Angriffen" %}</td>
-                                <td class="px-3 py-2 border-b border-brand-muted/30">1 {% trans "Jahr" %}</td>
-                                <td class="px-3 py-2 border-b border-brand-muted/30">{% trans "Notwendig" %}</td>
-                            </tr>
-                            <tr>
-                                <td class="px-3 py-2 font-mono text-xs">sessionid</td>
-                                <td class="px-3 py-2">{% trans "Technische Sitzungsverwaltung" %}</td>
-                                <td class="px-3 py-2">{% trans "Sitzungsende" %}</td>
-                                <td class="px-3 py-2">{% trans "Notwendig" %}</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div class="space-y-4">
+                    <div class="border border-brand-muted/30 p-4">
+                        <p class="font-mono text-xs font-semibold text-brand-text mb-1">cookie_consent</p>
+                        <p class="text-brand-body mb-1">{% trans "Speichert Ihre Cookie-Einstellung" %}</p>
+                        <p class="text-brand-muted text-xs">{% trans "Speicherdauer:" %} 1 {% trans "Jahr" %} · {% trans "Notwendig" %}</p>
+                    </div>
+                    <div class="border border-brand-muted/30 p-4">
+                        <p class="font-mono text-xs font-semibold text-brand-text mb-1">csrftoken</p>
+                        <p class="text-brand-body mb-1">{% trans "Schutz vor Cross-Site-Request-Forgery-Angriffen" %}</p>
+                        <p class="text-brand-muted text-xs">{% trans "Speicherdauer:" %} 1 {% trans "Jahr" %} · {% trans "Notwendig" %}</p>
+                    </div>
+                    <div class="border border-brand-muted/30 p-4">
+                        <p class="font-mono text-xs font-semibold text-brand-text mb-1">django_language</p>
+                        <p class="text-brand-body mb-1">{% trans "Speichert die ausgewählte Sprache" %}</p>
+                        <p class="text-brand-muted text-xs">{% trans "Speicherdauer:" %} 1 {% trans "Jahr" %} · {% trans "Funktional" %}</p>
+                    </div>
                 </div>
 
                 <p class="mt-3">
