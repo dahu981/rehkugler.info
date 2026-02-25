@@ -77,11 +77,13 @@
 
         <div class="border-t border-white/10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3">
             <p class="text-white/25 text-xs">
-                &copy; 2026 Markus Rehkugler &middot; {% trans "Erstellt von" %} <span class="text-white/40 font-medium">Adlegio</span>
+                &copy; 2026 Markus Rehkugler
             </p>
             <div class="flex items-center gap-4 text-xs">
                 <a href="{% url 'core:impressum' %}" class="text-white/30 hover:text-brand-gold transition-colors"
                    aria-label="{% trans 'Impressum' %}">{% trans "Impressum" %}</a>
+                <span class="text-white/15">&middot;</span>
+                <a href="#" id="cookie-settings" class="text-white/30 hover:text-brand-gold transition-colors">Cookies</a>
                 <span class="text-white/15">&middot;</span>
                 <a href="{% url 'core:datenschutz' %}" class="text-white/30 hover:text-brand-gold transition-colors">{% trans "Datenschutz" %}</a>
             </div>
