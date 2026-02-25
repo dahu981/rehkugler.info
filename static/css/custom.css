@@ -12,12 +12,9 @@ body {
     overflow-x: hidden;
 }
 
-/* German hyphenation for headings on small screens */
+/* Prevent long words from overflowing on small screens */
 h1, h2, h3 {
     overflow-wrap: break-word;
-    word-break: break-word;
-    hyphens: auto;
-    -webkit-hyphens: auto;
 }
 
 /* Selection color */
