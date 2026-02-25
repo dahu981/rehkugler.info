@@ -283,113 +283,206 @@ msgstr "Política de privacidad"
 msgid "Datenschutzerklärung der Webseite von Markus Rehkugler."
 msgstr "Política de privacidad del sitio web de Markus Rehkugler."
 
-msgid "Datenschutzerklärung der Markus Rehkugler. In dieser Datenschutzerklärung wird beschrieben, wie Ihre personenbezogenen Daten erfasst, verwendet und weitergegeben werden, wenn Sie www.rehkugler.info (die „Website\") nutzen oder dort etwas kaufen."
-msgstr "Política de privacidad de Markus Rehkugler. En esta política de privacidad se describe cómo se recopilan, utilizan y comparten sus datos personales cuando utiliza www.rehkugler.info (el „sitio web\") o realiza una compra en él."
+msgid "Verantwortlicher"
+msgstr "Responsable"
 
-msgid "Von uns erfasste personenbezogene Daten"
-msgstr "Datos personales que recopilamos"
+msgid "Verantwortlich für die Datenverarbeitung auf dieser Website:"
+msgstr "Responsable del tratamiento de datos en este sitio web:"
 
-msgid "Wenn Sie die Website besuchen, erfassen wir automatisch bestimmte Informationen über Ihr Gerät, darunter Informationen zum Webbrowser, der IP-Adresse, der Zeitzone und einigen der Cookies, die auf Ihrem Gerät installiert sind. Wenn Sie auf der Website navigieren, erfassen wir außerdem Informationen zu den einzelnen Webseiten oder Produkten, die Sie aufrufen, zu den Websites oder Suchbegriffen, die Sie auf die Website geführt haben, sowie Informationen darüber, wie Sie mit der Website interagieren. Wir bezeichnen diese automatisch erfassten Informationen als „Geräteinformationen\"."
-msgstr "Cuando visita el sitio web, recopilamos automáticamente cierta información sobre su dispositivo, incluida información sobre su navegador web, dirección IP, zona horaria y algunas de las cookies instaladas en su dispositivo. Cuando navega por el sitio web, también recopilamos información sobre las páginas web o productos individuales que visita, los sitios web o términos de búsqueda que lo llevaron al sitio web y cómo interactúa con el sitio web. Nos referimos a esta información recopilada automáticamente como „información del dispositivo\"."
+msgid "Allgemeines zur Datenverarbeitung"
+msgstr "Información general sobre el tratamiento de datos"
 
-msgid "Wir erfassen Geräteinformationen mithilfe der folgenden Technologien:"
-msgstr "Recopilamos información del dispositivo mediante las siguientes tecnologías:"
+msgid "Diese Website ist eine rein informatorische Präsenz ohne Online-Shop, Kontaktformular oder Nutzerregistrierung. Wir erheben so wenig personenbezogene Daten wie möglich. Die nachfolgende Erklärung gibt Ihnen einen Überblick darüber, welche Daten beim Besuch dieser Website verarbeitet werden."
+msgstr "Este sitio web es una presencia puramente informativa, sin tienda en línea, formulario de contacto ni registro de usuarios. Recopilamos la menor cantidad posible de datos personales. La siguiente declaración le ofrece una visión general de qué datos se procesan cuando visita este sitio web."
 
-msgid "„Cookies\""
-msgstr "„Cookies\""
+msgid "Hosting und Server-Logfiles"
+msgstr "Hosting y archivos de registro del servidor"
 
-msgid "sind Datendateien, die auf einem Gerät oder Computer gespeichert werden und häufig eine anonyme eindeutige Kennung enthalten. Weitere Informationen zu Cookies und zum Deaktivieren von Cookies sind unter"
-msgstr "son archivos de datos almacenados en un dispositivo o computadora que a menudo contienen un identificador único anónimo. Más información sobre cookies y cómo desactivarlas en"
+msgid "Diese Website wird bei einem externen Dienstleister gehostet (Hoster). Beim Aufruf dieser Website erhebt der Hoster automatisch Informationen in sogenannten Server-Logfiles, die Ihr Browser automatisch übermittelt. Dies sind:"
+msgstr "Este sitio web está alojado en un proveedor de servicios externo (hosting). Al acceder a este sitio web, el proveedor de hosting recopila automáticamente información en los llamados archivos de registro del servidor, que su navegador transmite automáticamente. Estos son:"
 
-msgid "zu finden."
-msgstr ""
+msgid "IP-Adresse des anfragenden Geräts"
+msgstr "Dirección IP del dispositivo solicitante"
 
-msgid "„Protokolldateien\""
-msgstr "„Archivos de registro\""
+msgid "Datum und Uhrzeit der Anfrage"
+msgstr "Fecha y hora de la solicitud"
 
-msgid "protokollieren Aktionen auf der Website und erfassen Daten wie IP-Adresse, Browsertyp, Internetdienstanbieter, verweisende/Ausstiegsseiten sowie Datums-/Uhrzeitstempel."
-msgstr "registran acciones en el sitio web y recopilan datos como dirección IP, tipo de navegador, proveedor de servicios de Internet, páginas de referencia/salida y marcas de fecha/hora."
+msgid "Browsertyp und -version"
+msgstr "Tipo y versión del navegador"
 
-msgid "„Web Beacons\", „Tags\" und „Pixel\""
-msgstr "„Web Beacons\", „Tags\" y „Pixels\""
+msgid "Betriebssystem"
+msgstr "Sistema operativo"
 
-msgid "sind elektronische Dateien zur Erfassung von Informationen dazu, wie Sie auf der Website navigieren."
-msgstr "son archivos electrónicos para recopilar información sobre cómo navega por el sitio web."
+msgid "Referrer-URL (zuvor besuchte Seite)"
+msgstr "URL de referencia (página visitada previamente)"
 
-msgid "Wenn Sie auf der Website etwas kaufen oder versuchen, etwas zu kaufen, erfassen wir außerdem bestimmte Informationen über Ihrer Person. Dazu gehören Name, Rechnungsadresse, Lieferadresse, Zahlungsinformationen, E-Mail-Adresse und Telefonnummer. Wir bezeichnen diese Angaben als „Bestellinformationen\"."
-msgstr "Cuando compra o intenta comprar algo en el sitio web, también recopilamos cierta información sobre usted. Esto incluye nombre, dirección de facturación, dirección de envío, información de pago, correo electrónico y número de teléfono. Nos referimos a estos datos como „información de pedido\"."
+msgid "Übertragene Datenmenge"
+msgstr "Volumen de datos transferidos"
 
-msgid "Mit „personenbezogene Daten\" in dieser Datenschutzerklärung bezeichnen wir sowohl Geräteinformationen als auch Bestellinformationen."
-msgstr "Con „datos personales\" en esta política de privacidad nos referimos tanto a la información del dispositivo como a la información de pedido."
+msgid "Die Erfassung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Der Websitebetreiber hat ein berechtigtes Interesse an der technisch fehlerfreien Darstellung und Absicherung seiner Website. Die Server-Logfiles werden in der Regel nach 30 Tagen automatisch gelöscht."
+msgstr "La recopilación de estos datos se realiza en base al Art. 6, párr. 1, lit. f del RGPD. El titular del sitio web tiene un interés legítimo en la presentación técnicamente correcta y la seguridad de su sitio web. Los archivos de registro del servidor se eliminan automáticamente después de 30 días."
 
-msgid "Wie verwenden wir Ihre personenbezogenen Daten?"
-msgstr "¿Cómo utilizamos sus datos personales?"
+msgid "SSL- bzw. TLS-Verschlüsselung"
+msgstr "Cifrado SSL/TLS"
 
-msgid "Wir verwenden die von uns erfassten Bestellinformationen in der Regel zur Ausführung von Bestellungen, die wir über die Website erhalten (unter anderem zur Verarbeitung Ihrer Zahlungsinformationen, Versandbereitstellung und Zusendung von Rechnungen und/oder Bestellbestätigungen)."
-msgstr "Utilizamos la información de pedido recopilada generalmente para procesar pedidos recibidos a través del sitio web (incluyendo el procesamiento de su información de pago, organización del envío y envío de facturas y/o confirmaciones de pedido)."
+msgid "Diese Website nutzt aus Sicherheitsgründen eine SSL- bzw. TLS-Verschlüsselung. Eine verschlüsselte Verbindung erkennen Sie daran, dass die Adresszeile des Browsers von „http://\" auf „https://\" wechselt und an dem Schloss-Symbol in Ihrer Browserzeile. Wenn die SSL- bzw. TLS-Verschlüsselung aktiviert ist, können die Daten, die Sie an uns übermitteln, nicht von Dritten mitgelesen werden."
+msgstr "Este sitio web utiliza cifrado SSL/TLS por razones de seguridad. Puede reconocer una conexión cifrada porque la barra de direcciones del navegador cambia de „http://\" a „https://\" y aparece un icono de candado en la barra del navegador. Cuando el cifrado SSL/TLS está activado, los datos que nos transmite no pueden ser leídos por terceros."
 
-msgid "Außerdem verwenden wir diese Bestellinformation zur:"
-msgstr "Además, utilizamos esta información de pedido para:"
+msgid "Rechtsgrundlagen"
+msgstr "Bases legales"
 
-msgid "Kommunikation mit Ihnen"
-msgstr "Comunicación con usted"
+msgid "Die Verarbeitung personenbezogener Daten auf dieser Website erfolgt auf Grundlage der folgenden Rechtsgrundlagen der DSGVO:"
+msgstr "El tratamiento de datos personales en este sitio web se realiza sobre las siguientes bases legales del RGPD:"
 
-msgid "Prüfung unserer Bestellungen auf potenzielle Risiken oder Betrug"
-msgstr "Verificación de pedidos en busca de riesgos potenciales o fraude"
+msgid "Einwilligung"
+msgstr "Consentimiento"
 
-msgid "Bereitstellung von Informationen oder Werbung im Zusammenhang mit unseren Produkten oder Dienstleistungen an Sie, sofern dies mit Ihren Datenschutzeinstellungen im Einklang steht"
-msgstr "Proporcionarle información o publicidad relacionada con nuestros productos o servicios, siempre que sea compatible con su configuración de privacidad"
+msgid "wenn Sie der Verwendung von Cookies über unseren Cookie-Banner zugestimmt haben."
+msgstr "cuando ha aceptado el uso de cookies a través de nuestro banner de cookies."
 
-msgid "Wir verwenden die von uns erfassten Geräteinformationen für die Prüfung auf potenzielle Risiken und Betrug (insbesondere Ihre IP-Adresse) und allgemein zur Verbesserung und Optimierung unserer Website (z.B. mithilfe von Analysen zum Navigationsverhalten unserer Kunden und ihrer Interaktion mit der Website sowie zum Beurteilen des Erfolgs unserer Marketing- und Werbekampagnen). Ebenfalls zur Nutzung von Werbung und Retargeting."
-msgstr "Utilizamos la información del dispositivo recopilada para verificar riesgos potenciales y fraude (especialmente su dirección IP) y en general para mejorar y optimizar nuestro sitio web. También para publicidad y retargeting."
+msgid "Berechtigtes Interesse"
+msgstr "Interés legítimo"
 
-msgid "Weitergabe Ihrer personenbezogenen Daten"
-msgstr "Divulgación de sus datos personales"
+msgid "für den technischen Betrieb der Website, die Bereitstellung der Inhalte und die Gewährleistung der IT-Sicherheit."
+msgstr "para el funcionamiento técnico del sitio web, la provisión de contenidos y la garantía de la seguridad informática."
 
-msgid "Wir geben Ihre personenbezogenen Daten an Dritte weiter, die uns bei der Verwendung Ihrer personenbezogenen Daten wie oben beschrieben unterstützen. Wir verwenden bspw. Google Analytics, um zu verstehen, wie unsere Kunden die Website nutzen."
-msgstr "Compartimos sus datos personales con terceros que nos ayudan a utilizar sus datos personales como se describe anteriormente. Utilizamos, por ejemplo, Google Analytics para comprender cómo nuestros clientes utilizan el sitio web."
+msgid "Diese Website verwendet Cookies. Cookies sind kleine Textdateien, die auf Ihrem Endgerät gespeichert werden. Sie richten keinen Schaden an und enthalten keine Viren."
+msgstr "Este sitio web utiliza cookies. Las cookies son pequeños archivos de texto que se almacenan en su dispositivo. No causan ningún daño y no contienen virus."
 
-msgid "Schließlich können wir Ihre personenbezogenen Daten auch weitergeben, um geltende Gesetze und Vorschriften einzuhalten, um auf eine Vorladung, einen Durchsuchungsbefehl oder eine andere rechtmäßige Anfrage nach Informationen, die wir erhalten, zu reagieren oder um unsere Rechte anderweitig zu schützen."
-msgstr "Finalmente, también podemos compartir sus datos personales para cumplir con las leyes y regulaciones aplicables, para responder a una citación, orden de registro u otra solicitud legal de información que recibamos, o para proteger nuestros derechos de otra manera."
+msgid "Folgende Cookies werden auf dieser Website eingesetzt:"
+msgstr "En este sitio web se utilizan las siguientes cookies:"
 
-msgid "Verhaltensbasierte Werbung"
-msgstr "Publicidad basada en comportamiento"
+msgid "Zweck"
+msgstr "Finalidad"
 
-msgid "Wie oben beschrieben verwenden wir Ihre personenbezogenen Daten, um Ihnen zielgerichtete Werbung oder Marketingmitteilungen zur Verfügung zu stellen, von denen wir glauben, dass sie für Sie von Interesse sein könnten."
-msgstr "Como se describe anteriormente, utilizamos sus datos personales para proporcionarle publicidad dirigida o comunicaciones de marketing que creemos pueden ser de su interés."
+msgid "Speicherdauer"
+msgstr "Duración"
 
-msgid "Sie können zielgerichtete Anzeigen hier deaktivieren:"
-msgstr "Puede desactivar los anuncios dirigidos aquí:"
+msgid "Typ"
+msgstr "Tipo"
 
-msgid "Wir weisen Sie darauf hin, dass wir die Datenerfassungs- und -nutzungsverfahren unserer Website nicht ändern, wenn wir von Ihrem Browser ein „Do Not Track\"-Signal erhalten."
-msgstr "Le informamos que no modificamos los procedimientos de recopilación y uso de datos de nuestro sitio web cuando recibimos una señal „Do Not Track\" de su navegador."
+msgid "Speichert Ihre Cookie-Einstellung"
+msgstr "Almacena su configuración de cookies"
 
-msgid "Ihre Rechte"
-msgstr "Sus derechos"
+msgid "Jahr"
+msgstr "año"
 
-msgid "Wenn Sie in Europa ansässig sind, haben Sie das Recht, auf die personenbezogenen Daten, die wir über Sie besitzen, zuzugreifen und deren Korrektur, Aktualisierung oder Löschung zu fordern. Wenn Sie dieses Recht ausüben möchten, setzen Sie sich über die nachstehenden Kontaktdaten mit uns in Verbindung."
-msgstr "Si reside en Europa, tiene derecho a acceder a los datos personales que tenemos sobre usted y a solicitar su corrección, actualización o eliminación. Si desea ejercer este derecho, póngase en contacto con nosotros a través de los datos de contacto que se indican a continuación."
+msgid "Notwendig"
+msgstr "Necesaria"
 
-msgid "Wenn Sie in Europa ansässig sind, weisen wir außerdem darauf hin, dass wir Ihre Daten verarbeiten, um Verträge mit Ihnen zu erfüllen (z.B. wenn Sie über die Website eine Bestellung aufgeben) oder um unsere oben genannten berechtigten Geschäftsinteressen zu verfolgen. Bitte beachten Sie außerdem, dass Ihre Daten außerhalb von Europa, einschließlich Kanada und den Vereinigten Staaten, übertragen werden."
-msgstr "Si reside en Europa, también le informamos que procesamos sus datos para cumplir contratos con usted o para perseguir nuestros intereses comerciales legítimos mencionados anteriormente. Tenga en cuenta que sus datos pueden ser transferidos fuera de Europa, incluidos Canadá y los Estados Unidos."
+msgid "Schutz vor Cross-Site-Request-Forgery-Angriffen"
+msgstr "Protección contra ataques Cross-Site-Request-Forgery"
 
-msgid "Aufbewahrung von Daten"
-msgstr "Conservación de datos"
+msgid "Technische Sitzungsverwaltung"
+msgstr "Gestión técnica de sesión"
 
-msgid "Wenn Sie eine Bestellung über die Website aufgeben, bewahren wir Ihre Bestellinformationen für unsere Aufzeichnungen auf, sofern Sie uns nicht auffordern, diese Daten zu löschen."
-msgstr "Si realiza un pedido a través del sitio web, conservamos su información de pedido para nuestros registros, a menos que nos solicite eliminar estos datos."
+msgid "Sitzungsende"
+msgstr "Fin de sesión"
 
-msgid "Änderungen"
-msgstr "Cambios"
+msgid "Technisch notwendige Cookies werden auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO gesetzt. Sie sind für den ordnungsgemäßen Betrieb der Website erforderlich. Über unseren Cookie-Banner können Sie beim ersten Besuch wählen, ob Sie nur notwendige Cookies oder alle Cookies akzeptieren."
+msgstr "Las cookies técnicamente necesarias se establecen en base al Art. 6, párr. 1, lit. f del RGPD. Son necesarias para el correcto funcionamiento del sitio web. A través de nuestro banner de cookies puede elegir en su primera visita si acepta solo las cookies necesarias o todas las cookies."
 
-msgid "Wir können diese Datenschutzerklärung gelegentlich ändern, um Änderungen unserer Vorgehensweisen zu berücksichtigen, oder aus anderen betrieblichen, rechtlichen oder aufsichtsrechtlichen Gründen."
-msgstr "Podemos modificar esta política de privacidad ocasionalmente para reflejar cambios en nuestras prácticas, o por otras razones operativas, legales o regulatorias."
+msgid "Externe Dienste und Links"
+msgstr "Servicios externos y enlaces"
 
-msgid "Wenn Sie weitere Informationen zu unseren Datenschutzverfahren benötigen, Fragen haben oder eine Beschwerde einreichen möchten, kontaktieren Sie uns per E-Mail an"
-msgstr "Si necesita más información sobre nuestros procedimientos de privacidad, tiene preguntas o desea presentar una queja, contáctenos por correo electrónico a"
+msgid "Diese Website enthält Links zu externen Diensten. Beim Anklicken dieser Links verlassen Sie unsere Website. Für die Datenverarbeitung auf externen Seiten sind deren Betreiber verantwortlich:"
+msgstr "Este sitio web contiene enlaces a servicios externos. Al hacer clic en estos enlaces, abandona nuestro sitio web. Los operadores de las páginas externas son responsables del tratamiento de datos en sus sitios:"
 
-msgid "oder per Post an die folgende Adresse:"
-msgstr "o por correo postal a la siguiente dirección:"
+msgid "Terminbuchung."
+msgstr "Reserva de citas."
+
+msgid "Datenschutzerklärung von Calendly"
+msgstr "Política de privacidad de Calendly"
+
+msgid "Kontaktaufnahme."
+msgstr "Contacto."
+
+msgid "Datenschutzerklärung von WhatsApp"
+msgstr "Política de privacidad de WhatsApp"
+
+msgid "Soziales Netzwerk."
+msgstr "Red social."
+
+msgid "Datenschutzerklärung von Instagram"
+msgstr "Política de privacidad de Instagram"
+
+msgid "Wir weisen darauf hin, dass beim Aufrufen dieser externen Dienste Daten an deren Betreiber übertragen werden können, unter Umständen auch in Drittländer (z. B. USA). Weitere Informationen entnehmen Sie den jeweiligen Datenschutzerklärungen."
+msgstr "Le informamos que al acceder a estos servicios externos se pueden transmitir datos a sus operadores, en algunos casos también a terceros países (por ejemplo, EE. UU.). Para más información, consulte las respectivas políticas de privacidad."
+
+msgid "Kontaktaufnahme per E-Mail"
+msgstr "Contacto por correo electrónico"
+
+msgid "Wenn Sie uns per E-Mail kontaktieren, werden Ihre Angaben einschließlich der von Ihnen angegebenen Kontaktdaten zur Bearbeitung Ihrer Anfrage und für den Fall von Anschlussfragen bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter. Die Verarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der Beantwortung Ihrer Anfrage). Die Daten werden gelöscht, sobald der Zweck der Speicherung entfällt."
+msgstr "Si nos contacta por correo electrónico, sus datos, incluidos los datos de contacto proporcionados, se almacenarán para el procesamiento de su consulta y para posibles preguntas de seguimiento. No compartiremos estos datos sin su consentimiento. El tratamiento se realiza en base al Art. 6, párr. 1, lit. f del RGPD (interés legítimo en responder a su consulta). Los datos se eliminan una vez que el propósito del almacenamiento deja de existir."
+
+msgid "Ihre Rechte als betroffene Person"
+msgstr "Sus derechos como persona afectada"
+
+msgid "Ihnen stehen folgende Rechte gemäß DSGVO zu:"
+msgstr "Le corresponden los siguientes derechos conforme al RGPD:"
+
+msgid "Auskunft"
+msgstr "Información"
+
+msgid "Sie haben das Recht, Auskunft über Ihre bei uns gespeicherten Daten zu erhalten."
+msgstr "Tiene derecho a obtener información sobre sus datos almacenados por nosotros."
+
+msgid "Berichtigung"
+msgstr "Rectificación"
+
+msgid "Sie können die Berichtigung unrichtiger Daten verlangen."
+msgstr "Puede solicitar la rectificación de datos incorrectos."
+
+msgid "Löschung"
+msgstr "Supresión"
+
+msgid "Sie können die Löschung Ihrer Daten verlangen, sofern keine gesetzlichen Aufbewahrungspflichten entgegenstehen."
+msgstr "Puede solicitar la supresión de sus datos, siempre que no existan obligaciones legales de conservación."
+
+msgid "Einschränkung der Verarbeitung"
+msgstr "Limitación del tratamiento"
+
+msgid "Sie können die Einschränkung der Verarbeitung Ihrer Daten verlangen."
+msgstr "Puede solicitar la limitación del tratamiento de sus datos."
+
+msgid "Datenübertragbarkeit"
+msgstr "Portabilidad de datos"
+
+msgid "Sie haben das Recht, Ihre Daten in einem gängigen Format zu erhalten."
+msgstr "Tiene derecho a recibir sus datos en un formato común."
+
+msgid "Widerspruch"
+msgstr "Oposición"
+
+msgid "Sie können der Verarbeitung Ihrer Daten jederzeit widersprechen, sofern die Verarbeitung auf Art. 6 Abs. 1 lit. f DSGVO beruht."
+msgstr "Puede oponerse en cualquier momento al tratamiento de sus datos, siempre que el tratamiento se base en el Art. 6, párr. 1, lit. f del RGPD."
+
+msgid "Widerruf der Einwilligung"
+msgstr "Revocación del consentimiento"
+
+msgid "Eine erteilte Einwilligung können Sie jederzeit mit Wirkung für die Zukunft widerrufen."
+msgstr "Puede revocar un consentimiento otorgado en cualquier momento con efecto para el futuro."
+
+msgid "Zur Ausübung Ihrer Rechte wenden Sie sich bitte an:"
+msgstr "Para ejercer sus derechos, diríjase a:"
+
+msgid "Beschwerderecht bei einer Aufsichtsbehörde"
+msgstr "Derecho de reclamación ante una autoridad de control"
+
+msgid "Wenn Sie der Ansicht sind, dass die Verarbeitung Ihrer personenbezogenen Daten gegen die DSGVO verstößt, haben Sie das Recht, sich bei einer Datenschutz-Aufsichtsbehörde zu beschweren (Art. 77 DSGVO). Sie können sich dabei an die Aufsichtsbehörde Ihres gewöhnlichen Aufenthaltsortes, Ihres Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes wenden."
+msgstr "Si considera que el tratamiento de sus datos personales infringe el RGPD, tiene derecho a presentar una reclamación ante una autoridad de control de protección de datos (Art. 77 RGPD). Puede dirigirse a la autoridad de control de su lugar de residencia habitual, de su lugar de trabajo o del lugar de la presunta infracción."
+
+msgid "Änderungen dieser Datenschutzerklärung"
+msgstr "Modificaciones de esta política de privacidad"
+
+msgid "Wir behalten uns vor, diese Datenschutzerklärung zu aktualisieren, um sie an geänderte Rechtslagen oder bei Änderungen des Dienstes anzupassen. Es gilt die jeweils aktuelle, auf dieser Webseite veröffentlichte Fassung."
+msgstr "Nos reservamos el derecho de actualizar esta política de privacidad para adaptarla a cambios legales o modificaciones del servicio. Siempre será válida la versión vigente publicada en este sitio web."
+
+msgid "Stand:"
+msgstr "Última actualización:"
+
+msgid "Februar 2026"
+msgstr "Febrero 2026"
 
 # Impressum page
 msgid "Impressum der Webseite von Markus Rehkugler."
@@ -400,6 +493,12 @@ msgstr "Titular del sitio web"
 
 msgid "E-Mail:"
 msgstr "Correo electrónico:"
+
+msgid "Verantwortlich für den Inhalt"
+msgstr "Responsable del contenido"
+
+msgid "Verantwortlich gemäß § 18 Abs. 2 MStV:"
+msgstr "Responsable conforme al § 18, párr. 2 MStV:"
 
 msgid "Online-Streitbeilegung"
 msgstr "Resolución de disputas en línea"

@@ -23,126 +23,178 @@
 
         <div class="space-y-10 text-sm leading-relaxed">
 
-            <p>
-                Datenschutzerklärung der Markus Rehkugler. In dieser Datenschutzerklärung wird beschrieben, wie Ihre personenbezogenen Daten erfasst, verwendet und weitergegeben werden, wenn Sie www.rehkugler.info (die &bdquo;Website&ldquo;) nutzen oder dort etwas kaufen.
-            </p>
-
-            <!-- Erfasste Daten -->
+            <!-- Verantwortlicher -->
             <div>
-                <h2 class="text-lg font-bold text-brand-text mb-3">{% trans "Von uns erfasste personenbezogene Daten" %}</h2>
-                <p class="mb-4">
-                    Wenn Sie die Website besuchen, erfassen wir automatisch bestimmte Informationen über Ihr Gerät, darunter Informationen zum Webbrowser, der IP-Adresse, der Zeitzone und einigen der Cookies, die auf Ihrem Gerät installiert sind. Wenn Sie auf der Website navigieren, erfassen wir außerdem Informationen zu den einzelnen Webseiten oder Produkten, die Sie aufrufen, zu den Websites oder Suchbegriffen, die Sie auf die Website geführt haben, sowie Informationen darüber, wie Sie mit der Website interagieren. Wir bezeichnen diese automatisch erfassten Informationen als &bdquo;Geräteinformationen&ldquo;.
+                <h2 class="text-lg font-bold text-brand-text mb-3">{% trans "Verantwortlicher" %}</h2>
+                <p class="mb-3">
+                    {% trans "Verantwortlich für die Datenverarbeitung auf dieser Website:" %}
                 </p>
-                <p class="mb-4">{% trans "Wir erfassen Geräteinformationen mithilfe der folgenden Technologien:" %}</p>
-                <ul class="space-y-3 ml-4">
-                    <li class="flex items-start gap-3">
-                        <span class="text-brand-muted shrink-0 mt-0.5">&ndash;</span>
-                        <span><strong>&bdquo;Cookies&ldquo;</strong> sind Datendateien, die auf einem Gerät oder Computer gespeichert werden und häufig eine anonyme eindeutige Kennung enthalten. Weitere Informationen zu Cookies und zum Deaktivieren von Cookies sind unter <a href="http://www.allaboutcookies.org" target="_blank" rel="noopener noreferrer" class="text-brand-gold hover:underline">allaboutcookies.org</a> zu finden.</span>
-                    </li>
-                    <li class="flex items-start gap-3">
-                        <span class="text-brand-muted shrink-0 mt-0.5">&ndash;</span>
-                        <span><strong>&bdquo;Protokolldateien&ldquo;</strong> protokollieren Aktionen auf der Website und erfassen Daten wie IP-Adresse, Browsertyp, Internetdienstanbieter, verweisende/Ausstiegsseiten sowie Datums-/Uhrzeitstempel.</span>
-                    </li>
-                    <li class="flex items-start gap-3">
-                        <span class="text-brand-muted shrink-0 mt-0.5">&ndash;</span>
-                        <span><strong>&bdquo;Web Beacons&ldquo;, &bdquo;Tags&ldquo; und &bdquo;Pixel&ldquo;</strong> sind elektronische Dateien zur Erfassung von Informationen dazu, wie Sie auf der Website navigieren.</span>
-                    </li>
-                </ul>
-                <p class="mt-4">
-                    Wenn Sie auf der Website etwas kaufen oder versuchen, etwas zu kaufen, erfassen wir außerdem bestimmte Informationen über Ihrer Person. Dazu gehören Name, Rechnungsadresse, Lieferadresse, Zahlungsinformationen, E-Mail-Adresse und Telefonnummer. Wir bezeichnen diese Angaben als &bdquo;Bestellinformationen&ldquo;.
-                </p>
-                <p class="mt-4">
-                    Mit &bdquo;personenbezogene Daten&ldquo; in dieser Datenschutzerklärung bezeichnen wir sowohl Geräteinformationen als auch Bestellinformationen.
+                <p>
+                    Markus Rehkugler<br />
+                    Dr. Toribio Pacheco 4750<br />
+                    1412 Asunci&oacute;n – Recoleta (Paraguay)<br />
+                    {% trans "E-Mail:" %} <a href="mailto:info@rehkugler.info" class="text-brand-gold hover:underline">info@rehkugler.info</a>
                 </p>
             </div>
 
-            <!-- Verwendung -->
+            <!-- Überblick -->
             <div>
-                <h2 class="text-lg font-bold text-brand-text mb-3">{% trans "Wie verwenden wir Ihre personenbezogenen Daten?" %}</h2>
-                <p class="mb-4">
-                    {% trans "Wir verwenden die von uns erfassten Bestellinformationen in der Regel zur Ausführung von Bestellungen, die wir über die Website erhalten (unter anderem zur Verarbeitung Ihrer Zahlungsinformationen, Versandbereitstellung und Zusendung von Rechnungen und/oder Bestellbestätigungen)." %}
+                <h2 class="text-lg font-bold text-brand-text mb-3">{% trans "Allgemeines zur Datenverarbeitung" %}</h2>
+                <p>
+                    {% trans "Diese Website ist eine rein informatorische Präsenz ohne Online-Shop, Kontaktformular oder Nutzerregistrierung. Wir erheben so wenig personenbezogene Daten wie möglich. Die nachfolgende Erklärung gibt Ihnen einen Überblick darüber, welche Daten beim Besuch dieser Website verarbeitet werden." %}
                 </p>
-                <p class="mb-4">{% trans "Außerdem verwenden wir diese Bestellinformation zur:" %}</p>
+            </div>
+
+            <!-- Hosting & Server-Logfiles -->
+            <div>
+                <h2 class="text-lg font-bold text-brand-text mb-3">{% trans "Hosting und Server-Logfiles" %}</h2>
+                <p class="mb-3">
+                    {% trans "Diese Website wird bei einem externen Dienstleister gehostet (Hoster). Beim Aufruf dieser Website erhebt der Hoster automatisch Informationen in sogenannten Server-Logfiles, die Ihr Browser automatisch übermittelt. Dies sind:" %}
+                </p>
                 <ul class="space-y-2 ml-4">
-                    <li class="flex items-start gap-3"><span class="text-brand-muted shrink-0 mt-0.5">&ndash;</span><span>{% trans "Kommunikation mit Ihnen" %}</span></li>
-                    <li class="flex items-start gap-3"><span class="text-brand-muted shrink-0 mt-0.5">&ndash;</span><span>{% trans "Prüfung unserer Bestellungen auf potenzielle Risiken oder Betrug" %}</span></li>
-                    <li class="flex items-start gap-3"><span class="text-brand-muted shrink-0 mt-0.5">&ndash;</span><span>{% trans "Bereitstellung von Informationen oder Werbung im Zusammenhang mit unseren Produkten oder Dienstleistungen an Sie, sofern dies mit Ihren Datenschutzeinstellungen im Einklang steht" %}</span></li>
+                    <li class="flex items-start gap-3"><span class="text-brand-muted shrink-0 mt-0.5">&ndash;</span><span>{% trans "IP-Adresse des anfragenden Geräts" %}</span></li>
+                    <li class="flex items-start gap-3"><span class="text-brand-muted shrink-0 mt-0.5">&ndash;</span><span>{% trans "Datum und Uhrzeit der Anfrage" %}</span></li>
+                    <li class="flex items-start gap-3"><span class="text-brand-muted shrink-0 mt-0.5">&ndash;</span><span>{% trans "Browsertyp und -version" %}</span></li>
+                    <li class="flex items-start gap-3"><span class="text-brand-muted shrink-0 mt-0.5">&ndash;</span><span>{% trans "Betriebssystem" %}</span></li>
+                    <li class="flex items-start gap-3"><span class="text-brand-muted shrink-0 mt-0.5">&ndash;</span><span>{% trans "Referrer-URL (zuvor besuchte Seite)" %}</span></li>
+                    <li class="flex items-start gap-3"><span class="text-brand-muted shrink-0 mt-0.5">&ndash;</span><span>{% trans "Übertragene Datenmenge" %}</span></li>
                 </ul>
-                <p class="mt-4">
-                    Wir verwenden die von uns erfassten Geräteinformationen für die Prüfung auf potenzielle Risiken und Betrug (insbesondere Ihre IP-Adresse) und allgemein zur Verbesserung und Optimierung unserer Website (z.B. mithilfe von Analysen zum Navigationsverhalten unserer Kunden und ihrer Interaktion mit der Website sowie zum Beurteilen des Erfolgs unserer Marketing- und Werbekampagnen). Ebenfalls zur Nutzung von Werbung und Retargeting.
+                <p class="mt-3">
+                    {% trans "Die Erfassung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Der Websitebetreiber hat ein berechtigtes Interesse an der technisch fehlerfreien Darstellung und Absicherung seiner Website. Die Server-Logfiles werden in der Regel nach 30 Tagen automatisch gelöscht." %}
                 </p>
             </div>
 
-            <!-- Weitergabe -->
+            <!-- SSL/TLS -->
             <div>
-                <h2 class="text-lg font-bold text-brand-text mb-3">{% trans "Weitergabe Ihrer personenbezogenen Daten" %}</h2>
-                <p class="mb-4">
-                    Wir geben Ihre personenbezogenen Daten an Dritte weiter, die uns bei der Verwendung Ihrer personenbezogenen Daten wie oben beschrieben unterstützen. Wir verwenden bspw. Google Analytics, um zu verstehen, wie unsere Kunden die Website nutzen. Weitere Informationen zur Verwendung Ihrer personenbezogenen Daten durch Google finden Sie hier: <a href="https://policies.google.com/privacy?hl=de" target="_blank" rel="noopener noreferrer" class="text-brand-gold hover:underline">policies.google.com/privacy</a>. Hier können Sie Google Analytics deaktivieren: <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer" class="text-brand-gold hover:underline">tools.google.com/dlpage/gaoptout</a>.
-                </p>
+                <h2 class="text-lg font-bold text-brand-text mb-3">{% trans "SSL- bzw. TLS-Verschlüsselung" %}</h2>
                 <p>
-                    {% trans "Schließlich können wir Ihre personenbezogenen Daten auch weitergeben, um geltende Gesetze und Vorschriften einzuhalten, um auf eine Vorladung, einen Durchsuchungsbefehl oder eine andere rechtmäßige Anfrage nach Informationen, die wir erhalten, zu reagieren oder um unsere Rechte anderweitig zu schützen." %}
+                    {% trans 'Diese Website nutzt aus Sicherheitsgründen eine SSL- bzw. TLS-Verschlüsselung. Eine verschlüsselte Verbindung erkennen Sie daran, dass die Adresszeile des Browsers von „http://" auf „https://" wechselt und an dem Schloss-Symbol in Ihrer Browserzeile. Wenn die SSL- bzw. TLS-Verschlüsselung aktiviert ist, können die Daten, die Sie an uns übermitteln, nicht von Dritten mitgelesen werden.' %}
                 </p>
             </div>
 
-            <!-- Verhaltensbasierte Werbung -->
+            <!-- Rechtsgrundlagen -->
             <div>
-                <h2 class="text-lg font-bold text-brand-text mb-3">{% trans "Verhaltensbasierte Werbung" %}</h2>
-                <p class="mb-4">
-                    {% trans "Wie oben beschrieben verwenden wir Ihre personenbezogenen Daten, um Ihnen zielgerichtete Werbung oder Marketingmitteilungen zur Verfügung zu stellen, von denen wir glauben, dass sie für Sie von Interesse sein könnten." %}
-                </p>
-                <p class="mb-4">{% trans "Sie können zielgerichtete Anzeigen hier deaktivieren:" %}</p>
+                <h2 class="text-lg font-bold text-brand-text mb-3">{% trans "Rechtsgrundlagen" %}</h2>
+                <p class="mb-3">{% trans "Die Verarbeitung personenbezogener Daten auf dieser Website erfolgt auf Grundlage der folgenden Rechtsgrundlagen der DSGVO:" %}</p>
                 <ul class="space-y-2 ml-4">
-                    <li class="flex items-start gap-3"><span class="text-brand-muted shrink-0 mt-0.5">&ndash;</span><a href="https://www.facebook.com/settings/?tab=ads" target="_blank" rel="noopener noreferrer" class="text-brand-gold hover:underline">Facebook</a></li>
-                    <li class="flex items-start gap-3"><span class="text-brand-muted shrink-0 mt-0.5">&ndash;</span><a href="https://www.google.com/settings/ads/anonymous" target="_blank" rel="noopener noreferrer" class="text-brand-gold hover:underline">Google</a></li>
-                    <li class="flex items-start gap-3"><span class="text-brand-muted shrink-0 mt-0.5">&ndash;</span><a href="https://advertise.bingads.microsoft.com/en-us/resources/policies/personalized-ads" target="_blank" rel="noopener noreferrer" class="text-brand-gold hover:underline">Bing</a></li>
+                    <li class="flex items-start gap-3"><span class="text-brand-muted shrink-0 mt-0.5">&ndash;</span><span><strong>{% trans "Einwilligung" %} (Art. 6 Abs. 1 lit. a DSGVO)</strong> – {% trans "wenn Sie der Verwendung von Cookies über unseren Cookie-Banner zugestimmt haben." %}</span></li>
+                    <li class="flex items-start gap-3"><span class="text-brand-muted shrink-0 mt-0.5">&ndash;</span><span><strong>{% trans "Berechtigtes Interesse" %} (Art. 6 Abs. 1 lit. f DSGVO)</strong> – {% trans "für den technischen Betrieb der Website, die Bereitstellung der Inhalte und die Gewährleistung der IT-Sicherheit." %}</span></li>
                 </ul>
             </div>
 
-            <!-- Do Not Track -->
+            <!-- Cookies -->
             <div>
-                <h2 class="text-lg font-bold text-brand-text mb-3">Do Not Track</h2>
-                <p>
-                    Wir weisen Sie darauf hin, dass wir die Datenerfassungs- und -nutzungsverfahren unserer Website nicht ändern, wenn wir von Ihrem Browser ein &bdquo;Do Not Track&ldquo;-Signal erhalten.
+                <h2 class="text-lg font-bold text-brand-text mb-3">Cookies</h2>
+                <p class="mb-3">
+                    {% trans "Diese Website verwendet Cookies. Cookies sind kleine Textdateien, die auf Ihrem Endgerät gespeichert werden. Sie richten keinen Schaden an und enthalten keine Viren." %}
+                </p>
+                <p class="mb-3">{% trans "Folgende Cookies werden auf dieser Website eingesetzt:" %}</p>
+
+                <div class="overflow-x-auto">
+                    <table class="w-full text-sm border border-brand-muted/30">
+                        <thead>
+                            <tr class="bg-brand-bg text-left">
+                                <th class="px-3 py-2 border-b border-brand-muted/30 font-semibold">Cookie</th>
+                                <th class="px-3 py-2 border-b border-brand-muted/30 font-semibold">{% trans "Zweck" %}</th>
+                                <th class="px-3 py-2 border-b border-brand-muted/30 font-semibold">{% trans "Speicherdauer" %}</th>
+                                <th class="px-3 py-2 border-b border-brand-muted/30 font-semibold">{% trans "Typ" %}</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="px-3 py-2 border-b border-brand-muted/30 font-mono text-xs">cookie_consent</td>
+                                <td class="px-3 py-2 border-b border-brand-muted/30">{% trans "Speichert Ihre Cookie-Einstellung" %}</td>
+                                <td class="px-3 py-2 border-b border-brand-muted/30">1 {% trans "Jahr" %}</td>
+                                <td class="px-3 py-2 border-b border-brand-muted/30">{% trans "Notwendig" %}</td>
+                            </tr>
+                            <tr>
+                                <td class="px-3 py-2 border-b border-brand-muted/30 font-mono text-xs">csrftoken</td>
+                                <td class="px-3 py-2 border-b border-brand-muted/30">{% trans "Schutz vor Cross-Site-Request-Forgery-Angriffen" %}</td>
+                                <td class="px-3 py-2 border-b border-brand-muted/30">1 {% trans "Jahr" %}</td>
+                                <td class="px-3 py-2 border-b border-brand-muted/30">{% trans "Notwendig" %}</td>
+                            </tr>
+                            <tr>
+                                <td class="px-3 py-2 font-mono text-xs">sessionid</td>
+                                <td class="px-3 py-2">{% trans "Technische Sitzungsverwaltung" %}</td>
+                                <td class="px-3 py-2">{% trans "Sitzungsende" %}</td>
+                                <td class="px-3 py-2">{% trans "Notwendig" %}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <p class="mt-3">
+                    {% trans "Technisch notwendige Cookies werden auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO gesetzt. Sie sind für den ordnungsgemäßen Betrieb der Website erforderlich. Über unseren Cookie-Banner können Sie beim ersten Besuch wählen, ob Sie nur notwendige Cookies oder alle Cookies akzeptieren." %}
                 </p>
             </div>
 
-            <!-- Ihre Rechte -->
+            <!-- Externe Links -->
             <div>
-                <h2 class="text-lg font-bold text-brand-text mb-3">{% trans "Ihre Rechte" %}</h2>
-                <p class="mb-4">
-                    {% trans "Wenn Sie in Europa ansässig sind, haben Sie das Recht, auf die personenbezogenen Daten, die wir über Sie besitzen, zuzugreifen und deren Korrektur, Aktualisierung oder Löschung zu fordern. Wenn Sie dieses Recht ausüben möchten, setzen Sie sich über die nachstehenden Kontaktdaten mit uns in Verbindung." %}
+                <h2 class="text-lg font-bold text-brand-text mb-3">{% trans "Externe Dienste und Links" %}</h2>
+                <p class="mb-3">
+                    {% trans "Diese Website enthält Links zu externen Diensten. Beim Anklicken dieser Links verlassen Sie unsere Website. Für die Datenverarbeitung auf externen Seiten sind deren Betreiber verantwortlich:" %}
                 </p>
-                <p>
-                    {% trans "Wenn Sie in Europa ansässig sind, weisen wir außerdem darauf hin, dass wir Ihre Daten verarbeiten, um Verträge mit Ihnen zu erfüllen (z.B. wenn Sie über die Website eine Bestellung aufgeben) oder um unsere oben genannten berechtigten Geschäftsinteressen zu verfolgen. Bitte beachten Sie außerdem, dass Ihre Daten außerhalb von Europa, einschließlich Kanada und den Vereinigten Staaten, übertragen werden." %}
+                <ul class="space-y-2 ml-4">
+                    <li class="flex items-start gap-3">
+                        <span class="text-brand-muted shrink-0 mt-0.5">&ndash;</span>
+                        <span><strong>Calendly</strong> – {% trans "Terminbuchung." %} <a href="https://calendly.com/privacy" target="_blank" rel="noopener noreferrer" class="text-brand-gold hover:underline">{% trans "Datenschutzerklärung von Calendly" %}</a></span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <span class="text-brand-muted shrink-0 mt-0.5">&ndash;</span>
+                        <span><strong>WhatsApp</strong> (Meta Platforms) – {% trans "Kontaktaufnahme." %} <a href="https://www.whatsapp.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer" class="text-brand-gold hover:underline">{% trans "Datenschutzerklärung von WhatsApp" %}</a></span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <span class="text-brand-muted shrink-0 mt-0.5">&ndash;</span>
+                        <span><strong>Instagram</strong> (Meta Platforms) – {% trans "Soziales Netzwerk." %} <a href="https://privacycenter.instagram.com/policy" target="_blank" rel="noopener noreferrer" class="text-brand-gold hover:underline">{% trans "Datenschutzerklärung von Instagram" %}</a></span>
+                    </li>
+                </ul>
+                <p class="mt-3">
+                    {% trans "Wir weisen darauf hin, dass beim Aufrufen dieser externen Dienste Daten an deren Betreiber übertragen werden können, unter Umständen auch in Drittländer (z. B. USA). Weitere Informationen entnehmen Sie den jeweiligen Datenschutzerklärungen." %}
                 </p>
             </div>
 
-            <!-- Aufbewahrung -->
+            <!-- Kontaktaufnahme per E-Mail -->
             <div>
-                <h2 class="text-lg font-bold text-brand-text mb-3">{% trans "Aufbewahrung von Daten" %}</h2>
+                <h2 class="text-lg font-bold text-brand-text mb-3">{% trans "Kontaktaufnahme per E-Mail" %}</h2>
                 <p>
-                    {% trans "Wenn Sie eine Bestellung über die Website aufgeben, bewahren wir Ihre Bestellinformationen für unsere Aufzeichnungen auf, sofern Sie uns nicht auffordern, diese Daten zu löschen." %}
+                    {% trans "Wenn Sie uns per E-Mail kontaktieren, werden Ihre Angaben einschließlich der von Ihnen angegebenen Kontaktdaten zur Bearbeitung Ihrer Anfrage und für den Fall von Anschlussfragen bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre Einwilligung weiter. Die Verarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der Beantwortung Ihrer Anfrage). Die Daten werden gelöscht, sobald der Zweck der Speicherung entfällt." %}
+                </p>
+            </div>
+
+            <!-- Betroffenenrechte -->
+            <div>
+                <h2 class="text-lg font-bold text-brand-text mb-3">{% trans "Ihre Rechte als betroffene Person" %}</h2>
+                <p class="mb-3">{% trans "Ihnen stehen folgende Rechte gemäß DSGVO zu:" %}</p>
+                <ul class="space-y-2 ml-4">
+                    <li class="flex items-start gap-3"><span class="text-brand-muted shrink-0 mt-0.5">&ndash;</span><span><strong>{% trans "Auskunft" %}</strong> (Art. 15 DSGVO) – {% trans "Sie haben das Recht, Auskunft über Ihre bei uns gespeicherten Daten zu erhalten." %}</span></li>
+                    <li class="flex items-start gap-3"><span class="text-brand-muted shrink-0 mt-0.5">&ndash;</span><span><strong>{% trans "Berichtigung" %}</strong> (Art. 16 DSGVO) – {% trans "Sie können die Berichtigung unrichtiger Daten verlangen." %}</span></li>
+                    <li class="flex items-start gap-3"><span class="text-brand-muted shrink-0 mt-0.5">&ndash;</span><span><strong>{% trans "Löschung" %}</strong> (Art. 17 DSGVO) – {% trans "Sie können die Löschung Ihrer Daten verlangen, sofern keine gesetzlichen Aufbewahrungspflichten entgegenstehen." %}</span></li>
+                    <li class="flex items-start gap-3"><span class="text-brand-muted shrink-0 mt-0.5">&ndash;</span><span><strong>{% trans "Einschränkung der Verarbeitung" %}</strong> (Art. 18 DSGVO) – {% trans "Sie können die Einschränkung der Verarbeitung Ihrer Daten verlangen." %}</span></li>
+                    <li class="flex items-start gap-3"><span class="text-brand-muted shrink-0 mt-0.5">&ndash;</span><span><strong>{% trans "Datenübertragbarkeit" %}</strong> (Art. 20 DSGVO) – {% trans "Sie haben das Recht, Ihre Daten in einem gängigen Format zu erhalten." %}</span></li>
+                    <li class="flex items-start gap-3"><span class="text-brand-muted shrink-0 mt-0.5">&ndash;</span><span><strong>{% trans "Widerspruch" %}</strong> (Art. 21 DSGVO) – {% trans "Sie können der Verarbeitung Ihrer Daten jederzeit widersprechen, sofern die Verarbeitung auf Art. 6 Abs. 1 lit. f DSGVO beruht." %}</span></li>
+                    <li class="flex items-start gap-3"><span class="text-brand-muted shrink-0 mt-0.5">&ndash;</span><span><strong>{% trans "Widerruf der Einwilligung" %}</strong> (Art. 7 Abs. 3 DSGVO) – {% trans "Eine erteilte Einwilligung können Sie jederzeit mit Wirkung für die Zukunft widerrufen." %}</span></li>
+                </ul>
+                <p class="mt-3">
+                    {% trans "Zur Ausübung Ihrer Rechte wenden Sie sich bitte an:" %} <a href="mailto:info@rehkugler.info" class="text-brand-gold hover:underline">info@rehkugler.info</a>
+                </p>
+            </div>
+
+            <!-- Aufsichtsbehörde -->
+            <div>
+                <h2 class="text-lg font-bold text-brand-text mb-3">{% trans "Beschwerderecht bei einer Aufsichtsbehörde" %}</h2>
+                <p>
+                    {% trans "Wenn Sie der Ansicht sind, dass die Verarbeitung Ihrer personenbezogenen Daten gegen die DSGVO verstößt, haben Sie das Recht, sich bei einer Datenschutz-Aufsichtsbehörde zu beschweren (Art. 77 DSGVO). Sie können sich dabei an die Aufsichtsbehörde Ihres gewöhnlichen Aufenthaltsortes, Ihres Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes wenden." %}
                 </p>
             </div>
 
             <!-- Änderungen -->
             <div>
-                <h2 class="text-lg font-bold text-brand-text mb-3">{% trans "Änderungen" %}</h2>
+                <h2 class="text-lg font-bold text-brand-text mb-3">{% trans "Änderungen dieser Datenschutzerklärung" %}</h2>
                 <p>
-                    {% trans "Wir können diese Datenschutzerklärung gelegentlich ändern, um Änderungen unserer Vorgehensweisen zu berücksichtigen, oder aus anderen betrieblichen, rechtlichen oder aufsichtsrechtlichen Gründen." %}
+                    {% trans "Wir behalten uns vor, diese Datenschutzerklärung zu aktualisieren, um sie an geänderte Rechtslagen oder bei Änderungen des Dienstes anzupassen. Es gilt die jeweils aktuelle, auf dieser Webseite veröffentlichte Fassung." %}
                 </p>
-            </div>
-
-            <!-- Kontakt -->
-            <div>
-                <h2 class="text-lg font-bold text-brand-text mb-3">{% trans "Kontakt" %}</h2>
-                <p>
-                    Wenn Sie weitere Informationen zu unseren Datenschutzverfahren benötigen, Fragen haben oder eine Beschwerde einreichen möchten, kontaktieren Sie uns per E-Mail an <a href="mailto:info@rehkugler.info" class="text-brand-gold hover:underline">info@rehkugler.info</a> oder per Post an die folgende Adresse:
-                </p>
-                <p class="mt-3">
-                    Markus Rehkugler<br />
-                    Dr. Toribio Pacheco 4750<br />
-                    1412 Asunci&oacute;n – Recoleta (Paraguay)
+                <p class="mt-3 text-brand-muted">
+                    {% trans "Stand:" %} {% trans "Februar 2026" %}
                 </p>
             </div>
 
