@@ -11,9 +11,12 @@
 <section id="hero" class="relative min-h-screen flex items-center justify-center overflow-hidden">
 
     <!-- Hintergrundbild -->
-    <img src="{% static 'images/hero-architecture.jpg' %}"
+    <img src="{% static 'images/hero-architecture.webp' %}"
          alt="{% trans 'Modernes Architekturgebäude, klare geometrische Strukturen' %}"
-         class="absolute inset-0 w-full h-full object-cover" />
+         class="absolute inset-0 w-full h-full object-cover"
+         fetchpriority="high"
+         decoding="async"
+         loading="eager" />
     <!-- Dunkles Overlay -->
     <div class="absolute inset-0 bg-brand-blue/90"></div>
 
@@ -58,7 +61,7 @@
 
         <!-- Buttons -->
         <div class="fade-up delay-400 flex flex-col sm:flex-row gap-3 justify-center">
-            <a href="https://calendly.com/markusrehkugler/15min" target="_blank" rel="noopener noreferrer"
+            <a href="https://calendly.com/markusrehkugler/info-gesprach" target="_blank" rel="noopener noreferrer"
                class="inline-flex items-center justify-center gap-2 bg-brand-gold hover:bg-[#b8941e]
                       text-brand-text font-semibold text-sm px-7 py-4 transition-colors"
                aria-label="{% trans 'Kostenloses 15-minütiges Erstgespräch über Calendly buchen' %}">
@@ -297,9 +300,11 @@
             <div class="fade-up lg:col-span-2">
                 <div class="relative aspect-[4/5] max-w-xs mx-auto lg:mx-0">
                     <div class="absolute inset-0 border border-brand-gold/40 shadow-lg shadow-black/30 overflow-hidden">
-                        <img src="{% static 'images/portrait-markus-rehkugler.jpg' %}"
+                        <img src="{% static 'images/portrait-markus-rehkugler.webp' %}"
                              alt="{% trans 'Professionelles Porträtfoto von Markus Rehkugler' %}"
-                             class="w-full h-full object-cover" />
+                             class="w-full h-full object-cover"
+                             loading="lazy"
+                             decoding="async" />
                         <div class="absolute inset-x-0 bottom-0 h-1/4 bg-gradient-to-t from-brand-blue/70 to-transparent"></div>
                     </div>
                 </div>
@@ -359,7 +364,7 @@
 
                 <!-- CTA -->
                 <div class="fade-up delay-400 mt-10">
-                    <a href="https://calendly.com/markusrehkugler/15min" target="_blank" rel="noopener noreferrer"
+                    <a href="https://calendly.com/markusrehkugler/info-gesprach" target="_blank" rel="noopener noreferrer"
                        class="inline-flex items-center justify-center gap-2 bg-brand-gold hover:bg-[#b8941e]
                               text-brand-text font-semibold text-sm px-8 py-4 transition-colors"
                        aria-label="{% trans 'Kostenloses Erstgespräch über Calendly buchen' %}">
@@ -389,7 +394,7 @@
             "@id": "{{ SITE_URL }}/#person",
             "name": "Markus Rehkugler",
             "url": "{{ SITE_URL }}",
-            "image": "{{ SITE_URL }}{% static 'images/portrait-markus-rehkugler.jpg' %}",
+            "image": "{{ SITE_URL }}{% static 'images/portrait-markus-rehkugler.webp' %}",
             "description": "Immobilienexperte, Sachverständiger und Impulsgeber für persönliche Transformation mit über 25 Jahren Markterfahrung – national und international, insbesondere Deutschland & Paraguay.",
             "email": "mr@markus-rehkugler.info",
             "telephone": "+4915166555888",
@@ -426,7 +431,7 @@
             "@id": "{{ SITE_URL }}/#business",
             "name": "Markus Rehkugler – Immobilienexperte & Sachverständiger",
             "url": "{{ SITE_URL }}",
-            "image": "{{ SITE_URL }}{% static 'images/hero-architecture.jpg' %}",
+            "image": "{{ SITE_URL }}{% static 'images/hero-architecture.webp' %}",
             "description": "Fundierte Marktwert- und Verkehrswertgutachten, strategische Immobilienberatung und strukturierte Analysen – national und international, insbesondere Deutschland & Paraguay.",
             "founder": { "@id": "{{ SITE_URL }}/#person" },
             "telephone": "+4915166555888",
