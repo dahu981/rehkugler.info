@@ -120,5 +120,8 @@
     <script src="{% static 'js/main.js' %}" defer></script>
     {% block structured_data %}{% endblock %}
     {% block extra_js %}{% endblock %}
+
+    <!-- Metricool -->
+    <script>function loadScript(a){var b=document.getElementsByTagName("head")[0],c=document.createElement("script");c.type="text/javascript",c.src="https://tracker.metricool.com/resources/be.js",c.onreadystatechange=a,c.onload=a,b.appendChild(c)}loadScript(function(){beTracker.t({hash:"c97601937db15a84ebdfbbad916de317"})});</script>
 </body>
 </html>
