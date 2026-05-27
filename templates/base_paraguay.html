@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% load static i18n %}
+
+{% block title %}{% block py_title %}Paraguay – Markus Rehkugler{% endblock %}{% endblock %}
+{% block meta_description %}{% block py_meta_description %}Strukturierte Einordnung für Unternehmer und Investoren zu Paraguay – Steuern, Gesellschaften, Immobilien, Residencia.{% endblock %}{% endblock %}
+
+{% block og_title %}{% block py_og_title %}Paraguay – Markus Rehkugler{% endblock %}{% endblock %}
+{% block og_description %}{% block py_og_description %}Strukturierte Einordnung für Unternehmer und Investoren zu Paraguay.{% endblock %}{% endblock %}
+{% block twitter_title %}{% block py_twitter_title %}Paraguay – Markus Rehkugler{% endblock %}{% endblock %}
+{% block twitter_description %}{% block py_twitter_description %}Strukturierte Einordnung für Unternehmer und Investoren zu Paraguay.{% endblock %}{% endblock %}
+
+{% block preload %}{% endblock %}
+
+{% block extra_css %}
+<style>
+    body { background-color: #F7F3EA; }
+    #navbar.nav-solid {
+        background: rgba(36, 59, 85, 0.97);
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+    }
+    ::selection { background-color: #D4AF37; color: #222222; }
+    .gold-line::after { background: #D4AF37; }
+    .num-item::before { color: #243B55; }
+</style>
+{% endblock %}
+
+{% block header %}{% include 'partials/_header_paraguay.html' %}{% endblock %}

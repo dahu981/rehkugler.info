@@ -138,6 +138,10 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # --- Site URL (for canonical, OG, sitemap) ---
 SITE_URL = os.getenv('SITE_URL', 'https://www.rehkugler.info')
 
+# --- Calendly ---
+CALENDLY_URL = os.getenv('CALENDLY_URL', 'https://calendly.com/markusrehkugler/info-gesprach')
+CALENDLY_PARAGUAY_URL = os.getenv('CALENDLY_PARAGUAY_URL', 'https://calendly.com/markusrehkugler/paraguay-erstgespraech')
+
 # -------------------------------------------------------------------------
 # Logging Configuration
 # -------------------------------------------------------------------------

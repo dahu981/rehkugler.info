@@ -1,5 +1,7 @@
 from django.http import HttpResponse
-from django.shortcuts import render
+from django.shortcuts import render, redirect
+
+from .forms import LeadCaptureForm
 
 
 def home(request):
@@ -12,6 +14,70 @@ def datenschutz(request):
 
 def impressum(request):
     return render(request, 'core/impressum.html')
+
+
+# --- Paraguay Landing Pages ---
+
+def py_strukturberatung(request):
+    return render(request, 'core/paraguay/strukturberatung.html')
+
+
+def py_investieren(request):
+    return render(request, 'core/paraguay/investieren.html')
+
+
+def py_immobilien(request):
+    return render(request, 'core/paraguay/immobilien.html')
+
+
+def py_leben(request):
+    return render(request, 'core/paraguay/leben.html')
+
+
+def py_videos(request):
+    return render(request, 'core/paraguay/videos.html')
+
+
+# --- Paraguay Downloads ---
+
+def py_download_eas(request):
+    if request.method == 'POST':
+        form = LeadCaptureForm(request.POST)
+        if form.is_valid():
+            lead = form.save(commit=False)
+            lead.resource = 'eas'
+            lead.save()
+            return redirect('core:py_download_eas_success')
+    else:
+        form = LeadCaptureForm()
+    return render(request, 'core/paraguay/download_eas.html', {'form': form})
+
+
+def py_download_eas_success(request):
+    return render(request, 'core/paraguay/download_success.html', {
+        'resource_title': 'EAS Paraguay – Der Praxisleitfaden',
+        'download_file': 'downloads/EAS-Paraguay-Leitfaden.pdf',
+    })
+
+
+def py_download_steuern(request):
+    if request.method == 'POST':
+        form = LeadCaptureForm(request.POST)
+        if form.is_valid():
+            lead = form.save(commit=False)
+            lead.resource = 'steuern'
+            lead.save()
+            return redirect('core:py_download_steuern_success')
+    else:
+        form = LeadCaptureForm()
+    return render(request, 'core/paraguay/download_steuern.html', {'form': form})
+
+
+def py_download_steuern_success(request):
+    return render(request, 'core/paraguay/download_success.html', {
+        'resource_title': 'Steuern in Paraguay – Das Wichtigste im Überblick',
+        'download_file': 'downloads/Steuern-Paraguay-Handout.pdf',
+    })
 
 
 def robots_txt(request):

@@ -1,0 +1,104 @@
+{% load static i18n %}
+
+<!-- Navigation Paraguay — transparent, wird solid beim Scrollen -->
+<nav id="navbar" aria-label="{% trans 'Hauptnavigation' %}"
+     class="fixed top-0 left-0 right-0 z-50 transition-all duration-500 py-5 px-6 lg:px-12">
+    <div class="max-w-6xl mx-auto flex items-center justify-between">
+
+        <a href="{% url 'core:home' %}" class="flex items-center gap-3" aria-label="Markus Rehkugler – {% trans 'Startseite' %}">
+            <img src="{% static 'images/LogoMR.webp' %}" alt="MR Logo" style="width:2rem;height:2rem" class="object-contain shrink-0 drop-shadow-[0_0_1px_rgba(212,175,55,0.6)]">
+            <div class="leading-snug">
+                <span class="block text-white font-semibold text-sm tracking-wide">Markus Rehkugler</span>
+                <span class="block text-py-gold text-[11px]">Paraguay</span>
+            </div>
+        </a>
+
+        <div class="hidden lg:flex items-center gap-8">
+            <a href="{% url 'core:home' %}" class="text-white/70 hover:text-white text-sm transition-colors gold-line">{% trans "Start" %}</a>
+
+            <!-- Paraguay Dropdown -->
+            <div class="relative group" id="py-dropdown">
+                <button id="py-dropdown-toggle" class="text-white/70 hover:text-white text-sm transition-colors gold-line flex items-center gap-1" aria-expanded="false" aria-haspopup="true">
+                    Paraguay
+                    <svg class="w-3 h-3 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div id="py-dropdown-menu" class="absolute top-full left-0 mt-3 w-64 bg-py-navy/95 backdrop-blur-md border border-white/10 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 shadow-xl">
+                    <a href="{% url 'core:py_strukturberatung' %}" class="block px-5 py-3 text-sm text-white/70 hover:text-white hover:bg-white/5 transition-colors">Struktur &amp; Orientierung</a>
+                    <a href="{% url 'core:py_investieren' %}" class="block px-5 py-3 text-sm text-white/70 hover:text-white hover:bg-white/5 transition-colors">Investieren</a>
+                    <a href="{% url 'core:py_immobilien' %}" class="block px-5 py-3 text-sm text-white/70 hover:text-white hover:bg-white/5 transition-colors">Immobilien</a>
+                    <a href="{% url 'core:py_leben' %}" class="block px-5 py-3 text-sm text-white/70 hover:text-white hover:bg-white/5 transition-colors">Leben in Paraguay</a>
+                    <a href="{% url 'core:py_videos' %}" class="block px-5 py-3 text-sm text-white/70 hover:text-white hover:bg-white/5 transition-colors border-t border-white/5">Videos</a>
+                </div>
+            </div>
+
+            {% include 'partials/_language_switcher.html' %}
+
+            <a href="{{ CALENDLY_PARAGUAY_URL }}" target="_blank" rel="noopener noreferrer"
+               class="bg-py-gold hover:bg-[#c9a430] text-py-text text-sm font-semibold px-5 py-2.5 transition-colors"
+               aria-label="{% trans 'Erstgespräch anfragen' %}">
+                {% trans "Erstgespräch anfragen" %}
+            </a>
+        </div>
+
+        <button id="mobile-toggle" aria-label="{% trans 'Menü öffnen' %}" aria-expanded="false"
+                class="lg:hidden p-2 text-white">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 6h16M4 12h16M4 18h16"/>
+            </svg>
+        </button>
+    </div>
+</nav>
+
+<!-- Mobile menu Paraguay -->
+<div id="mobile-menu" role="dialog" aria-modal="true" aria-label="{% trans 'Mobile Navigation' %}"
+     class="fixed inset-0 bg-py-navy transform translate-x-full transition-transform duration-300 flex flex-col"
+     style="z-index: 60">
+    <div class="flex items-center justify-between px-6 pt-5 pb-4 border-b border-white/10">
+        <span class="text-white font-semibold text-sm">Markus Rehkugler · Paraguay</span>
+        <button id="close-menu" aria-label="{% trans 'Menü schließen' %}" class="p-2 text-white/70 hover:text-white">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 18L18 6M6 6l12 12"/>
+            </svg>
+        </button>
+    </div>
+    <nav class="flex-1 flex flex-col items-center justify-center gap-6" aria-label="{% trans 'Mobile Hauptnavigation' %}">
+        <a href="{% url 'core:home' %}" class="text-white/50 text-lg hover:text-py-gold transition-colors">{% trans "Startseite" %}</a>
+
+        <div class="w-16 h-px bg-py-gold/30"></div>
+
+        <a href="{% url 'core:py_strukturberatung' %}" class="text-white text-xl font-light hover:text-py-gold transition-colors">Struktur &amp; Orientierung</a>
+        <a href="{% url 'core:py_investieren' %}" class="text-white text-xl font-light hover:text-py-gold transition-colors">Investieren</a>
+        <a href="{% url 'core:py_immobilien' %}" class="text-white text-xl font-light hover:text-py-gold transition-colors">Immobilien</a>
+        <a href="{% url 'core:py_leben' %}" class="text-white text-xl font-light hover:text-py-gold transition-colors">Leben in Paraguay</a>
+        <a href="{% url 'core:py_videos' %}" class="text-white text-xl font-light hover:text-py-gold transition-colors">Videos</a>
+
+        <!-- Mobile Language Switcher -->
+        {% get_current_language as CURRENT_LANGUAGE %}
+        {% get_available_languages as languages %}
+        <div class="flex items-center gap-3 text-sm text-white/40 mt-2">
+            {% for lang_code, lang_name in languages %}
+                {% if lang_code == CURRENT_LANGUAGE %}
+                    <span class="text-white font-semibold" aria-current="true">{{ lang_code|upper }}</span>
+                {% else %}
+                    <form method="post" action="{% url 'set_language' %}" class="inline">
+                        {% csrf_token %}
+                        <input type="hidden" name="language" value="{{ lang_code }}">
+                        <input type="hidden" name="next" value="{% if CURRENT_LANGUAGE == 'de' %}{{ request.path }}{% else %}{{ request.path|slice:'3:' }}{% endif %}">
+                        <button type="submit" class="hover:text-py-gold transition-colors">{{ lang_code|upper }}</button>
+                    </form>
+                {% endif %}
+                {% if not forloop.last %}<span>|</span>{% endif %}
+            {% endfor %}
+        </div>
+
+        <div class="mt-4 flex flex-col gap-3 w-64">
+            <a href="{{ CALENDLY_PARAGUAY_URL }}" target="_blank" rel="noopener noreferrer"
+               class="text-center bg-py-gold hover:bg-[#c9a430] text-py-text font-semibold py-3.5 transition-colors"
+               aria-label="{% trans 'Erstgespräch anfragen' %}">
+                {% trans "Erstgespräch anfragen" %}
+            </a>
+        </div>
+    </nav>
+</div>

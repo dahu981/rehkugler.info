@@ -1,0 +1,51 @@
+{% extends 'base_paraguay.html' %}
+{% load static i18n %}
+
+{% block py_title %}Download – {{ resource_title }} | Markus Rehkugler{% endblock %}
+
+{% block content %}
+
+<!-- HERO -->
+<section class="relative min-h-[50vh] flex items-center justify-center overflow-hidden">
+    <div class="absolute inset-0 bg-py-navy"></div>
+    <div class="relative z-10 text-center max-w-3xl mx-auto px-6 py-28">
+        <p class="fade-up text-py-gold text-xs font-semibold tracking-[0.25em] uppercase mb-8">Ihr Download</p>
+        <h1 class="fade-up delay-100 text-3xl lg:text-5xl font-bold text-white leading-[1.08] mb-8">
+            {{ resource_title }}
+        </h1>
+        <div class="fade-up delay-200 w-16 h-px bg-py-gold mx-auto"></div>
+    </div>
+</section>
+
+<!-- Download -->
+<section class="py-24 lg:py-32 bg-white">
+    <div class="max-w-xl mx-auto px-6 text-center">
+        <div class="fade-up space-y-5 mb-10">
+            <p class="text-py-text/80 leading-relaxed">Vielen Dank. Ihr Download steht bereit.</p>
+        </div>
+
+        <div class="fade-up delay-100 mb-16">
+            <a href="{% static download_file %}"
+               download
+               class="inline-flex items-center justify-center gap-2 bg-py-gold hover:bg-[#c9a430] text-py-text font-semibold text-sm px-8 py-4 transition-colors">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                </svg>
+                PDF herunterladen
+            </a>
+        </div>
+
+        <div class="fade-up delay-200 border-t border-py-navy/10 pt-10">
+            <p class="text-py-text/60 leading-relaxed mb-6">Wenn Sie Ihre konkrete Situation einordnen wollen, ist ein Gespräch der nächste Schritt.</p>
+            <a href="{{ CALENDLY_PARAGUAY_URL }}" target="_blank" rel="noopener noreferrer"
+               class="inline-flex items-center justify-center gap-2 border border-py-gold text-py-text font-medium text-sm px-7 py-3.5 hover:bg-py-gold/10 transition-colors">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+                </svg>
+                Erstgespräch anfragen
+            </a>
+        </div>
+    </div>
+</section>
+
+{% endblock %}

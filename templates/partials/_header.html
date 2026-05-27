@@ -16,6 +16,24 @@
         <div class="hidden lg:flex items-center gap-8">
             <a href="{% url 'core:home' %}#hero" class="text-white/70 hover:text-white text-sm transition-colors gold-line">{% trans "Start" %}</a>
             <a href="{% url 'core:home' %}#services" class="text-white/70 hover:text-white text-sm transition-colors gold-line">{% trans "Leistungen" %}</a>
+
+            <!-- Paraguay Dropdown -->
+            <div class="relative group">
+                <button class="text-white/70 hover:text-white text-sm transition-colors gold-line flex items-center gap-1" aria-haspopup="true">
+                    Paraguay
+                    <svg class="w-3 h-3 transition-transform group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                    </svg>
+                </button>
+                <div class="absolute top-full left-0 mt-3 w-64 bg-brand-blue/95 backdrop-blur-md border border-white/10 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 shadow-xl">
+                    <a href="{% url 'core:py_strukturberatung' %}" class="block px-5 py-3 text-sm text-white/70 hover:text-white hover:bg-white/5 transition-colors">Struktur &amp; Orientierung</a>
+                    <a href="{% url 'core:py_investieren' %}" class="block px-5 py-3 text-sm text-white/70 hover:text-white hover:bg-white/5 transition-colors">Investieren</a>
+                    <a href="{% url 'core:py_immobilien' %}" class="block px-5 py-3 text-sm text-white/70 hover:text-white hover:bg-white/5 transition-colors">Immobilien</a>
+                    <a href="{% url 'core:py_leben' %}" class="block px-5 py-3 text-sm text-white/70 hover:text-white hover:bg-white/5 transition-colors">Leben in Paraguay</a>
+                    <a href="{% url 'core:py_videos' %}" class="block px-5 py-3 text-sm text-white/70 hover:text-white hover:bg-white/5 transition-colors border-t border-white/5">Videos</a>
+                </div>
+            </div>
+
             <a href="{% url 'core:home' %}#contact" class="text-white/70 hover:text-white text-sm transition-colors gold-line">{% trans "Kontakt" %}</a>
             {% include 'partials/_language_switcher.html' %}
             <a href="https://calendly.com/markusrehkugler/info-gesprach" target="_blank" rel="noopener noreferrer"
@@ -49,6 +67,17 @@
     <nav class="flex-1 flex flex-col items-center justify-center gap-8" aria-label="{% trans 'Mobile Hauptnavigation' %}">
         <a href="{% url 'core:home' %}#hero" class="text-white text-2xl font-light hover:text-brand-gold transition-colors">{% trans "Start" %}</a>
         <a href="{% url 'core:home' %}#services" class="text-white text-2xl font-light hover:text-brand-gold transition-colors">{% trans "Leistungen" %}</a>
+
+        <!-- Paraguay Mobile -->
+        <div class="w-16 h-px bg-brand-gold/30"></div>
+        <p class="text-white/30 text-xs font-semibold tracking-[0.2em] uppercase">Paraguay</p>
+        <a href="{% url 'core:py_strukturberatung' %}" class="text-white text-lg font-light hover:text-brand-gold transition-colors">Struktur &amp; Orientierung</a>
+        <a href="{% url 'core:py_investieren' %}" class="text-white text-lg font-light hover:text-brand-gold transition-colors">Investieren</a>
+        <a href="{% url 'core:py_immobilien' %}" class="text-white text-lg font-light hover:text-brand-gold transition-colors">Immobilien</a>
+        <a href="{% url 'core:py_leben' %}" class="text-white text-lg font-light hover:text-brand-gold transition-colors">Leben in Paraguay</a>
+        <a href="{% url 'core:py_videos' %}" class="text-white text-lg font-light hover:text-brand-gold transition-colors">Videos</a>
+        <div class="w-16 h-px bg-brand-gold/30"></div>
+
         <a href="{% url 'core:home' %}#contact" class="text-white text-2xl font-light hover:text-brand-gold transition-colors">{% trans "Kontakt" %}</a>
 
         <!-- Mobile Language Switcher -->

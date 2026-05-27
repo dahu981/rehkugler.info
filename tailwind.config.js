@@ -14,6 +14,12 @@ module.exports = {
           muted: '#a8a29e',
           gold:  '#cfa935',
           blue:  '#334155',
+        },
+        py: {
+          navy: '#243B55',
+          gold: '#D4AF37',
+          bg:   '#F7F3EA',
+          text: '#222222',
         }
       },
       fontFamily: {

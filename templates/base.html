@@ -109,13 +109,13 @@
 </head>
 <body class="bg-white text-brand-body font-sans antialiased">
 
-    {% include 'partials/_header.html' %}
+    {% block header %}{% include 'partials/_header.html' %}{% endblock %}
 
     <main>
         {% block content %}{% endblock %}
     </main>
 
-    {% include 'partials/_footer.html' %}
+    {% block footer %}{% include 'partials/_footer.html' %}{% endblock %}
 
     <script src="{% static 'js/main.js' %}" defer></script>
     {% block structured_data %}{% endblock %}

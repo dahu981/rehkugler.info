@@ -1,0 +1,46 @@
+{% extends 'base_paraguay.html' %}
+{% load static i18n %}
+
+{% block py_title %}Steuern in Paraguay – Überblick herunterladen | Markus Rehkugler{% endblock %}
+{% block py_meta_description %}Kompakter Überblick über das paraguayische Steuersystem: Territorialprinzip, IVA, IRE, IDU, IRP. Kostenloser Download.{% endblock %}
+
+{% block content %}
+
+<!-- HERO -->
+<section class="relative min-h-[50vh] flex items-center justify-center overflow-hidden">
+    <div class="absolute inset-0 bg-py-navy"></div>
+    <div class="relative z-10 text-center max-w-3xl mx-auto px-6 py-28">
+        <p class="fade-up text-py-gold text-xs font-semibold tracking-[0.25em] uppercase mb-8">Kostenloser Überblick</p>
+        <h1 class="fade-up delay-100 text-3xl lg:text-5xl font-bold text-white leading-[1.08] mb-8">
+            Steuern in Paraguay – Das Wichtigste im Überblick
+        </h1>
+        <div class="fade-up delay-200 w-16 h-px bg-py-gold mx-auto"></div>
+    </div>
+</section>
+
+<!-- Form -->
+<section class="py-24 lg:py-32 bg-white">
+    <div class="max-w-xl mx-auto px-6">
+        <div class="fade-up space-y-5 text-py-text/80 leading-relaxed mb-10">
+            <p>Ein kompakter Überblick über das paraguayische Steuersystem: Territorialprinzip, IVA, IRE, IDU, IRP – was gilt, was nicht gilt, und was für Deutsche mit deutschen Einkünften oder Gesellschaften relevant wird.</p>
+            <p>Kostenlos, nach Angabe Ihrer E-Mail-Adresse.</p>
+        </div>
+
+        <form method="post" class="fade-up delay-100">
+            {% csrf_token %}
+            <div class="flex flex-col sm:flex-row gap-3">
+                {{ form.email }}
+                <button type="submit"
+                        class="bg-py-gold hover:bg-[#c9a430] text-py-text font-semibold text-sm px-6 py-3 transition-colors whitespace-nowrap">
+                    Überblick anfordern
+                </button>
+            </div>
+            {% if form.email.errors %}
+            <p class="text-red-600 text-sm mt-2">{{ form.email.errors.0 }}</p>
+            {% endif %}
+            <p class="text-py-text/40 text-xs mt-4">Ihre E-Mail-Adresse wird ausschließlich für den Versand des Überblicks verwendet. <a href="{% url 'core:datenschutz' %}" class="underline hover:text-py-gold">Datenschutz</a></p>
+        </form>
+    </div>
+</section>
+
+{% endblock %}
