@@ -524,3 +524,527 @@ msgstr "Solo necesarias"
 
 msgid "Akzeptieren"
 msgstr "Aceptar"
+
+# Paraguay – Unterseiten
+
+msgid "Paraguay verstehen – Struktur & Orientierung | Markus Rehkugler"
+msgstr "Entender Paraguay – Estructura & orientación | Markus Rehkugler"
+
+msgid "EAS, Steuern, Bankfähigkeit, Residencia. Strukturierte Einordnung für Unternehmer und Investoren, die Paraguay ernsthaft prüfen – aus der Praxis, nicht vom Hörensagen."
+msgstr "EAS, impuestos, capacidad bancaria, Residencia. Orientación estructurada para empresarios e inversores que evalúan Paraguay con seriedad – desde la práctica, no de oídas."
+
+msgid "EAS, Steuern, Bankfähigkeit, Residencia. Strukturierte Einordnung für Unternehmer und Investoren, die Paraguay ernsthaft prüfen."
+msgstr "EAS, impuestos, capacidad bancaria, Residencia. Orientación estructurada para empresarios e inversores que evalúan Paraguay con seriedad."
+
+msgid "Struktur & Orientierung"
+msgstr "Estructura & orientación"
+
+msgid "Paraguay verstehen, bevor man handelt."
+msgstr "Entender Paraguay antes de actuar."
+
+msgid "Ich lebe seit 2019/2020 zwischen Deutschland und Paraguay – mit eigenen Gesellschaften, Bankprozessen, Steuerpflichten und allem, was dazugehört."
+msgstr "Vivo desde 2019/2020 entre Alemania y Paraguay – con sociedades propias, procesos bancarios, obligaciones fiscales y todo lo que ello implica."
+
+msgid "Irgendwann haben mich die ersten Deutschen angeschrieben – mit Fragen, die ich selbst hatte, als ich angefangen habe. Seitdem helfe ich Unternehmern und Investoren, Paraguay strukturiert einzuordnen: bevor Fehler passieren, bevor Geld fließt."
+msgstr "En algún momento, los primeros alemanes empezaron a escribirme – con preguntas que yo mismo tuve al principio. Desde entonces ayudo a empresarios e inversores a evaluar Paraguay de forma estructurada: antes de que se cometan errores, antes de que fluya el dinero."
+
+msgid "Erstgespräch anfragen"
+msgstr "Solicitar primera consulta"
+
+msgid "Die wirklichen Fragen"
+msgstr "Las verdaderas preguntas"
+
+msgid "Die Fragen, die wirklich zählen."
+msgstr "Las preguntas que realmente importan."
+
+msgid "Es gibt viel Content über Paraguay. Wer Cédula-Behördengänge, Essen und Alltag sucht, wird gut versorgt. Was sich schwerer findet, sind Antworten auf die Fragen, die ernsthafte Entscheidungen brauchen:"
+msgstr "Hay mucho contenido sobre Paraguay. Quien busque trámites de Cédula, gastronomía y vida cotidiana encontrará información de sobra. Lo que resulta más difícil de encontrar son respuestas a las preguntas que requieren decisiones serias:"
+
+msgid "Was passiert mit meiner GmbH, wenn ich den deutschen Wohnsitz aufgebe? Welche Gesellschaftsform passt zu meiner Tätigkeit – und welche wirkt nur auf dem Papier sauber? Bekomme ich in Paraguay wirklich ein Bankkonto – und unter welchen Voraussetzungen? Wie bringe ich Kapital nach Paraguay, ohne dabei Probleme zu bekommen – in Paraguay oder in Deutschland?"
+msgstr "¿Qué ocurre con mi GmbH si renuncio a mi residencia fiscal en Alemania? ¿Qué forma societaria se adapta a mi actividad – y cuál solo parece correcta sobre el papel? ¿Puedo realmente obtener una cuenta bancaria en Paraguay – y bajo qué condiciones? ¿Cómo transfiero capital a Paraguay sin generar problemas – ni en Paraguay ni en Alemania?"
+
+msgid "Diese Fragen haben keine einfachen Antworten. Sie hängen von der konkreten Situation ab: Einkünfte, Gesellschaften, Vermögen, Absichten. Wer hier mit Allgemeinaussagen arbeitet, trifft schlechte Entscheidungen."
+msgstr "Estas preguntas no tienen respuestas simples. Dependen de la situación concreta: ingresos, sociedades, patrimonio, intenciones. Quien aquí trabaje con generalidades tomará malas decisiones."
+
+msgid "Was ich einordnen kann"
+msgstr "Lo que puedo evaluar"
+
+msgid "Womit ich helfe."
+msgstr "En qué ayudo."
+
+msgid "Ich bin Diplom-Finanzwirt, und ich habe in Paraguay selbst das durchlaufen, was viele als nächstes vorhaben: Gesellschaft gründen, Steuerregistrierung, Bankprozesse, Cédula, Residencia, laufende Buchhaltung, Kapitalfluss aus Deutschland."
+msgstr "Soy Diplomado en Hacienda Pública y he pasado personalmente en Paraguay por todo lo que muchos tienen como siguiente paso: constituir una sociedad, registro fiscal, procesos bancarios, Cédula, Residencia, contabilidad corriente, flujo de capital desde Alemania."
+
+msgid "Das gibt mir eine Einschätzungsfähigkeit, die ich aus dem Lehrbuch nicht hätte. Ich weiß, wo es hakt, was länger dauert als erwartet und wo viele den ersten Fehler machen."
+msgstr "Eso me da una capacidad de evaluación que no habría obtenido de un libro de texto. Sé dónde surgen los problemas, qué tarda más de lo esperado y dónde muchos cometen su primer error."
+
+msgid "Konkret ordne ich ein:"
+msgstr "En concreto, evalúo:"
+
+msgid "Gesellschaftsformen"
+msgstr "Formas societarias"
+
+msgid "EAS, S.A. oder S.R.L.: welche wann sinnvoll ist, was sie im Alltag bedeutet und wo die Fallstricke liegen."
+msgstr "EAS, S.A. o S.R.L.: cuál conviene en cada caso, qué implica en el día a día y dónde están las trampas."
+
+msgid "Steuern"
+msgstr "Impuestos"
+
+msgid "Territorialprinzip, IVA, IRE, IDU, IRP in Paraguay; was davon in Deutschland nicht automatisch wegfällt, wenn man wegzieht."
+msgstr "Principio de territorialidad, IVA, IRE, IDU, IRP en Paraguay; qué parte de ello no desaparece automáticamente en Alemania al trasladarse."
+
+msgid "Bankfähigkeit"
+msgstr "Capacidad bancaria"
+
+msgid "Warum ein Konto in Paraguay kein Automatismus ist und was man vorbereiten muss."
+msgstr "Por qué una cuenta en Paraguay no es automática y qué hay que preparar."
+
+msgid "Kapitalfluss"
+msgstr "Flujo de capital"
+
+msgid "Mittelherkunftsnachweise, Transfers, was in Paraguay und in Deutschland zu beachten ist."
+msgstr "Justificación del origen de fondos, transferencias, lo que hay que tener en cuenta en Paraguay y en Alemania."
+
+msgid "Verbindliche steuerliche und rechtliche Fragen gehören zu paraguayischen Contadores, Abogados und Notaren sowie zu deutschen Steuerberatern und Rechtsanwälten. Ich helfe, die richtigen Menschen zusammenzubringen – und die richtigen Fragen zu stellen."
+msgstr "Las cuestiones fiscales y jurídicas vinculantes corresponden a Contadores, Abogados y notarios paraguayos, así como a asesores fiscales y abogados alemanes. Yo ayudo a reunir a las personas adecuadas – y a formular las preguntas correctas."
+
+msgid "Für wen"
+msgstr "Para quién"
+
+msgid "Für wen das passt."
+msgstr "Para quién es adecuado."
+
+msgid "Für Unternehmer, Selbständige und Investoren, die Paraguay strukturiert prüfen wollen – nicht spontan, nicht aus Frustration, sondern als ernsthafte Überlegung."
+msgstr "Para empresarios, autónomos e inversores que desean evaluar Paraguay de forma estructurada – no de manera espontánea, no por frustración, sino como una consideración seria."
+
+msgid "Die Frage ist nicht: „Wie komme ich schnell nach Paraguay?\" Die Frage ist: „Macht Paraguay für meine konkrete Situation Sinn – und wenn ja, wie gehe ich das richtig an?\""
+msgstr "La pregunta no es: «¿Cómo llego rápido a Paraguay?» La pregunta es: «¿Tiene sentido Paraguay para mi situación concreta – y si es así, cómo lo abordo correctamente?»"
+
+msgid "Genau das bespreche ich im Erstgespräch. Und ich sage auch klar, wenn die Antwort nein ist."
+msgstr "Eso es exactamente lo que trato en la primera consulta. Y también digo con claridad cuando la respuesta es no."
+
+msgid "Die Beratung durch Markus Rehkugler erfolgt als strukturierende, wirtschaftliche und organisatorische Beratung auf Basis langjähriger praktischer Erfahrung an der Schnittstelle Deutschland–Paraguay. Sie ersetzt keine Rechtsberatung, Steuerberatung oder notarielle Beratung."
+msgstr "La asesoría de Markus Rehkugler se presta como asesoría estructural, económica y organizativa, basada en una amplia experiencia práctica en la intersección Alemania–Paraguay. No sustituye al asesoramiento jurídico, fiscal ni notarial."
+
+msgid "Investieren in Paraguay – nüchtern betrachtet | Markus Rehkugler"
+msgstr "Invertir en Paraguay – una visión objetiva | Markus Rehkugler"
+
+msgid "Gesellschaften, Kapitalfluss, Immobilien, Grundstücke. Investitionseinordnung für Deutsche aus der Praxis – ohne versteckte Interessen."
+msgstr "Sociedades, flujo de capital, inmuebles, terrenos. Evaluación de inversiones para alemanes desde la práctica – sin intereses ocultos."
+
+msgid "Gesellschaften, Kapitalfluss, Immobilien, Grundstücke. Investitionseinordnung für Deutsche aus der Praxis."
+msgstr "Sociedades, flujo de capital, inmuebles, terrenos. Evaluación de inversiones para alemanes desde la práctica."
+
+msgid "Investieren"
+msgstr "Invertir"
+
+msgid "Investieren in Paraguay."
+msgstr "Invertir en Paraguay."
+
+msgid "Was ich selbst gelernt habe."
+msgstr "Lo que he aprendido por experiencia propia."
+
+msgid "Ich habe in Paraguay Gesellschaften gegründet, Grundstücke geprüft und Transaktionen begleitet. Manches hat funktioniert wie erwartet. Manches nicht. Beides ist nützlich, wenn man es weiß – bevor man selbst anfängt."
+msgstr "He constituido sociedades en Paraguay, evaluado terrenos y acompañado transacciones. Algunas cosas funcionaron como se esperaba. Otras no. Ambas experiencias son útiles cuando se conocen – antes de empezar uno mismo."
+
+msgid "Was Paraguay objektiv interessant macht"
+msgstr "Lo que hace objetivamente interesante a Paraguay"
+
+msgid "Die Fakten, nüchtern betrachtet."
+msgstr "Los hechos, vistos con objetividad."
+
+msgid "Paraguay besteuert nach dem Territorialprinzip. Ausländische Einkünfte bleiben grundsätzlich außen vor. Die Unternehmenssteuer (IRE) liegt bei maximal 10 % auf den Nettogewinn. Es gibt keine Vermögenssteuer auf internationales Kapital. Der Guaraní ist im lateinamerikanischen Vergleich sehr stabil. Die Regulierung ist überschaubar."
+msgstr "Paraguay tributa según el principio de territorialidad. Los ingresos del exterior quedan, en principio, fuera del alcance fiscal. El impuesto a la renta empresarial (IRE) es de un máximo del 10 % sobre el beneficio neto. No existe impuesto al patrimonio sobre capital internacional. El guaraní es muy estable en comparación con el resto de Latinoamérica. La regulación es moderada."
+
+msgid "Das sind objektive Eigenschaften, die erklären, warum Paraguay für Unternehmer und Investoren aus dem deutschsprachigen Raum interessant ist."
+msgstr "Estas son características objetivas que explican por qué Paraguay resulta interesante para empresarios e inversores del ámbito germanoparlante."
+
+msgid "Gleichzeitig ist Paraguay ein Frontier-Markt. Transparenz, Dokumentenlage, Rechtssicherheit und Marktliquidität sind nicht mit Deutschland vergleichbar. Wer das ignoriert, macht Fehler. Wer es einkalkuliert, findet reelle Möglichkeiten."
+msgstr "Al mismo tiempo, Paraguay es un mercado frontera. La transparencia, la documentación, la seguridad jurídica y la liquidez del mercado no son comparables con Alemania. Quien lo ignore cometerá errores. Quien lo tenga en cuenta encontrará oportunidades reales."
+
+msgid "Was ich selbst gemacht habe"
+msgstr "Lo que he hecho personalmente"
+
+msgid "Meine Erfahrung."
+msgstr "Mi experiencia."
+
+msgid "Ich habe in Paraguay eigene Gesellschaften gegründet und betrieben. Als Präsident des Directorio einer paraguayischen Immobiliengesellschaft habe ich Grundstücke in verschiedenen Regionen geprüft, bewertet und Transaktionen begleitet – in Asunción, Gran Asunción, Villarrica und Mbocayaty."
+msgstr "He constituido y gestionado sociedades propias en Paraguay. Como presidente del Directorio de una sociedad inmobiliaria paraguaya, he evaluado terrenos en distintas regiones, los he valorado y he acompañado transacciones – en Asunción, Gran Asunción, Villarrica y Mbocayaty."
+
+msgid "Dabei habe ich Dinge gelernt, die kein Prospekt beschreibt."
+msgstr "En el proceso he aprendido cosas que ningún folleto describe."
+
+msgid "Das gravierendste Problem auf dem paraguayischen Grundstücksmarkt ist nicht der Preis – es sind die Dokumente. Unvollständige Eigentumsketten, fehlerhafte oder veraltete Vermessungen, Überschneidungen mit Nachbargrundstücken oder öffentlichem Land, fehlende Eintragungen im Registro de la Propiedad – das sind keine Randprobleme. Wer ein Grundstück kauft, ohne die Dokumentenlage vollständig zu prüfen, kann formal Eigentümer sein und trotzdem keinen durchsetzbaren Anspruch haben."
+msgstr "El problema más grave del mercado inmobiliario paraguayo no es el precio – son los documentos. Cadenas de propiedad incompletas, mensuras defectuosas o desactualizadas, superposiciones con terrenos colindantes o tierra pública, inscripciones faltantes en el Registro de la Propiedad – no son problemas marginales. Quien compre un terreno sin verificar exhaustivamente la documentación puede ser propietario formal y aun así no tener un derecho ejecutable."
+
+msgid "Eine sorgfältige Titelprüfung durch einen erfahrenen Abogado vor dem Kauf ist deshalb keine Formalität – sie ist der entscheidende Schritt, bevor irgendetwas anderes besprochen wird."
+msgstr "Un estudio de títulos minucioso por parte de un Abogado experimentado antes de la compra no es, por tanto, una formalidad – es el paso decisivo antes de discutir cualquier otra cosa."
+
+msgid "Ich verdiene keine versteckten Provisionen auf Transaktionen. Wenn eine Vergütungssituation entsteht, wird das vorab transparent offengelegt. Auf einem Markt, auf dem das nicht selbstverständlich ist, ist das für mich ein Grundsatz."
+msgstr "No percibo comisiones ocultas en transacciones. Si surge una situación de remuneración, se comunica de forma transparente con antelación. En un mercado donde eso no es evidente, para mí es un principio."
+
+msgid "Womit ich helfe"
+msgstr "En qué ayudo"
+
+msgid "Womit ich helfen kann."
+msgstr "En qué puedo ayudar."
+
+msgid "Ich ordne ein, strukturiere und verbinde. Konkret:"
+msgstr "Evalúo, estructuro y conecto. En concreto:"
+
+msgid "Wenn Sie eine unternehmerische Struktur in Paraguay aufbauen wollen, helfe ich Ihnen, die richtige Gesellschaftsform zu wählen und den Setup vorzubereiten."
+msgstr "Si desea establecer una estructura empresarial en Paraguay, le ayudo a elegir la forma societaria adecuada y a preparar la constitución."
+
+msgid "Wenn Sie Kapital nach Paraguay bringen wollen, helfe ich mit Mittelherkunftsnachweisen, Bankfähigkeit und dem, was Banken wirklich sehen wollen."
+msgstr "Si desea transferir capital a Paraguay, le ayudo con la justificación del origen de fondos, la capacidad bancaria y lo que los bancos realmente quieren ver."
+
+msgid "Wenn Sie in Immobilien oder Grundstücke investieren wollen, ordne ich das Vorhaben ein und verbinde Sie bei Bedarf mit verlässlichen lokalen Ansprechpartnern."
+msgstr "Si desea invertir en inmuebles o terrenos, evalúo el proyecto y, si es necesario, le pongo en contacto con interlocutores locales confiables."
+
+msgid "Verbindliche Prüfungen – rechtlich, steuerlich, notariell – übernehmen paraguayische und deutsche Fachleute. Ich bringe die richtigen Menschen zusammen und stelle sicher, dass die richtigen Fragen gestellt werden."
+msgstr "Las verificaciones vinculantes – jurídicas, fiscales, notariales – las realizan profesionales paraguayos y alemanes. Yo reúno a las personas adecuadas y me aseguro de que se formulen las preguntas correctas."
+
+msgid "Wenn Sie konkret werden wollen."
+msgstr "Cuando quiera pasar a la acción."
+
+msgid "Der richtige Einstieg ist ein Gespräch über Ihre Situation. Was haben Sie? Was planen Sie? Was ist Ihre Ausgangslage in Deutschland?"
+msgstr "El punto de partida adecuado es una conversación sobre su situación. ¿Qué tiene? ¿Qué planea? ¿Cuál es su situación de partida en Alemania?"
+
+msgid "Immobilien Paraguay – Einordnung aus der Praxis | Markus Rehkugler"
+msgstr "Inmuebles en Paraguay – Análisis desde la práctica | Markus Rehkugler"
+
+msgid "Grundstücke, Fincas, Wohnimmobilien in Paraguay prüfen und richtig einordnen. Aus der Erfahrung eines Sachverständigen, der selbst im paraguayischen Markt aktiv ist."
+msgstr "Evaluar y clasificar correctamente terrenos, fincas e inmuebles residenciales en Paraguay. Desde la experiencia de un perito valuador activo en el mercado paraguayo."
+
+msgid "Grundstücke, Fincas, Wohnimmobilien in Paraguay prüfen und richtig einordnen."
+msgstr "Evaluar y clasificar correctamente terrenos, fincas e inmuebles residenciales en Paraguay."
+
+msgid "Immobilien in Paraguay."
+msgstr "Inmuebles en Paraguay."
+
+msgid "Was ich gelernt habe, nachdem ich selbst investiert habe."
+msgstr "Lo que aprendí después de haber invertido yo mismo."
+
+msgid "Ich bin Sachverständiger für Immobilienbewertung – und ich habe in Paraguay selbst Grundstücke gekauft, Transaktionen begleitet und dabei einige Dinge erlebt, die ich vorher nicht auf dem Radar hatte. Das macht den Unterschied zwischen Theorie und Einordnung."
+msgstr "Soy perito valuador de inmuebles – y en Paraguay he comprado terrenos personalmente, he acompañado transacciones y he vivido algunas cosas que antes no tenía en el radar. Eso marca la diferencia entre la teoría y el análisis fundamentado."
+
+msgid "Der Markt, wie er wirklich ist"
+msgstr "El mercado, tal como es realmente"
+
+msgid "Was Sie wissen sollten, bevor Sie kaufen."
+msgstr "Lo que debería saber antes de comprar."
+
+msgid "Es gibt interessante Möglichkeiten im paraguayischen Immobilienmarkt. Aber es gibt auch viele Angebote, die auf dem Papier attraktiv wirken und im Detail problematisch sind. Das ist keine Warnung gegen Investitionen – das ist eine Einordnung des Markts, wie er tatsächlich funktioniert."
+msgstr "Existen oportunidades interesantes en el mercado inmobiliario paraguayo. Pero también hay muchas ofertas que parecen atractivas en el papel y resultan problemáticas en los detalles. Esto no es una advertencia contra la inversión – es un análisis del mercado tal como funciona realmente."
+
+msgid "Ein paar Dinge, die ich für relevant halte:"
+msgstr "Algunos aspectos que considero relevantes:"
+
+msgid "Es gibt keine zentrale, verlässliche Preisdatenbank. Preise sind verhandelbar – aber das heißt auch, dass sie oft ohne nachvollziehbare Grundlage gesetzt werden. Wer keine Referenz hat, zahlt zu viel."
+msgstr "No existe una base de datos de precios central y fiable. Los precios son negociables – pero eso también significa que a menudo se fijan sin una base verificable. Quien no tiene referencias, paga de más."
+
+msgid "Katasterangaben weichen regelmäßig vom tatsächlichen Marktwert ab. Eigentumsrechte können komplizierte Vorgeschichten haben. Eine sorgfältige Titelprüfung durch einen erfahrenen Abogado ist keine Formalität, sondern Pflicht."
+msgstr "Los datos catastrales difieren regularmente del valor real de mercado. Los derechos de propiedad pueden tener historiales complicados. Una revisión minuciosa del título por un Abogado experimentado no es una formalidad, sino una obligación."
+
+msgid "Mietrenditen im paraguayischen Markt sind in weiten Teilen nüchterner als erwartet. Wer damit kalkuliert, sollte das vorher realistisch durchdenken."
+msgstr "Los rendimientos por alquiler en el mercado paraguayo son en gran parte más modestos de lo esperado. Quien planifique con ellos, debería analizarlo de forma realista con anticipación."
+
+msgid "All das bedeutet nicht, dass paraguayische Immobilien keine sinnvolle Investition sein können. Aber es bedeutet: Sie müssen wissen, was Sie prüfen – und wen Sie dabei einbinden."
+msgstr "Todo esto no significa que los inmuebles paraguayos no puedan ser una inversión razonable. Pero sí significa: usted debe saber qué verificar – y a quién involucrar en el proceso."
+
+msgid "Mein Hintergrund"
+msgstr "Mi trayectoria"
+
+msgid "Was ich mitbringe."
+msgstr "Lo que aporto."
+
+msgid "Ich bin Dipl.-Sachverständiger (DIA) für die Bewertung von bebauten und unbebauten Grundstücken, Mieten und Pachten. In Deutschland habe ich seit mehr als 20 Jahren Immobilien bewertet."
+msgstr "Soy Perito valuador diplomado (DIA) para la tasación de terrenos edificados y no edificados, alquileres y arrendamientos. En Alemania he valorado inmuebles durante más de 20 años."
+
+msgid "In Paraguay bin ich seit 2019/2020 aktiv. Ich bin Präsident des Directorio einer paraguayischen Immobiliengesellschaft und habe in dieser Funktion Grundstücke in verschiedenen Regionen geprüft und begleitet: in Asunción, Gran Asunción, der Cordillera sowie im Departamento Guairá rund um Villarrica und Colonia Independencia."
+msgstr "En Paraguay estoy activo desde 2019/2020. Soy presidente del Directorio de una sociedad inmobiliaria paraguaya y en esa función he evaluado y acompañado terrenos en diversas regiones: en Asunción, Gran Asunción, Cordillera y en el Departamento Guairá en torno a Villarrica y Colonia Independencia."
+
+msgid "Beides zusammen – Sachverständigenhintergrund und eigene Erfahrung auf dem paraguayischen Markt – gibt mir eine Einschätzungsfähigkeit, die ich aus keiner dieser beiden Quellen alleine hätte."
+msgstr "Ambas cosas juntas – la formación como perito valuador y la experiencia propia en el mercado paraguayo – me proporcionan una capacidad de análisis que no tendría con ninguna de estas dos fuentes por separado."
+
+msgid "Regionen, die ich kenne"
+msgstr "Regiones que conozco"
+
+msgid "Wo ich Erfahrung habe."
+msgstr "Donde tengo experiencia."
+
+msgid "Asunción und Gran Asunción"
+msgstr "Asunción y Gran Asunción"
+
+msgid "Das wirtschaftliche Zentrum. Höchste Liquidität, beste Infrastruktur, höchste Preise. Interessant für Wohnimmobilien, Gewerbe, urbane Investitionen."
+msgstr "El centro económico. Mayor liquidez, mejor infraestructura, precios más altos. Interesante para inmuebles residenciales, comerciales e inversiones urbanas."
+
+msgid "Cordillera"
+msgstr "Cordillera"
+
+msgid "Das Departamento nordöstlich von Asunción mit Städten wie Caacupé und San Bernardino. Beliebt als Wochenend- und Sommerdestination der Hauptstädter, hügeliges Klima, naturnahe Lagen. Für bestimmte Wohn- und Erholungsimmobilien interessant, aber mit eingeschränkter Marktliquidität."
+msgstr "El departamento al noreste de Asunción con ciudades como Caacupé y San Bernardino. Popular como destino de fin de semana y verano para los capitalinos, clima de colinas, ubicaciones cercanas a la naturaleza. Interesante para determinados inmuebles residenciales y vacacionales, pero con liquidez de mercado limitada."
+
+msgid "Villarrica / Departamento Guairá"
+msgstr "Villarrica / Departamento Guairá"
+
+msgid "Eine Stadt, in der ich selbst Zeit verbringe. Kleinstadtgröße, angenehmes Klima, deutlich günstigere Grundstückspreise als in der Hauptstadt. Interessant für Wohnimmobilien, Grundstücke, Agrarprojekte. Die eigentliche deutsche Gemeinschaft der Region sitzt aber nicht in Villarrica selbst, sondern in Colonia Independencia."
+msgstr "Una ciudad en la que paso tiempo personalmente. Tamaño de ciudad pequeña, clima agradable, precios de terrenos significativamente más bajos que en la capital. Interesante para inmuebles residenciales, terrenos y proyectos agrícolas. Sin embargo, la comunidad alemana propiamente dicha de la región no se encuentra en Villarrica, sino en Colonia Independencia."
+
+msgid "Colonia Independencia"
+msgstr "Colonia Independencia"
+
+msgid "Etwa 20 Kilometer von Villarrica entfernt, im Hügelland des Guairá. Deutsche Einwanderer seit Ende des 19. Jahrhunderts – die Kolonie hat eine bis heute lebendige deutschstämmige Gemeinschaft mit eigener Infrastruktur, Vereinen und landwirtschaftlichen Strukturen. Für Deutsche, die in einer vertrauten Gemeinschaft Fuß fassen wollen, ist das ein anderes Angebot als Asunción oder Villarrica."
+msgstr "A unos 20 kilómetros de Villarrica, en la zona de colinas de Guairá. Inmigrantes alemanes desde finales del siglo XIX – la colonia mantiene hasta hoy una vibrante comunidad de origen alemán con infraestructura propia, asociaciones y estructuras agrícolas. Para alemanes que desean establecerse en una comunidad familiar, es una propuesta diferente a la de Asunción o Villarrica."
+
+msgid "Wenn Sie ein Objekt oder eine Region im Blick haben."
+msgstr "Si tiene un inmueble o una región en la mira."
+
+msgid "Ich ordne gerne ein, was realistisch ist und was nicht – bevor Sie eine Entscheidung treffen."
+msgstr "Con gusto le ayudo a evaluar qué es realista y qué no – antes de que tome una decisión."
+
+msgid "Leben in Paraguay – Ehrlich eingeordnet | Markus Rehkugler"
+msgstr "Vivir en Paraguay – Un análisis honesto | Markus Rehkugler"
+
+msgid "Residencia, Cédula, Villarrica, Alltag, Kosten, Sprache. Was Leben in Paraguay wirklich bedeutet – von jemandem, der es seit 2019 lebt."
+msgstr "Residencia, Cédula, Villarrica, vida cotidiana, costos, idioma. Lo que realmente significa vivir en Paraguay – contado por alguien que lo vive desde 2019."
+
+msgid "Residencia, Cédula, Villarrica, Alltag, Kosten, Sprache. Was Leben in Paraguay wirklich bedeutet."
+msgstr "Residencia, Cédula, Villarrica, vida cotidiana, costos, idioma. Lo que realmente significa vivir en Paraguay."
+
+msgid "Leben in Paraguay"
+msgstr "Vivir en Paraguay"
+
+msgid "Leben zwischen Deutschland und Paraguay."
+msgstr "Vivir entre Alemania y Paraguay."
+
+msgid "Wie es wirklich ist – aus sieben Jahren Erfahrung."
+msgstr "Cómo es realmente – desde siete años de experiencia."
+
+msgid "2019 bin ich zum ersten Mal ernsthaft nach Paraguay gegangen. Nicht als Urlauber, nicht als Auswanderer-YouTuber. Sondern weil mich das Land wirklich interessiert hat. Seitdem lebe ich zwischen beiden Welten. Was ich dabei gelernt habe, schreibe ich hier auf."
+msgstr "En 2019 fui a Paraguay por primera vez con intención seria. No como turista, no como YouTuber de emigración. Sino porque el país me interesaba de verdad. Desde entonces vivo entre ambos mundos. Lo que he aprendido en el proceso, lo documento aquí."
+
+msgid "Warum ich in Paraguay lebe"
+msgstr "Por qué vivo en Paraguay"
+
+msgid "Warum ich hier bin."
+msgstr "Por qué estoy aquí."
+
+msgid "Ich bin nicht wegen der Steuerersparnis nach Paraguay gegangen. Das wäre mir zu kurz gedacht."
+msgstr "No me fui a Paraguay por el ahorro fiscal. Eso me habría parecido una visión demasiado corta."
+
+msgid "Ich bin gegangen, weil ich das Gefühl hatte, dass dieses Land etwas hat, das Deutschland verloren hat: Luft zum Atmen, weniger Regulierungsdichte, mehr persönliche Freiheit, ein Tempo, das zu mir passt."
+msgstr "Me fui porque tenía la sensación de que este país tiene algo que Alemania ha perdido: espacio para respirar, menos densidad regulatoria, más libertad personal, un ritmo que se adapta a mí."
+
+msgid "Die steuerlichen Vorteile sind real – und relevant. Aber sie allein tragen kein Leben. Was trägt: ob man einen Ort findet, an dem man sich wohlfühlt. Ob man Netzwerk aufbaut. Ob man die Sprache lernt. Ob man die Erwartungen realistisch calibriert."
+msgstr "Las ventajas fiscales son reales – y relevantes. Pero por sí solas no sostienen una vida. Lo que sostiene: si uno encuentra un lugar donde se siente bien. Si construye una red de contactos. Si aprende el idioma. Si calibra las expectativas de forma realista."
+
+msgid "Ich lebe heute zwischen Paraguay und Deutschland. Das ist keine perfekte Lösung – das ist meine Lösung. Für jemand anderen sieht das anders aus."
+msgstr "Hoy vivo entre Paraguay y Alemania. No es una solución perfecta – es mi solución. Para otra persona, eso puede ser diferente."
+
+msgid "Was Paraguay wirklich ist"
+msgstr "Lo que Paraguay realmente es"
+
+msgid "Ein ehrliches Bild."
+msgstr "Una imagen honesta."
+
+msgid "Paraguay funktioniert gut – in manchen Punkten erstaunlich gut. Geringe Regulierung, niedrige Steuern, günstiges Preisniveau, persönliche Freiheit. Für viele, die ihre steuerliche Situation strukturell verändern wollen, ist das attraktiv. Zu Recht."
+msgstr "Paraguay funciona bien – en algunos aspectos sorprendentemente bien. Baja regulación, impuestos bajos, nivel de precios favorable, libertad personal. Para muchos que desean cambiar estructuralmente su situación fiscal, esto es atractivo. Con razón."
+
+msgid "Gleichzeitig ist Paraguay kein Paradies. Die Infrastruktur außerhalb der Hauptstadt ist lückenhaft. Qualität von Gesundheitsversorgung und Bildung variiert stark. Sprachbarrieren sind real und im Alltag deutlicher spürbar als viele erwarten. Wer denkt, dass Behörden und Banken so funktionieren wie in Deutschland, wird enttäuscht werden – und zwar mehrfach."
+msgstr "Al mismo tiempo, Paraguay no es un paraíso. La infraestructura fuera de la capital es irregular. La calidad de la atención sanitaria y la educación varía considerablemente. Las barreras idiomáticas son reales y en el día a día se notan más de lo que muchos esperan. Quien piense que las autoridades y los bancos funcionan como en Alemania, se decepcionará – y más de una vez."
+
+msgid "Der Unterschied zwischen denen, die gut in Paraguay leben, und denen, bei denen es nicht funktioniert, liegt meist nicht am Land. Er liegt an der Vorbereitung, an der Wahl des Ortes, an lokalen Kontakten – und daran, ob die eigenen Erwartungen der Realität entsprechen."
+msgstr "La diferencia entre quienes viven bien en Paraguay y quienes no logran adaptarse, generalmente no radica en el país. Radica en la preparación, en la elección del lugar, en los contactos locales – y en si las propias expectativas se corresponden con la realidad."
+
+msgid "Asunción und Villarrica"
+msgstr "Asunción y Villarrica"
+
+msgid "Zwei Orte, die ich gut kenne."
+msgstr "Dos lugares que conozco bien."
+
+msgid "Asunción ist meine zweite Basis in Paraguay. Die Stadt ist lebendiger als ihr Ruf – eine aufstrebende Hauptstadt mit einer wachsenden Gastronomie- und Kulturszene, einer zunehmenden Zahl internationaler Unternehmer und digitaler Nomaden und einem Alltag, der deutlich urbaner ist als das Bild, das viele im Kopf haben. Wer Infrastruktur, Netzwerk und Optionen braucht, ist hier richtig. Ich schätze das selbst – und komme immer wieder gern."
+msgstr "Asunción es mi segunda base en Paraguay. La ciudad es más vibrante de lo que sugiere su reputación – una capital emergente con una escena gastronómica y cultural en crecimiento, un número cada vez mayor de empresarios internacionales y nómadas digitales, y una vida cotidiana notablemente más urbana de lo que muchos imaginan. Quien necesite infraestructura, red de contactos y opciones, está en el lugar correcto. Yo mismo lo valoro – y siempre vuelvo con gusto."
+
+msgid "Villarrica ist das andere Ende der Skala. Etwa 170 km östlich von Asunción – drei Stunden Fahrt, eine andere Welt. Kleinstadtgröße. Angenehmes Klima. Deutlich günstigere Lebenshaltungskosten. Man kennt sich. Die Entscheidungen werden kleiner, persönlicher, direkter. Wer nicht in der Hauptstadt sein muss, findet hier einen Ort, an dem sich Paraguay anders anfühlt – ruhiger, bodenständiger, persönlicher."
+msgstr "Villarrica es el otro extremo de la escala. A unos 170 km al este de Asunción – tres horas de viaje, otro mundo. Tamaño de ciudad pequeña. Clima agradable. Costo de vida significativamente más bajo. La gente se conoce. Las decisiones se vuelven más pequeñas, más personales, más directas. Quien no necesite estar en la capital, encontrará aquí un lugar donde Paraguay se siente diferente – más tranquilo, más auténtico, más personal."
+
+msgid "Wer Paraguay wirklich verstehen will, sollte nicht nur Asunción sehen."
+msgstr "Quien quiera entender Paraguay de verdad, no debería ver solo Asunción."
+
+msgid "Praktische Punkte"
+msgstr "Aspectos prácticos"
+
+msgid "Was organisatorisch wichtig ist."
+msgstr "Lo que es importante a nivel organizativo."
+
+msgid "Residencia und Cédula"
+msgstr "Residencia y Cédula"
+
+msgid "Ohne temporäre Residencia keine Cédula – ohne Cédula keine Gesellschaft, kein Bankkonto, keine offizielle Registrierung. Das ist der Einstieg, und er braucht Zeit. Wer ungeduldig ist, wird hier frustriert."
+msgstr "Sin Residencia temporal no hay Cédula – sin Cédula no hay sociedad, ni cuenta bancaria, ni registro oficial. Este es el punto de partida, y requiere tiempo. Quien sea impaciente, se frustrará."
+
+msgid "Steuerliche Ansässigkeit"
+msgstr "Residencia fiscal"
+
+msgid "Eine paraguayische Residencia macht Sie nicht automatisch in Deutschland steuerlich nicht mehr ansässig. Wohnsitzaufgabe in Deutschland muss strukturiert angegangen werden – und bringt steuerliche Konsequenzen mit sich, die vorher geklärt sein müssen. Das ist kein Detail, das man nachher lösen kann."
+msgstr "Una Residencia paraguaya no le convierte automáticamente en no residente fiscal en Alemania. La baja de domicilio en Alemania debe abordarse de forma estructurada – y conlleva consecuencias fiscales que deben aclararse previamente. Este no es un detalle que pueda resolverse después."
+
+msgid "Krankenversicherung"
+msgstr "Seguro médico"
+
+msgid "Der private Weg ist für die meisten die realistischere Option. Das sollte vor der Ankunft geregelt sein, nicht danach."
+msgstr "La vía privada es para la mayoría la opción más realista. Esto debería estar resuelto antes de la llegada, no después."
+
+msgid "Sprache"
+msgstr "Idioma"
+
+msgid "Spanisch ist die Geschäfts- und Behördensprache. Wer auf Grundniveau kommunizieren kann, hat deutlich mehr Handlungsspielraum. Guaraní wird im Alltag in manchen Regionen gesprochen – Spanisch ist überall."
+msgstr "El español es el idioma de los negocios y la administración. Quien pueda comunicarse a nivel básico, tendrá considerablemente más margen de acción. El guaraní se habla en la vida cotidiana de algunas regiones – el español, en todas partes."
+
+msgid "Wenn Sie Paraguay als Basis prüfen wollen."
+msgstr "Si desea evaluar Paraguay como base."
+
+msgid "Leben in Paraguay hat viele Aspekte, die sich nicht aus YouTube-Videos erschließen – besonders wenn man Gesellschaften, Kapital oder einen ernsthaften Wegzug aus Deutschland plant. Wenn Sie Ihre konkrete Situation einordnen wollen, ist ein Gespräch der richtige Einstieg."
+msgstr "Vivir en Paraguay tiene muchos aspectos que no se pueden comprender a través de videos de YouTube – especialmente si se planea constituir sociedades, trasladar capital o una mudanza seria desde Alemania. Si desea evaluar su situación concreta, una conversación es el punto de partida adecuado."
+
+msgid "Paraguay Videos – Steuern, EAS, Immobilien, Alltag | Markus Rehkugler"
+msgstr "Paraguay Videos – Impuestos, EAS, inmuebles, vida cotidiana | Markus Rehkugler"
+
+msgid "YouTube-Kanal „Markus Rehkugler Paraguay\". Nüchterne, strukturierte Inhalte zu EAS, Steuersystem, Immobilien und Leben in Paraguay – für Unternehmer und Investoren."
+msgstr "Canal de YouTube „Markus Rehkugler Paraguay\". Contenido objetivo y estructurado sobre EAS, sistema tributario, inmuebles y vida en Paraguay – para empresarios e inversores."
+
+msgid "YouTube-Kanal „Markus Rehkugler Paraguay\". Nüchterne, strukturierte Inhalte zu EAS, Steuersystem, Immobilien und Leben in Paraguay."
+msgstr "Canal de YouTube „Markus Rehkugler Paraguay\". Contenido objetivo y estructurado sobre EAS, sistema tributario, inmuebles y vida en Paraguay."
+
+msgid "Videos"
+msgstr "Videos"
+
+msgid "Paraguay. Nüchtern erklärt."
+msgstr "Paraguay. Explicado con objetividad."
+
+msgid "Auf dem Kanal „Markus Rehkugler Paraguay\" geht es um die Fragen, die Unternehmer und Investoren wirklich beschäftigen: Steuern, Gesellschaften, Banken, Immobilien, Residencia. Aus eigener Erfahrung, ohne Verklärung."
+msgstr "En el canal „Markus Rehkugler Paraguay\" se abordan las preguntas que realmente preocupan a empresarios e inversores: impuestos, sociedades, bancos, inmuebles, Residencia. Desde la experiencia propia, sin idealización."
+
+msgid "Zum YouTube-Kanal"
+msgstr "Ir al canal de YouTube"
+
+msgid "Was auf dem Kanal behandelt wird"
+msgstr "Temas del canal"
+
+msgid "Die Themen."
+msgstr "Los temas."
+
+msgid "Die meisten deutschsprachigen Paraguay-Kanäle zeigen Alltag, Cédula-Behördengänge und den Lebensstil. Das hat seinen Platz. Was fehlt, sind Antworten auf die Fragen, die ernsthafte Entscheidungen brauchen."
+msgstr "La mayoría de los canales sobre Paraguay en alemán muestran la vida cotidiana, los trámites de la Cédula y el estilo de vida. Eso tiene su lugar. Lo que falta son respuestas a las preguntas que requieren decisiones serias."
+
+msgid "Steuern und Gesellschaften"
+msgstr "Impuestos y sociedades"
+
+msgid "Wie das paraguayische Steuersystem wirklich funktioniert. Was das Territorialprinzip konkret bedeutet. Welche Gesellschaftsform wann sinnvoll ist. Und was in Deutschland nicht automatisch wegfällt, nur weil man wegzieht."
+msgstr "Cómo funciona realmente el sistema tributario paraguayo. Qué significa en concreto el principio de territorialidad. Qué forma societaria conviene en cada caso. Y qué obligaciones en Alemania no desaparecen automáticamente solo porque usted se mude."
+
+msgid "Banken und Kapitalfluss"
+msgstr "Bancos y flujo de capital"
+
+msgid "Warum man in Paraguay nicht einfach ein Konto bekommt – und wie man das ändert. Was Bankfähigkeit wirklich bedeutet. Wie Kapital aus Deutschland nach Paraguay kommt."
+msgstr "Por qué no es sencillo abrir una cuenta en Paraguay – y cómo cambiar eso. Qué significa realmente la capacidad bancaria. Cómo se transfiere capital de Alemania a Paraguay."
+
+msgid "Immobilien und Investitionen"
+msgstr "Inmuebles e inversiones"
+
+msgid "Wie der paraguayische Markt wirklich funktioniert. Was realistische Einschätzungen sind – und was Prospektsprache ist."
+msgstr "Cómo funciona realmente el mercado paraguayo. Qué son valoraciones realistas – y qué es lenguaje de prospecto."
+
+msgid "Alltag mit Substanz"
+msgstr "Vida cotidiana con sustancia"
+
+msgid "Residencia, Cédula, Krankenversicherung, Wohnen, Kosten, Sprache – aber immer mit dem Fokus: Was bedeutet das für jemanden, der ernsthaft plant, nicht für jemanden, der sich das Leben schönredet?"
+msgstr "Residencia, Cédula, seguro médico, vivienda, costes, idioma – pero siempre con el enfoque: ¿Qué significa esto para alguien que planifica en serio, no para alguien que se engaña a sí mismo?"
+
+msgid "Aktuelle Videos"
+msgstr "Videos recientes"
+
+msgid "Aktuelle Videos."
+msgstr "Videos recientes."
+
+msgid "Videos werden hier eingebettet, sobald der Kanal live ist."
+msgstr "Los videos se integrarán aquí en cuanto el canal esté activo."
+
+msgid "Alle Videos auf YouTube ansehen"
+msgstr "Ver todos los videos en YouTube"
+
+msgid "Kostenloses Material"
+msgstr "Material gratuito"
+
+msgid "Zwei Leitfäden zum Download."
+msgstr "Dos guías para descargar."
+
+msgid "EAS Paraguay – Der Praxisleitfaden"
+msgstr "EAS Paraguay – La guía práctica"
+
+msgid "Wenn Sie die EAS als Gesellschaftsform prüfen: Was die EAS ist, für wen sie geeignet ist, was sie kostet, wie sie steuerlich funktioniert – und welche Fehler vermieden werden sollten."
+msgstr "Si está evaluando la EAS como forma societaria: qué es la EAS, para quién es adecuada, cuánto cuesta, cómo funciona fiscalmente – y qué errores deben evitarse."
+
+msgid "Kostenlos, nach Angabe Ihrer E-Mail-Adresse."
+msgstr "Gratuito, tras indicar su dirección de correo electrónico."
+
+msgid "EAS-Leitfaden herunterladen"
+msgstr "Descargar guía EAS"
+
+msgid "Steuern in Paraguay – Das Wichtigste im Überblick"
+msgstr "Impuestos en Paraguay – Lo más importante en resumen"
+
+msgid "Ein kompakter Überblick über das paraguayische Steuersystem: Territorialprinzip, IVA, IRE, IDU, IRP – was gilt, was nicht gilt, und was für Deutsche mit deutschen Einkünften oder Gesellschaften relevant wird."
+msgstr "Un resumen compacto del sistema tributario paraguayo: principio de territorialidad, IVA, IRE, IDU, IRP – qué se aplica, qué no se aplica, y qué es relevante para alemanes con ingresos o sociedades en Alemania."
+
+msgid "Steuer-Überblick herunterladen"
+msgstr "Descargar resumen de impuestos"
+
+msgid "Wenn Sie nach den Videos merken, dass Sie Ihre konkrete Situation einordnen wollen – Gesellschaft, Steuern, Immobilien, Residencia – ist ein Gespräch der nächste Schritt."
+msgstr "Si después de ver los videos siente la necesidad de analizar su situación concreta – sociedad, impuestos, inmuebles, Residencia – una conversación es el siguiente paso."
+
+msgid "EAS Paraguay – Praxisleitfaden herunterladen | Markus Rehkugler"
+msgstr "EAS Paraguay – Descargar guía práctica | Markus Rehkugler"
+
+msgid "EAS-Leitfaden: Was die EAS ist, für wen sie geeignet ist, was sie kostet und wie sie steuerlich funktioniert. Kostenloser Download."
+msgstr "Guía EAS: Qué es la EAS, para quién es adecuada, cuánto cuesta y cómo funciona fiscalmente. Descarga gratuita."
+
+msgid "Kostenloser Leitfaden"
+msgstr "Guía gratuita"
+
+msgid "Leitfaden anfordern"
+msgstr "Solicitar guía"
+
+msgid "Ihre E-Mail-Adresse wird ausschließlich für den Versand des Leitfadens verwendet."
+msgstr "Su dirección de correo electrónico se utilizará exclusivamente para el envío de la guía."
+
+msgid "Steuern in Paraguay – Überblick herunterladen | Markus Rehkugler"
+msgstr "Impuestos en Paraguay – Descargar resumen | Markus Rehkugler"
+
+msgid "Kompakter Überblick über das paraguayische Steuersystem: Territorialprinzip, IVA, IRE, IDU, IRP. Kostenloser Download."
+msgstr "Resumen compacto del sistema tributario paraguayo: principio de territorialidad, IVA, IRE, IDU, IRP. Descarga gratuita."
+
+msgid "Kostenloser Überblick"
+msgstr "Resumen gratuito"
+
+msgid "Überblick anfordern"
+msgstr "Solicitar resumen"
+
+msgid "Ihre E-Mail-Adresse wird ausschließlich für den Versand des Überblicks verwendet."
+msgstr "Su dirección de correo electrónico se utilizará exclusivamente para el envío del resumen."
+
+msgid "Download – %(title)s | Markus Rehkugler"
+msgstr "Descarga – %(title)s | Markus Rehkugler"
+
+msgid "Ihr Download"
+msgstr "Su descarga"
+
+msgid "Vielen Dank. Ihr Download steht bereit."
+msgstr "Muchas gracias. Su descarga está lista."
+
+msgid "PDF herunterladen"
+msgstr "Descargar PDF"
+
+msgid "Wenn Sie Ihre konkrete Situation einordnen wollen, ist ein Gespräch der nächste Schritt."
+msgstr "Si desea analizar su situación concreta, una conversación es el siguiente paso."

@@ -1,12 +1,12 @@
 {% extends 'base_paraguay.html' %}
 {% load static i18n %}
 
-{% block py_title %}Paraguay verstehen – Struktur & Orientierung | Markus Rehkugler{% endblock %}
-{% block py_meta_description %}EAS, Steuern, Bankfähigkeit, Residencia. Strukturierte Einordnung für Unternehmer und Investoren, die Paraguay ernsthaft prüfen – aus der Praxis, nicht vom Hörensagen.{% endblock %}
-{% block py_og_title %}Paraguay verstehen – Struktur & Orientierung | Markus Rehkugler{% endblock %}
-{% block py_og_description %}EAS, Steuern, Bankfähigkeit, Residencia. Strukturierte Einordnung für Unternehmer und Investoren, die Paraguay ernsthaft prüfen.{% endblock %}
-{% block py_twitter_title %}Paraguay verstehen – Struktur & Orientierung | Markus Rehkugler{% endblock %}
-{% block py_twitter_description %}EAS, Steuern, Bankfähigkeit, Residencia. Strukturierte Einordnung für Unternehmer und Investoren, die Paraguay ernsthaft prüfen.{% endblock %}
+{% block py_title %}{% trans "Paraguay verstehen – Struktur & Orientierung | Markus Rehkugler" %}{% endblock %}
+{% block py_meta_description %}{% trans "EAS, Steuern, Bankfähigkeit, Residencia. Strukturierte Einordnung für Unternehmer und Investoren, die Paraguay ernsthaft prüfen – aus der Praxis, nicht vom Hörensagen." %}{% endblock %}
+{% block py_og_title %}{% trans "Paraguay verstehen – Struktur & Orientierung | Markus Rehkugler" %}{% endblock %}
+{% block py_og_description %}{% trans "EAS, Steuern, Bankfähigkeit, Residencia. Strukturierte Einordnung für Unternehmer und Investoren, die Paraguay ernsthaft prüfen." %}{% endblock %}
+{% block py_twitter_title %}{% trans "Paraguay verstehen – Struktur & Orientierung | Markus Rehkugler" %}{% endblock %}
+{% block py_twitter_description %}{% trans "EAS, Steuern, Bankfähigkeit, Residencia. Strukturierte Einordnung für Unternehmer und Investoren, die Paraguay ernsthaft prüfen." %}{% endblock %}
 
 {% block content %}
 
@@ -14,14 +14,14 @@
 <section class="relative min-h-[70vh] flex items-center justify-center overflow-hidden">
     <div class="absolute inset-0 bg-py-navy"></div>
     <div class="relative z-10 text-center max-w-3xl mx-auto px-6 py-32">
-        <p class="fade-up text-py-gold text-xs font-semibold tracking-[0.25em] uppercase mb-8">Struktur &amp; Orientierung</p>
+        <p class="fade-up text-py-gold text-xs font-semibold tracking-[0.25em] uppercase mb-8">{% trans "Struktur & Orientierung" %}</p>
         <h1 class="fade-up delay-100 text-4xl lg:text-6xl font-bold text-white leading-[1.08] mb-8">
-            Paraguay verstehen, bevor man handelt.
+            {% trans "Paraguay verstehen, bevor man handelt." %}
         </h1>
         <div class="fade-up delay-200 w-16 h-px bg-py-gold mx-auto mb-8"></div>
         <div class="fade-up delay-200 text-white/80 text-lg leading-relaxed max-w-2xl mx-auto space-y-4">
-            <p>Ich lebe seit 2019/2020 zwischen Deutschland und Paraguay – mit eigenen Gesellschaften, Bankprozessen, Steuerpflichten und allem, was dazugehört.</p>
-            <p>Irgendwann haben mich die ersten Deutschen angeschrieben – mit Fragen, die ich selbst hatte, als ich angefangen habe. Seitdem helfe ich Unternehmern und Investoren, Paraguay strukturiert einzuordnen: bevor Fehler passieren, bevor Geld fließt.</p>
+            <p>{% trans "Ich lebe seit 2019/2020 zwischen Deutschland und Paraguay – mit eigenen Gesellschaften, Bankprozessen, Steuerpflichten und allem, was dazugehört." %}</p>
+            <p>{% trans "Irgendwann haben mich die ersten Deutschen angeschrieben – mit Fragen, die ich selbst hatte, als ich angefangen habe. Seitdem helfe ich Unternehmern und Investoren, Paraguay strukturiert einzuordnen: bevor Fehler passieren, bevor Geld fließt." %}</p>
         </div>
         <div class="fade-up delay-300 mt-10">
             <a href="{{ CALENDLY_PARAGUAY_URL }}" target="_blank" rel="noopener noreferrer"
@@ -29,7 +29,7 @@
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
                 </svg>
-                Erstgespräch anfragen
+                {% trans "Erstgespräch anfragen" %}
             </a>
         </div>
     </div>
@@ -39,14 +39,14 @@
 <!-- SECTION 1 – Die wirklichen Fragen -->
 <section class="py-24 lg:py-32 bg-white">
     <div class="max-w-3xl mx-auto px-6">
-        <p class="fade-up text-py-navy/50 text-xs font-semibold tracking-[0.2em] uppercase mb-3">Die wirklichen Fragen</p>
+        <p class="fade-up text-py-navy/50 text-xs font-semibold tracking-[0.2em] uppercase mb-3">{% trans "Die wirklichen Fragen" %}</p>
         <h2 class="fade-up delay-100 text-2xl sm:text-3xl lg:text-4xl font-bold text-py-text mb-8">
-            Die Fragen, die wirklich zählen.
+            {% trans "Die Fragen, die wirklich zählen." %}
         </h2>
         <div class="fade-up delay-100 space-y-5 text-py-text/80 leading-relaxed">
-            <p>Es gibt viel Content über Paraguay. Wer Cédula-Behördengänge, Essen und Alltag sucht, wird gut versorgt. Was sich schwerer findet, sind Antworten auf die Fragen, die ernsthafte Entscheidungen brauchen:</p>
-            <p>Was passiert mit meiner GmbH, wenn ich den deutschen Wohnsitz aufgebe? Welche Gesellschaftsform passt zu meiner Tätigkeit – und welche wirkt nur auf dem Papier sauber? Bekomme ich in Paraguay wirklich ein Bankkonto – und unter welchen Voraussetzungen? Wie bringe ich Kapital nach Paraguay, ohne dabei Probleme zu bekommen – in Paraguay oder in Deutschland?</p>
-            <p>Diese Fragen haben keine einfachen Antworten. Sie hängen von der konkreten Situation ab: Einkünfte, Gesellschaften, Vermögen, Absichten. Wer hier mit Allgemeinaussagen arbeitet, trifft schlechte Entscheidungen.</p>
+            <p>{% trans "Es gibt viel Content über Paraguay. Wer Cédula-Behördengänge, Essen und Alltag sucht, wird gut versorgt. Was sich schwerer findet, sind Antworten auf die Fragen, die ernsthafte Entscheidungen brauchen:" %}</p>
+            <p>{% trans "Was passiert mit meiner GmbH, wenn ich den deutschen Wohnsitz aufgebe? Welche Gesellschaftsform passt zu meiner Tätigkeit – und welche wirkt nur auf dem Papier sauber? Bekomme ich in Paraguay wirklich ein Bankkonto – und unter welchen Voraussetzungen? Wie bringe ich Kapital nach Paraguay, ohne dabei Probleme zu bekommen – in Paraguay oder in Deutschland?" %}</p>
+            <p>{% trans "Diese Fragen haben keine einfachen Antworten. Sie hängen von der konkreten Situation ab: Einkünfte, Gesellschaften, Vermögen, Absichten. Wer hier mit Allgemeinaussagen arbeitet, trifft schlechte Entscheidungen." %}</p>
         </div>
     </div>
 </section>
@@ -55,37 +55,37 @@
 <!-- SECTION 2 – Womit ich helfe -->
 <section class="py-24 lg:py-32 bg-py-bg">
     <div class="max-w-3xl mx-auto px-6">
-        <p class="fade-up text-py-navy/50 text-xs font-semibold tracking-[0.2em] uppercase mb-3">Was ich einordnen kann</p>
+        <p class="fade-up text-py-navy/50 text-xs font-semibold tracking-[0.2em] uppercase mb-3">{% trans "Was ich einordnen kann" %}</p>
         <h2 class="fade-up delay-100 text-2xl sm:text-3xl lg:text-4xl font-bold text-py-text mb-8">
-            Womit ich helfe.
+            {% trans "Womit ich helfe." %}
         </h2>
         <div class="fade-up delay-100 space-y-5 text-py-text/80 leading-relaxed">
-            <p>Ich bin Diplom-Finanzwirt, und ich habe in Paraguay selbst das durchlaufen, was viele als nächstes vorhaben: Gesellschaft gründen, Steuerregistrierung, Bankprozesse, Cédula, Residencia, laufende Buchhaltung, Kapitalfluss aus Deutschland.</p>
-            <p>Das gibt mir eine Einschätzungsfähigkeit, die ich aus dem Lehrbuch nicht hätte. Ich weiß, wo es hakt, was länger dauert als erwartet und wo viele den ersten Fehler machen.</p>
-            <p>Konkret ordne ich ein:</p>
+            <p>{% trans "Ich bin Diplom-Finanzwirt, und ich habe in Paraguay selbst das durchlaufen, was viele als nächstes vorhaben: Gesellschaft gründen, Steuerregistrierung, Bankprozesse, Cédula, Residencia, laufende Buchhaltung, Kapitalfluss aus Deutschland." %}</p>
+            <p>{% trans "Das gibt mir eine Einschätzungsfähigkeit, die ich aus dem Lehrbuch nicht hätte. Ich weiß, wo es hakt, was länger dauert als erwartet und wo viele den ersten Fehler machen." %}</p>
+            <p>{% trans "Konkret ordne ich ein:" %}</p>
         </div>
 
         <div class="fade-up delay-200 mt-8 space-y-6">
             <div class="border-l-2 border-py-gold pl-5">
-                <p class="font-semibold text-py-text mb-1">Gesellschaftsformen</p>
-                <p class="text-py-text/80 leading-relaxed">EAS, S.A. oder S.R.L.: welche wann sinnvoll ist, was sie im Alltag bedeutet und wo die Fallstricke liegen.</p>
+                <p class="font-semibold text-py-text mb-1">{% trans "Gesellschaftsformen" %}</p>
+                <p class="text-py-text/80 leading-relaxed">{% trans "EAS, S.A. oder S.R.L.: welche wann sinnvoll ist, was sie im Alltag bedeutet und wo die Fallstricke liegen." %}</p>
             </div>
             <div class="border-l-2 border-py-gold pl-5">
-                <p class="font-semibold text-py-text mb-1">Steuern</p>
-                <p class="text-py-text/80 leading-relaxed">Territorialprinzip, IVA, IRE, IDU, IRP in Paraguay; was davon in Deutschland nicht automatisch wegfällt, wenn man wegzieht.</p>
+                <p class="font-semibold text-py-text mb-1">{% trans "Steuern" %}</p>
+                <p class="text-py-text/80 leading-relaxed">{% trans "Territorialprinzip, IVA, IRE, IDU, IRP in Paraguay; was davon in Deutschland nicht automatisch wegfällt, wenn man wegzieht." %}</p>
             </div>
             <div class="border-l-2 border-py-gold pl-5">
-                <p class="font-semibold text-py-text mb-1">Bankfähigkeit</p>
-                <p class="text-py-text/80 leading-relaxed">Warum ein Konto in Paraguay kein Automatismus ist und was man vorbereiten muss.</p>
+                <p class="font-semibold text-py-text mb-1">{% trans "Bankfähigkeit" %}</p>
+                <p class="text-py-text/80 leading-relaxed">{% trans "Warum ein Konto in Paraguay kein Automatismus ist und was man vorbereiten muss." %}</p>
             </div>
             <div class="border-l-2 border-py-gold pl-5">
-                <p class="font-semibold text-py-text mb-1">Kapitalfluss</p>
-                <p class="text-py-text/80 leading-relaxed">Mittelherkunftsnachweise, Transfers, was in Paraguay und in Deutschland zu beachten ist.</p>
+                <p class="font-semibold text-py-text mb-1">{% trans "Kapitalfluss" %}</p>
+                <p class="text-py-text/80 leading-relaxed">{% trans "Mittelherkunftsnachweise, Transfers, was in Paraguay und in Deutschland zu beachten ist." %}</p>
             </div>
         </div>
 
         <div class="fade-up delay-200 mt-10 text-py-text/60 text-sm leading-relaxed">
-            <p>Verbindliche steuerliche und rechtliche Fragen gehören zu paraguayischen Contadores, Abogados und Notaren sowie zu deutschen Steuerberatern und Rechtsanwälten. Ich helfe, die richtigen Menschen zusammenzubringen – und die richtigen Fragen zu stellen.</p>
+            <p>{% trans "Verbindliche steuerliche und rechtliche Fragen gehören zu paraguayischen Contadores, Abogados und Notaren sowie zu deutschen Steuerberatern und Rechtsanwälten. Ich helfe, die richtigen Menschen zusammenzubringen – und die richtigen Fragen zu stellen." %}</p>
         </div>
     </div>
 </section>
@@ -94,14 +94,14 @@
 <!-- SECTION 3 – Für wen -->
 <section class="py-24 lg:py-32 bg-white">
     <div class="max-w-3xl mx-auto px-6">
-        <p class="fade-up text-py-navy/50 text-xs font-semibold tracking-[0.2em] uppercase mb-3">Für wen</p>
+        <p class="fade-up text-py-navy/50 text-xs font-semibold tracking-[0.2em] uppercase mb-3">{% trans "Für wen" %}</p>
         <h2 class="fade-up delay-100 text-2xl sm:text-3xl lg:text-4xl font-bold text-py-text mb-8">
-            Für wen das passt.
+            {% trans "Für wen das passt." %}
         </h2>
         <div class="fade-up delay-100 space-y-5 text-py-text/80 leading-relaxed">
-            <p>Für Unternehmer, Selbständige und Investoren, die Paraguay strukturiert prüfen wollen – nicht spontan, nicht aus Frustration, sondern als ernsthafte Überlegung.</p>
-            <p>Die Frage ist nicht: „Wie komme ich schnell nach Paraguay?" Die Frage ist: „Macht Paraguay für meine konkrete Situation Sinn – und wenn ja, wie gehe ich das richtig an?"</p>
-            <p>Genau das bespreche ich im Erstgespräch. Und ich sage auch klar, wenn die Antwort nein ist.</p>
+            <p>{% trans "Für Unternehmer, Selbständige und Investoren, die Paraguay strukturiert prüfen wollen – nicht spontan, nicht aus Frustration, sondern als ernsthafte Überlegung." %}</p>
+            <p>{% trans 'Die Frage ist nicht: „Wie komme ich schnell nach Paraguay?" Die Frage ist: „Macht Paraguay für meine konkrete Situation Sinn – und wenn ja, wie gehe ich das richtig an?"' %}</p>
+            <p>{% trans "Genau das bespreche ich im Erstgespräch. Und ich sage auch klar, wenn die Antwort nein ist." %}</p>
         </div>
     </div>
 </section>
@@ -116,7 +116,7 @@
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
                 </svg>
-                Erstgespräch anfragen
+                {% trans "Erstgespräch anfragen" %}
             </a>
         </div>
     </div>
@@ -127,7 +127,7 @@
 <section class="py-12 bg-py-bg">
     <div class="max-w-3xl mx-auto px-6">
         <p class="text-py-text/40 text-xs leading-relaxed">
-            Die Beratung durch Markus Rehkugler erfolgt als strukturierende, wirtschaftliche und organisatorische Beratung auf Basis langjähriger praktischer Erfahrung an der Schnittstelle Deutschland–Paraguay. Sie ersetzt keine Rechtsberatung, Steuerberatung oder notarielle Beratung.
+            {% trans "Die Beratung durch Markus Rehkugler erfolgt als strukturierende, wirtschaftliche und organisatorische Beratung auf Basis langjähriger praktischer Erfahrung an der Schnittstelle Deutschland–Paraguay. Sie ersetzt keine Rechtsberatung, Steuerberatung oder notarielle Beratung." %}
         </p>
     </div>
 </section>

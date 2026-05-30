@@ -1,12 +1,12 @@
 {% extends 'base_paraguay.html' %}
 {% load static i18n %}
 
-{% block py_title %}Leben in Paraguay – Ehrlich eingeordnet | Markus Rehkugler{% endblock %}
-{% block py_meta_description %}Residencia, Cédula, Villarrica, Alltag, Kosten, Sprache. Was Leben in Paraguay wirklich bedeutet – von jemandem, der es seit 2019 lebt.{% endblock %}
-{% block py_og_title %}Leben in Paraguay – Ehrlich eingeordnet | Markus Rehkugler{% endblock %}
-{% block py_og_description %}Residencia, Cédula, Villarrica, Alltag, Kosten, Sprache. Was Leben in Paraguay wirklich bedeutet.{% endblock %}
-{% block py_twitter_title %}Leben in Paraguay – Ehrlich eingeordnet | Markus Rehkugler{% endblock %}
-{% block py_twitter_description %}Residencia, Cédula, Villarrica, Alltag, Kosten, Sprache. Was Leben in Paraguay wirklich bedeutet.{% endblock %}
+{% block py_title %}{% trans "Leben in Paraguay – Ehrlich eingeordnet | Markus Rehkugler" %}{% endblock %}
+{% block py_meta_description %}{% trans "Residencia, Cédula, Villarrica, Alltag, Kosten, Sprache. Was Leben in Paraguay wirklich bedeutet – von jemandem, der es seit 2019 lebt." %}{% endblock %}
+{% block py_og_title %}{% trans "Leben in Paraguay – Ehrlich eingeordnet | Markus Rehkugler" %}{% endblock %}
+{% block py_og_description %}{% trans "Residencia, Cédula, Villarrica, Alltag, Kosten, Sprache. Was Leben in Paraguay wirklich bedeutet." %}{% endblock %}
+{% block py_twitter_title %}{% trans "Leben in Paraguay – Ehrlich eingeordnet | Markus Rehkugler" %}{% endblock %}
+{% block py_twitter_description %}{% trans "Residencia, Cédula, Villarrica, Alltag, Kosten, Sprache. Was Leben in Paraguay wirklich bedeutet." %}{% endblock %}
 
 {% block content %}
 
@@ -14,16 +14,16 @@
 <section class="relative min-h-[70vh] flex items-center justify-center overflow-hidden">
     <div class="absolute inset-0 bg-py-navy"></div>
     <div class="relative z-10 text-center max-w-3xl mx-auto px-6 py-32">
-        <p class="fade-up text-py-gold text-xs font-semibold tracking-[0.25em] uppercase mb-8">Leben in Paraguay</p>
+        <p class="fade-up text-py-gold text-xs font-semibold tracking-[0.25em] uppercase mb-8">{% trans "Leben in Paraguay" %}</p>
         <h1 class="fade-up delay-100 text-4xl lg:text-5xl font-bold text-white leading-[1.08] mb-4">
-            Leben zwischen Deutschland und Paraguay.
+            {% trans "Leben zwischen Deutschland und Paraguay." %}
         </h1>
         <p class="fade-up delay-100 text-2xl lg:text-3xl font-bold text-white/70 leading-[1.08] mb-8">
-            Wie es wirklich ist – aus sieben Jahren Erfahrung.
+            {% trans "Wie es wirklich ist – aus sieben Jahren Erfahrung." %}
         </p>
         <div class="fade-up delay-200 w-16 h-px bg-py-gold mx-auto mb-8"></div>
         <p class="fade-up delay-200 text-white/80 text-lg leading-relaxed max-w-2xl mx-auto">
-            2019 bin ich zum ersten Mal ernsthaft nach Paraguay gegangen. Nicht als Urlauber, nicht als Auswanderer-YouTuber. Sondern weil mich das Land wirklich interessiert hat. Seitdem lebe ich zwischen beiden Welten. Was ich dabei gelernt habe, schreibe ich hier auf.
+            {% trans "2019 bin ich zum ersten Mal ernsthaft nach Paraguay gegangen. Nicht als Urlauber, nicht als Auswanderer-YouTuber. Sondern weil mich das Land wirklich interessiert hat. Seitdem lebe ich zwischen beiden Welten. Was ich dabei gelernt habe, schreibe ich hier auf." %}
         </p>
     </div>
 </section>
@@ -32,15 +32,15 @@
 <!-- SECTION 1 – Warum ich in Paraguay lebe -->
 <section class="py-24 lg:py-32 bg-white">
     <div class="max-w-3xl mx-auto px-6">
-        <p class="fade-up text-py-navy/50 text-xs font-semibold tracking-[0.2em] uppercase mb-3">Warum ich in Paraguay lebe</p>
+        <p class="fade-up text-py-navy/50 text-xs font-semibold tracking-[0.2em] uppercase mb-3">{% trans "Warum ich in Paraguay lebe" %}</p>
         <h2 class="fade-up delay-100 text-2xl sm:text-3xl lg:text-4xl font-bold text-py-text mb-8">
-            Warum ich hier bin.
+            {% trans "Warum ich hier bin." %}
         </h2>
         <div class="fade-up delay-100 space-y-5 text-py-text/80 leading-relaxed">
-            <p>Ich bin nicht wegen der Steuerersparnis nach Paraguay gegangen. Das wäre mir zu kurz gedacht.</p>
-            <p>Ich bin gegangen, weil ich das Gefühl hatte, dass dieses Land etwas hat, das Deutschland verloren hat: Luft zum Atmen, weniger Regulierungsdichte, mehr persönliche Freiheit, ein Tempo, das zu mir passt.</p>
-            <p>Die steuerlichen Vorteile sind real – und relevant. Aber sie allein tragen kein Leben. Was trägt: ob man einen Ort findet, an dem man sich wohlfühlt. Ob man Netzwerk aufbaut. Ob man die Sprache lernt. Ob man die Erwartungen realistisch calibriert.</p>
-            <p>Ich lebe heute zwischen Paraguay und Deutschland. Das ist keine perfekte Lösung – das ist meine Lösung. Für jemand anderen sieht das anders aus.</p>
+            <p>{% trans "Ich bin nicht wegen der Steuerersparnis nach Paraguay gegangen. Das wäre mir zu kurz gedacht." %}</p>
+            <p>{% trans "Ich bin gegangen, weil ich das Gefühl hatte, dass dieses Land etwas hat, das Deutschland verloren hat: Luft zum Atmen, weniger Regulierungsdichte, mehr persönliche Freiheit, ein Tempo, das zu mir passt." %}</p>
+            <p>{% trans "Die steuerlichen Vorteile sind real – und relevant. Aber sie allein tragen kein Leben. Was trägt: ob man einen Ort findet, an dem man sich wohlfühlt. Ob man Netzwerk aufbaut. Ob man die Sprache lernt. Ob man die Erwartungen realistisch calibriert." %}</p>
+            <p>{% trans "Ich lebe heute zwischen Paraguay und Deutschland. Das ist keine perfekte Lösung – das ist meine Lösung. Für jemand anderen sieht das anders aus." %}</p>
         </div>
     </div>
 </section>
@@ -49,14 +49,14 @@
 <!-- SECTION 2 – Was Paraguay wirklich ist -->
 <section class="py-24 lg:py-32 bg-py-bg">
     <div class="max-w-3xl mx-auto px-6">
-        <p class="fade-up text-py-navy/50 text-xs font-semibold tracking-[0.2em] uppercase mb-3">Was Paraguay wirklich ist</p>
+        <p class="fade-up text-py-navy/50 text-xs font-semibold tracking-[0.2em] uppercase mb-3">{% trans "Was Paraguay wirklich ist" %}</p>
         <h2 class="fade-up delay-100 text-2xl sm:text-3xl lg:text-4xl font-bold text-py-text mb-8">
-            Ein ehrliches Bild.
+            {% trans "Ein ehrliches Bild." %}
         </h2>
         <div class="fade-up delay-100 space-y-5 text-py-text/80 leading-relaxed">
-            <p>Paraguay funktioniert gut – in manchen Punkten erstaunlich gut. Geringe Regulierung, niedrige Steuern, günstiges Preisniveau, persönliche Freiheit. Für viele, die ihre steuerliche Situation strukturell verändern wollen, ist das attraktiv. Zu Recht.</p>
-            <p>Gleichzeitig ist Paraguay kein Paradies. Die Infrastruktur außerhalb der Hauptstadt ist lückenhaft. Qualität von Gesundheitsversorgung und Bildung variiert stark. Sprachbarrieren sind real und im Alltag deutlicher spürbar als viele erwarten. Wer denkt, dass Behörden und Banken so funktionieren wie in Deutschland, wird enttäuscht werden – und zwar mehrfach.</p>
-            <p>Der Unterschied zwischen denen, die gut in Paraguay leben, und denen, bei denen es nicht funktioniert, liegt meist nicht am Land. Er liegt an der Vorbereitung, an der Wahl des Ortes, an lokalen Kontakten – und daran, ob die eigenen Erwartungen der Realität entsprechen.</p>
+            <p>{% trans "Paraguay funktioniert gut – in manchen Punkten erstaunlich gut. Geringe Regulierung, niedrige Steuern, günstiges Preisniveau, persönliche Freiheit. Für viele, die ihre steuerliche Situation strukturell verändern wollen, ist das attraktiv. Zu Recht." %}</p>
+            <p>{% trans "Gleichzeitig ist Paraguay kein Paradies. Die Infrastruktur außerhalb der Hauptstadt ist lückenhaft. Qualität von Gesundheitsversorgung und Bildung variiert stark. Sprachbarrieren sind real und im Alltag deutlicher spürbar als viele erwarten. Wer denkt, dass Behörden und Banken so funktionieren wie in Deutschland, wird enttäuscht werden – und zwar mehrfach." %}</p>
+            <p>{% trans "Der Unterschied zwischen denen, die gut in Paraguay leben, und denen, bei denen es nicht funktioniert, liegt meist nicht am Land. Er liegt an der Vorbereitung, an der Wahl des Ortes, an lokalen Kontakten – und daran, ob die eigenen Erwartungen der Realität entsprechen." %}</p>
         </div>
     </div>
 </section>
@@ -65,14 +65,14 @@
 <!-- SECTION 3 – Asunción und Villarrica -->
 <section class="py-24 lg:py-32 bg-white">
     <div class="max-w-3xl mx-auto px-6">
-        <p class="fade-up text-py-navy/50 text-xs font-semibold tracking-[0.2em] uppercase mb-3">Asunción und Villarrica</p>
+        <p class="fade-up text-py-navy/50 text-xs font-semibold tracking-[0.2em] uppercase mb-3">{% trans "Asunción und Villarrica" %}</p>
         <h2 class="fade-up delay-100 text-2xl sm:text-3xl lg:text-4xl font-bold text-py-text mb-8">
-            Zwei Orte, die ich gut kenne.
+            {% trans "Zwei Orte, die ich gut kenne." %}
         </h2>
         <div class="fade-up delay-100 space-y-5 text-py-text/80 leading-relaxed">
-            <p>Asunción ist meine zweite Basis in Paraguay. Die Stadt ist lebendiger als ihr Ruf – eine aufstrebende Hauptstadt mit einer wachsenden Gastronomie- und Kulturszene, einer zunehmenden Zahl internationaler Unternehmer und digitaler Nomaden und einem Alltag, der deutlich urbaner ist als das Bild, das viele im Kopf haben. Wer Infrastruktur, Netzwerk und Optionen braucht, ist hier richtig. Ich schätze das selbst – und komme immer wieder gern.</p>
-            <p>Villarrica ist das andere Ende der Skala. Etwa 170 km östlich von Asunción – drei Stunden Fahrt, eine andere Welt. Kleinstadtgröße. Angenehmes Klima. Deutlich günstigere Lebenshaltungskosten. Man kennt sich. Die Entscheidungen werden kleiner, persönlicher, direkter. Wer nicht in der Hauptstadt sein muss, findet hier einen Ort, an dem sich Paraguay anders anfühlt – ruhiger, bodenständiger, persönlicher.</p>
-            <p>Wer Paraguay wirklich verstehen will, sollte nicht nur Asunción sehen.</p>
+            <p>{% trans "Asunción ist meine zweite Basis in Paraguay. Die Stadt ist lebendiger als ihr Ruf – eine aufstrebende Hauptstadt mit einer wachsenden Gastronomie- und Kulturszene, einer zunehmenden Zahl internationaler Unternehmer und digitaler Nomaden und einem Alltag, der deutlich urbaner ist als das Bild, das viele im Kopf haben. Wer Infrastruktur, Netzwerk und Optionen braucht, ist hier richtig. Ich schätze das selbst – und komme immer wieder gern." %}</p>
+            <p>{% trans "Villarrica ist das andere Ende der Skala. Etwa 170 km östlich von Asunción – drei Stunden Fahrt, eine andere Welt. Kleinstadtgröße. Angenehmes Klima. Deutlich günstigere Lebenshaltungskosten. Man kennt sich. Die Entscheidungen werden kleiner, persönlicher, direkter. Wer nicht in der Hauptstadt sein muss, findet hier einen Ort, an dem sich Paraguay anders anfühlt – ruhiger, bodenständiger, persönlicher." %}</p>
+            <p>{% trans "Wer Paraguay wirklich verstehen will, sollte nicht nur Asunción sehen." %}</p>
         </div>
     </div>
 </section>
@@ -81,30 +81,30 @@
 <!-- SECTION 4 – Praktische Punkte -->
 <section class="py-24 lg:py-32 bg-py-bg">
     <div class="max-w-3xl mx-auto px-6">
-        <p class="fade-up text-py-navy/50 text-xs font-semibold tracking-[0.2em] uppercase mb-3">Praktische Punkte</p>
+        <p class="fade-up text-py-navy/50 text-xs font-semibold tracking-[0.2em] uppercase mb-3">{% trans "Praktische Punkte" %}</p>
         <h2 class="fade-up delay-100 text-2xl sm:text-3xl lg:text-4xl font-bold text-py-text mb-10">
-            Was organisatorisch wichtig ist.
+            {% trans "Was organisatorisch wichtig ist." %}
         </h2>
 
         <div class="fade-up delay-100 space-y-8">
             <div>
-                <h3 class="font-bold text-py-text text-lg mb-2">Residencia und Cédula</h3>
-                <p class="text-py-text/80 leading-relaxed">Ohne temporäre Residencia keine Cédula – ohne Cédula keine Gesellschaft, kein Bankkonto, keine offizielle Registrierung. Das ist der Einstieg, und er braucht Zeit. Wer ungeduldig ist, wird hier frustriert.</p>
+                <h3 class="font-bold text-py-text text-lg mb-2">{% trans "Residencia und Cédula" %}</h3>
+                <p class="text-py-text/80 leading-relaxed">{% trans "Ohne temporäre Residencia keine Cédula – ohne Cédula keine Gesellschaft, kein Bankkonto, keine offizielle Registrierung. Das ist der Einstieg, und er braucht Zeit. Wer ungeduldig ist, wird hier frustriert." %}</p>
             </div>
 
             <div>
-                <h3 class="font-bold text-py-text text-lg mb-2">Steuerliche Ansässigkeit</h3>
-                <p class="text-py-text/80 leading-relaxed">Eine paraguayische Residencia macht Sie nicht automatisch in Deutschland steuerlich nicht mehr ansässig. Wohnsitzaufgabe in Deutschland muss strukturiert angegangen werden – und bringt steuerliche Konsequenzen mit sich, die vorher geklärt sein müssen. Das ist kein Detail, das man nachher lösen kann.</p>
+                <h3 class="font-bold text-py-text text-lg mb-2">{% trans "Steuerliche Ansässigkeit" %}</h3>
+                <p class="text-py-text/80 leading-relaxed">{% trans "Eine paraguayische Residencia macht Sie nicht automatisch in Deutschland steuerlich nicht mehr ansässig. Wohnsitzaufgabe in Deutschland muss strukturiert angegangen werden – und bringt steuerliche Konsequenzen mit sich, die vorher geklärt sein müssen. Das ist kein Detail, das man nachher lösen kann." %}</p>
             </div>
 
             <div>
-                <h3 class="font-bold text-py-text text-lg mb-2">Krankenversicherung</h3>
-                <p class="text-py-text/80 leading-relaxed">Der private Weg ist für die meisten die realistischere Option. Das sollte vor der Ankunft geregelt sein, nicht danach.</p>
+                <h3 class="font-bold text-py-text text-lg mb-2">{% trans "Krankenversicherung" %}</h3>
+                <p class="text-py-text/80 leading-relaxed">{% trans "Der private Weg ist für die meisten die realistischere Option. Das sollte vor der Ankunft geregelt sein, nicht danach." %}</p>
             </div>
 
             <div>
-                <h3 class="font-bold text-py-text text-lg mb-2">Sprache</h3>
-                <p class="text-py-text/80 leading-relaxed">Spanisch ist die Geschäfts- und Behördensprache. Wer auf Grundniveau kommunizieren kann, hat deutlich mehr Handlungsspielraum. Guaraní wird im Alltag in manchen Regionen gesprochen – Spanisch ist überall.</p>
+                <h3 class="font-bold text-py-text text-lg mb-2">{% trans "Sprache" %}</h3>
+                <p class="text-py-text/80 leading-relaxed">{% trans "Spanisch ist die Geschäfts- und Behördensprache. Wer auf Grundniveau kommunizieren kann, hat deutlich mehr Handlungsspielraum. Guaraní wird im Alltag in manchen Regionen gesprochen – Spanisch ist überall." %}</p>
             </div>
         </div>
     </div>
@@ -114,9 +114,9 @@
 <!-- CTA -->
 <section class="py-24 lg:py-32 bg-py-navy">
     <div class="max-w-3xl mx-auto px-6 text-center">
-        <h2 class="fade-up text-2xl sm:text-3xl font-bold text-white mb-4">Wenn Sie Paraguay als Basis prüfen wollen.</h2>
+        <h2 class="fade-up text-2xl sm:text-3xl font-bold text-white mb-4">{% trans "Wenn Sie Paraguay als Basis prüfen wollen." %}</h2>
         <p class="fade-up delay-100 text-white/70 leading-relaxed mb-10 max-w-xl mx-auto">
-            Leben in Paraguay hat viele Aspekte, die sich nicht aus YouTube-Videos erschließen – besonders wenn man Gesellschaften, Kapital oder einen ernsthaften Wegzug aus Deutschland plant. Wenn Sie Ihre konkrete Situation einordnen wollen, ist ein Gespräch der richtige Einstieg.
+            {% trans "Leben in Paraguay hat viele Aspekte, die sich nicht aus YouTube-Videos erschließen – besonders wenn man Gesellschaften, Kapital oder einen ernsthaften Wegzug aus Deutschland plant. Wenn Sie Ihre konkrete Situation einordnen wollen, ist ein Gespräch der richtige Einstieg." %}
         </p>
         <div class="fade-up delay-200">
             <a href="{{ CALENDLY_PARAGUAY_URL }}" target="_blank" rel="noopener noreferrer"
@@ -124,7 +124,7 @@
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
                 </svg>
-                Erstgespräch anfragen
+                {% trans "Erstgespräch anfragen" %}
             </a>
         </div>
     </div>

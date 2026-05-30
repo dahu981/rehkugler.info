@@ -1,12 +1,12 @@
 {% extends 'base_paraguay.html' %}
 {% load static i18n %}
 
-{% block py_title %}Paraguay Videos – Steuern, EAS, Immobilien, Alltag | Markus Rehkugler{% endblock %}
-{% block py_meta_description %}YouTube-Kanal „Markus Rehkugler Paraguay". Nüchterne, strukturierte Inhalte zu EAS, Steuersystem, Immobilien und Leben in Paraguay – für Unternehmer und Investoren.{% endblock %}
-{% block py_og_title %}Paraguay Videos – Steuern, EAS, Immobilien, Alltag | Markus Rehkugler{% endblock %}
-{% block py_og_description %}YouTube-Kanal „Markus Rehkugler Paraguay". Nüchterne, strukturierte Inhalte zu EAS, Steuersystem, Immobilien und Leben in Paraguay.{% endblock %}
-{% block py_twitter_title %}Paraguay Videos – Steuern, EAS, Immobilien, Alltag | Markus Rehkugler{% endblock %}
-{% block py_twitter_description %}YouTube-Kanal „Markus Rehkugler Paraguay". Nüchterne, strukturierte Inhalte zu EAS, Steuersystem, Immobilien und Leben in Paraguay.{% endblock %}
+{% block py_title %}{% trans "Paraguay Videos – Steuern, EAS, Immobilien, Alltag | Markus Rehkugler" %}{% endblock %}
+{% block py_meta_description %}{% trans 'YouTube-Kanal „Markus Rehkugler Paraguay". Nüchterne, strukturierte Inhalte zu EAS, Steuersystem, Immobilien und Leben in Paraguay – für Unternehmer und Investoren.' %}{% endblock %}
+{% block py_og_title %}{% trans "Paraguay Videos – Steuern, EAS, Immobilien, Alltag | Markus Rehkugler" %}{% endblock %}
+{% block py_og_description %}{% trans 'YouTube-Kanal „Markus Rehkugler Paraguay". Nüchterne, strukturierte Inhalte zu EAS, Steuersystem, Immobilien und Leben in Paraguay.' %}{% endblock %}
+{% block py_twitter_title %}{% trans "Paraguay Videos – Steuern, EAS, Immobilien, Alltag | Markus Rehkugler" %}{% endblock %}
+{% block py_twitter_description %}{% trans 'YouTube-Kanal „Markus Rehkugler Paraguay". Nüchterne, strukturierte Inhalte zu EAS, Steuersystem, Immobilien und Leben in Paraguay.' %}{% endblock %}
 
 {% block content %}
 
@@ -14,13 +14,13 @@
 <section class="relative min-h-[70vh] flex items-center justify-center overflow-hidden">
     <div class="absolute inset-0 bg-py-navy"></div>
     <div class="relative z-10 text-center max-w-3xl mx-auto px-6 py-32">
-        <p class="fade-up text-py-gold text-xs font-semibold tracking-[0.25em] uppercase mb-8">Videos</p>
+        <p class="fade-up text-py-gold text-xs font-semibold tracking-[0.25em] uppercase mb-8">{% trans "Videos" %}</p>
         <h1 class="fade-up delay-100 text-4xl lg:text-6xl font-bold text-white leading-[1.08] mb-8">
-            Paraguay. Nüchtern erklärt.
+            {% trans "Paraguay. Nüchtern erklärt." %}
         </h1>
         <div class="fade-up delay-200 w-16 h-px bg-py-gold mx-auto mb-8"></div>
         <p class="fade-up delay-200 text-white/80 text-lg leading-relaxed max-w-2xl mx-auto">
-            Auf dem Kanal „Markus Rehkugler Paraguay" geht es um die Fragen, die Unternehmer und Investoren wirklich beschäftigen: Steuern, Gesellschaften, Banken, Immobilien, Residencia. Aus eigener Erfahrung, ohne Verklärung.
+            {% trans 'Auf dem Kanal „Markus Rehkugler Paraguay" geht es um die Fragen, die Unternehmer und Investoren wirklich beschäftigen: Steuern, Gesellschaften, Banken, Immobilien, Residencia. Aus eigener Erfahrung, ohne Verklärung.' %}
         </p>
         <div class="fade-up delay-300 mt-10">
             <a href="https://www.youtube.com/@MarkusRehkuglerParaguay" target="_blank" rel="noopener noreferrer"
@@ -28,7 +28,7 @@
                 <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path d="M23.495 6.205a3.007 3.007 0 00-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 00.527 6.205a31.247 31.247 0 00-.522 5.805 31.247 31.247 0 00.522 5.783 3.007 3.007 0 002.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 002.088-2.088 31.247 31.247 0 00.5-5.783 31.247 31.247 0 00-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/>
                 </svg>
-                Zum YouTube-Kanal
+                {% trans "Zum YouTube-Kanal" %}
             </a>
         </div>
     </div>
@@ -38,30 +38,30 @@
 <!-- SECTION 1 – Themen -->
 <section class="py-24 lg:py-32 bg-white">
     <div class="max-w-3xl mx-auto px-6">
-        <p class="fade-up text-py-navy/50 text-xs font-semibold tracking-[0.2em] uppercase mb-3">Was auf dem Kanal behandelt wird</p>
+        <p class="fade-up text-py-navy/50 text-xs font-semibold tracking-[0.2em] uppercase mb-3">{% trans "Was auf dem Kanal behandelt wird" %}</p>
         <h2 class="fade-up delay-100 text-2xl sm:text-3xl lg:text-4xl font-bold text-py-text mb-8">
-            Die Themen.
+            {% trans "Die Themen." %}
         </h2>
         <div class="fade-up delay-100 text-py-text/80 leading-relaxed mb-10">
-            <p>Die meisten deutschsprachigen Paraguay-Kanäle zeigen Alltag, Cédula-Behördengänge und den Lebensstil. Das hat seinen Platz. Was fehlt, sind Antworten auf die Fragen, die ernsthafte Entscheidungen brauchen.</p>
+            <p>{% trans "Die meisten deutschsprachigen Paraguay-Kanäle zeigen Alltag, Cédula-Behördengänge und den Lebensstil. Das hat seinen Platz. Was fehlt, sind Antworten auf die Fragen, die ernsthafte Entscheidungen brauchen." %}</p>
         </div>
 
         <div class="fade-up delay-200 space-y-6">
             <div class="border-l-2 border-py-gold pl-5">
-                <p class="font-semibold text-py-text mb-1">Steuern und Gesellschaften</p>
-                <p class="text-py-text/80 leading-relaxed">Wie das paraguayische Steuersystem wirklich funktioniert. Was das Territorialprinzip konkret bedeutet. Welche Gesellschaftsform wann sinnvoll ist. Und was in Deutschland nicht automatisch wegfällt, nur weil man wegzieht.</p>
+                <p class="font-semibold text-py-text mb-1">{% trans "Steuern und Gesellschaften" %}</p>
+                <p class="text-py-text/80 leading-relaxed">{% trans "Wie das paraguayische Steuersystem wirklich funktioniert. Was das Territorialprinzip konkret bedeutet. Welche Gesellschaftsform wann sinnvoll ist. Und was in Deutschland nicht automatisch wegfällt, nur weil man wegzieht." %}</p>
             </div>
             <div class="border-l-2 border-py-gold pl-5">
-                <p class="font-semibold text-py-text mb-1">Banken und Kapitalfluss</p>
-                <p class="text-py-text/80 leading-relaxed">Warum man in Paraguay nicht einfach ein Konto bekommt – und wie man das ändert. Was Bankfähigkeit wirklich bedeutet. Wie Kapital aus Deutschland nach Paraguay kommt.</p>
+                <p class="font-semibold text-py-text mb-1">{% trans "Banken und Kapitalfluss" %}</p>
+                <p class="text-py-text/80 leading-relaxed">{% trans "Warum man in Paraguay nicht einfach ein Konto bekommt – und wie man das ändert. Was Bankfähigkeit wirklich bedeutet. Wie Kapital aus Deutschland nach Paraguay kommt." %}</p>
             </div>
             <div class="border-l-2 border-py-gold pl-5">
-                <p class="font-semibold text-py-text mb-1">Immobilien und Investitionen</p>
-                <p class="text-py-text/80 leading-relaxed">Wie der paraguayische Markt wirklich funktioniert. Was realistische Einschätzungen sind – und was Prospektsprache ist.</p>
+                <p class="font-semibold text-py-text mb-1">{% trans "Immobilien und Investitionen" %}</p>
+                <p class="text-py-text/80 leading-relaxed">{% trans "Wie der paraguayische Markt wirklich funktioniert. Was realistische Einschätzungen sind – und was Prospektsprache ist." %}</p>
             </div>
             <div class="border-l-2 border-py-gold pl-5">
-                <p class="font-semibold text-py-text mb-1">Alltag mit Substanz</p>
-                <p class="text-py-text/80 leading-relaxed">Residencia, Cédula, Krankenversicherung, Wohnen, Kosten, Sprache – aber immer mit dem Fokus: Was bedeutet das für jemanden, der ernsthaft plant, nicht für jemanden, der sich das Leben schönredet?</p>
+                <p class="font-semibold text-py-text mb-1">{% trans "Alltag mit Substanz" %}</p>
+                <p class="text-py-text/80 leading-relaxed">{% trans "Residencia, Cédula, Krankenversicherung, Wohnen, Kosten, Sprache – aber immer mit dem Fokus: Was bedeutet das für jemanden, der ernsthaft plant, nicht für jemanden, der sich das Leben schönredet?" %}</p>
             </div>
         </div>
     </div>
@@ -71,9 +71,9 @@
 <!-- SECTION 2 – Aktuelle Videos -->
 <section class="py-24 lg:py-32 bg-py-bg">
     <div class="max-w-4xl mx-auto px-6">
-        <p class="fade-up text-py-navy/50 text-xs font-semibold tracking-[0.2em] uppercase mb-3">Aktuelle Videos</p>
+        <p class="fade-up text-py-navy/50 text-xs font-semibold tracking-[0.2em] uppercase mb-3">{% trans "Aktuelle Videos" %}</p>
         <h2 class="fade-up delay-100 text-2xl sm:text-3xl lg:text-4xl font-bold text-py-text mb-10">
-            Aktuelle Videos.
+            {% trans "Aktuelle Videos." %}
         </h2>
 
         <!-- Platzhalter — wird durch YouTube-Embeds ersetzt wenn Kanal live -->
@@ -81,7 +81,7 @@
             <svg class="w-12 h-12 text-py-navy/20 mx-auto mb-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path d="M23.495 6.205a3.007 3.007 0 00-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 00.527 6.205a31.247 31.247 0 00-.522 5.805 31.247 31.247 0 00.522 5.783 3.007 3.007 0 002.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 002.088-2.088 31.247 31.247 0 00.5-5.783 31.247 31.247 0 00-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/>
             </svg>
-            <p class="text-py-text/50 text-sm">Videos werden hier eingebettet, sobald der Kanal live ist.</p>
+            <p class="text-py-text/50 text-sm">{% trans "Videos werden hier eingebettet, sobald der Kanal live ist." %}</p>
         </div>
 
         <div class="fade-up delay-300 mt-8 text-center">
@@ -90,7 +90,7 @@
                 <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path d="M23.495 6.205a3.007 3.007 0 00-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 00.527 6.205a31.247 31.247 0 00-.522 5.805 31.247 31.247 0 00.522 5.783 3.007 3.007 0 002.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 002.088-2.088 31.247 31.247 0 00.5-5.783 31.247 31.247 0 00-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/>
                 </svg>
-                Alle Videos auf YouTube ansehen
+                {% trans "Alle Videos auf YouTube ansehen" %}
             </a>
         </div>
     </div>
@@ -100,31 +100,31 @@
 <!-- SECTION 3 – Kostenloses Material -->
 <section class="py-24 lg:py-32 bg-white">
     <div class="max-w-4xl mx-auto px-6">
-        <p class="fade-up text-py-navy/50 text-xs font-semibold tracking-[0.2em] uppercase mb-3">Kostenloses Material</p>
+        <p class="fade-up text-py-navy/50 text-xs font-semibold tracking-[0.2em] uppercase mb-3">{% trans "Kostenloses Material" %}</p>
         <h2 class="fade-up delay-100 text-2xl sm:text-3xl lg:text-4xl font-bold text-py-text mb-12">
-            Zwei Leitfäden zum Download.
+            {% trans "Zwei Leitfäden zum Download." %}
         </h2>
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             <!-- EAS-Leitfaden -->
             <div class="fade-up delay-200 bg-py-bg p-8 border-t-2 border-py-gold">
-                <h3 class="text-lg font-bold text-py-text mb-4">EAS Paraguay – Der Praxisleitfaden</h3>
-                <p class="text-py-text/80 leading-relaxed mb-6">Wenn Sie die EAS als Gesellschaftsform prüfen: Was die EAS ist, für wen sie geeignet ist, was sie kostet, wie sie steuerlich funktioniert – und welche Fehler vermieden werden sollten.</p>
-                <p class="text-py-text/50 text-sm mb-6">Kostenlos, nach Angabe Ihrer E-Mail-Adresse.</p>
+                <h3 class="text-lg font-bold text-py-text mb-4">{% trans "EAS Paraguay – Der Praxisleitfaden" %}</h3>
+                <p class="text-py-text/80 leading-relaxed mb-6">{% trans "Wenn Sie die EAS als Gesellschaftsform prüfen: Was die EAS ist, für wen sie geeignet ist, was sie kostet, wie sie steuerlich funktioniert – und welche Fehler vermieden werden sollten." %}</p>
+                <p class="text-py-text/50 text-sm mb-6">{% trans "Kostenlos, nach Angabe Ihrer E-Mail-Adresse." %}</p>
                 <a href="{% url 'core:py_download_eas' %}"
                    class="inline-flex items-center justify-center gap-2 bg-py-gold hover:bg-[#c9a430] text-py-text font-semibold text-sm px-6 py-3 transition-colors">
-                    EAS-Leitfaden herunterladen
+                    {% trans "EAS-Leitfaden herunterladen" %}
                 </a>
             </div>
 
             <!-- Steuern-Handout -->
             <div class="fade-up delay-300 bg-py-bg p-8 border-t-2 border-py-gold">
-                <h3 class="text-lg font-bold text-py-text mb-4">Steuern in Paraguay – Das Wichtigste im Überblick</h3>
-                <p class="text-py-text/80 leading-relaxed mb-6">Ein kompakter Überblick über das paraguayische Steuersystem: Territorialprinzip, IVA, IRE, IDU, IRP – was gilt, was nicht gilt, und was für Deutsche mit deutschen Einkünften oder Gesellschaften relevant wird.</p>
-                <p class="text-py-text/50 text-sm mb-6">Kostenlos, nach Angabe Ihrer E-Mail-Adresse.</p>
+                <h3 class="text-lg font-bold text-py-text mb-4">{% trans "Steuern in Paraguay – Das Wichtigste im Überblick" %}</h3>
+                <p class="text-py-text/80 leading-relaxed mb-6">{% trans "Ein kompakter Überblick über das paraguayische Steuersystem: Territorialprinzip, IVA, IRE, IDU, IRP – was gilt, was nicht gilt, und was für Deutsche mit deutschen Einkünften oder Gesellschaften relevant wird." %}</p>
+                <p class="text-py-text/50 text-sm mb-6">{% trans "Kostenlos, nach Angabe Ihrer E-Mail-Adresse." %}</p>
                 <a href="{% url 'core:py_download_steuern' %}"
                    class="inline-flex items-center justify-center gap-2 bg-py-gold hover:bg-[#c9a430] text-py-text font-semibold text-sm px-6 py-3 transition-colors">
-                    Steuer-Überblick herunterladen
+                    {% trans "Steuer-Überblick herunterladen" %}
                 </a>
             </div>
         </div>
@@ -136,7 +136,7 @@
 <section class="py-24 lg:py-32 bg-py-navy">
     <div class="max-w-3xl mx-auto px-6 text-center">
         <p class="fade-up text-white/70 leading-relaxed mb-10 max-w-xl mx-auto">
-            Wenn Sie nach den Videos merken, dass Sie Ihre konkrete Situation einordnen wollen – Gesellschaft, Steuern, Immobilien, Residencia – ist ein Gespräch der nächste Schritt.
+            {% trans "Wenn Sie nach den Videos merken, dass Sie Ihre konkrete Situation einordnen wollen – Gesellschaft, Steuern, Immobilien, Residencia – ist ein Gespräch der nächste Schritt." %}
         </p>
         <div class="fade-up delay-100">
             <a href="{{ CALENDLY_PARAGUAY_URL }}" target="_blank" rel="noopener noreferrer"
@@ -144,7 +144,7 @@
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
                 </svg>
-                Erstgespräch anfragen
+                {% trans "Erstgespräch anfragen" %}
             </a>
         </div>
     </div>
