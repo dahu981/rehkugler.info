@@ -131,6 +131,12 @@ def robots_txt(request):
         'User-agent: ClaudeBot',
         'Allow: /',
         '',
+        'User-agent: OAI-SearchBot',
+        'Allow: /',
+        '',
+        'User-agent: Applebot-Extended',
+        'Allow: /',
+        '',
         f'Sitemap: {request.scheme}://{request.get_host()}/sitemap.xml',
     ]
     return HttpResponse('\n'.join(lines), content_type='text/plain')
@@ -139,48 +145,52 @@ def robots_txt(request):
 def llms_txt(request):
     from django.conf import settings
     site_url = getattr(settings, 'SITE_URL', f'{request.scheme}://{request.get_host()}')
-    content = f"""# Rehkugler Immobilienbewertung
+    content = f"""# Markus Rehkugler – Struktur schafft Klarheit
 
-> Zertifizierte Immobiliengutachten nach §194 BauGB – unabhängig, gerichtsfest, deutschlandweit.
+> Markus Rehkugler ist Immobilienexperte, Dipl.-Sachverständiger (DIA) und Unternehmerbegleiter mit über 25 Jahren Erfahrung. Er lebt und arbeitet zwischen Deutschland und Paraguay und berät Unternehmer, Investoren und Eigentümer an der Schnittstelle von Immobilien, Unternehmensstruktur und persönlicher Transformation.
 
 ## Über Markus Rehkugler
 
-Markus Rehkugler ist zertifizierter Immobiliengutachter und erstellt Verkehrswertgutachten für private und gewerbliche Immobilien. Schwerpunkte sind Erbschaft, Scheidung, Finanzierung, Kauf/Verkauf und Vermögensbewertung.
+Markus Rehkugler ist Dipl.-Finanzwirt (FH) und Dipl.-Sachverständiger (DIA) für Immobilienbewertung. Seit über 25 Jahren bewertet er Immobilien, berät Eigentümer und Investoren und arbeitet an der Schnittstelle von Zahlen, Strukturen und Entscheidungen. Seit 2019/2020 lebt er zwischen Deutschland und Paraguay, mit eigenen Gesellschaften, Steuerpflichten und operativer Erfahrung vor Ort. Als Präsident des Directorio einer paraguayischen Immobiliengesellschaft kennt er den Markt aus erster Hand.
 
-## Leistungen
+## Immobilienberatung Deutschland
 
-- **Verkehrswertgutachten**: Rechtssichere Bewertung nach §194 BauGB, anerkannt bei Gerichten, Finanzämtern und Banken.
-- **Kurzgutachten**: Kompakte Werteinschätzung für private Entscheidungen.
-- **Sonderfälle**: Erbbaurecht, Nießbrauch, Wohnrecht, Denkmalschutz, Bauschäden.
+- Verkehrswertgutachten und Sachverständigenbewertungen
+- Strukturierte Immobilienberatung für Eigentümer, Investoren und Profis
+- Website: [REHKUGLER Immobilien](https://www.rehkugler.info)
 
-## Bewertungsanlässe
+## Paraguay – Struktur & Orientierung
 
-- Erbschaft & Schenkung – Gutachten zur steuerlichen Bewertung
-- Scheidung – Gerichtsfeste Verkehrswertgutachten
-- Kauf & Verkauf – Unabhängige Marktbewertung
-- Finanzierung – Beleihungswertgutachten für Banken
-- Vermögen & Unternehmen – Bilanzielle Immobilienbewertung
+Strukturierte Einordnung für deutsche Unternehmer und Investoren, die Paraguay ernsthaft prüfen: Gesellschaftsformen (EAS, S.A., S.R.L.), Steuern (Territorialprinzip, IRE, IVA, IDU, IRP), Bankfähigkeit, Kapitalfluss und Residencia.
 
-## Häufige Fragen
+- [Strukturberatung Paraguay]({site_url}/paraguay/strukturberatung/)
+- [Investieren in Paraguay]({site_url}/paraguay/investieren/)
+- [Immobilien in Paraguay]({site_url}/paraguay/immobilien/)
+- [Leben in Paraguay]({site_url}/paraguay/leben/)
+- [Videos]({site_url}/paraguay/videos/)
 
-- **Was kostet ein Verkehrswertgutachten?** Die Kosten hängen von Immobilientyp, Lage und Komplexität ab. Eine individuelle Einschätzung erfolgt nach Erstanfrage.
-- **Wie lange dauert ein Gutachten?** In der Regel 2–4 Wochen nach Objektbesichtigung und Unterlageneingang.
-- **Wird das Gutachten vor Gericht anerkannt?** Ja. Alle Gutachten entsprechen den Vorgaben des §194 BauGB und sind gerichtsfest.
+## Transformation & Unternehmerbegleitung
+
+Begleitung für Unternehmer in komplexen Situationen – finanziell, strukturell oder innerlich. Analytische Reflexion und strukturiertes Denken statt schneller Lösungen.
+
+- Website: [Transformation Guide](https://www.markus-rehkugler.de)
 
 ## Kontakt
 
-- Website: {site_url}
-- E-Mail: info@rehkugler.info
+- E-Mail: mr@markus-rehkugler.info
+- WhatsApp: +49 151 66555888
+- Calendly: https://calendly.com/markusrehkugler/info-gesprach
 
 ## Links
 
-- Startseite: {site_url}/
-- Gutachten: {site_url}/gutachten/
-- Bewertungsanlässe: {site_url}/anlaesse/
-- Sonderfälle: {site_url}/sonderfaelle/
-- Profil: {site_url}/profil/
-- Kontakt: {site_url}/kontakt/
-- Impressum: {site_url}/impressum/
-- Datenschutz: {site_url}/datenschutz/
+- [Startseite]({site_url}/)
+- [Impressum]({site_url}/impressum/)
+- [Datenschutz]({site_url}/datenschutz/)
+
+## Optional
+
+- [REHKUGLER Immobilien](https://www.rehkugler.info) – Gutachten & Bewertung Deutschland
+- [Transformation Guide](https://www.markus-rehkugler.de) – Unternehmerbegleitung
+- [Immo-Gutachter](https://www.immo-gutachter.info) – Sachverständigenportal
 """
     return HttpResponse(content.strip(), content_type='text/plain; charset=utf-8')

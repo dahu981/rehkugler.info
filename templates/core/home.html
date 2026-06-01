@@ -280,6 +280,22 @@
             "email": "mr@markus-rehkugler.info",
             "telephone": "+4915166555888",
             "jobTitle": "Immobilienexperte & Unternehmerbegleiter",
+            "hasCredential": [
+                {
+                    "@type": "EducationalOccupationalCredential",
+                    "credentialCategory": "Diploma",
+                    "name": "Dipl.-Finanzwirt (FH)"
+                },
+                {
+                    "@type": "EducationalOccupationalCredential",
+                    "credentialCategory": "Diploma",
+                    "name": "Dipl.-Sachverständiger (DIA)",
+                    "recognizedBy": {
+                        "@type": "Organization",
+                        "name": "Deutsche Immobilien-Akademie (DIA)"
+                    }
+                }
+            ],
             "knowsAbout": [
                 "Immobilienbewertung",
                 "Verkehrswertgutachten",
@@ -287,7 +303,12 @@
                 "Unternehmerbegleitung",
                 "Persönliche Transformation",
                 "Immobilienmarkt Deutschland",
-                "Immobilienmarkt Paraguay"
+                "Immobilienmarkt Paraguay",
+                "EAS Paraguay",
+                "Steuern Paraguay",
+                "Auswandern Paraguay",
+                "Residencia Paraguay",
+                "Grundstücksbewertung Paraguay"
             ],
             "knowsLanguage": ["de", "es"],
             "address": {
@@ -302,6 +323,8 @@
                 "https://www.instagram.com/markusrehkugler",
                 "https://www.youtube.com/@RehkuglerImmobilien",
                 "https://www.youtube.com/@Markus.Rehkugler",
+                "https://www.youtube.com/@MarkusRehkuglerParaguay",
+                "https://de.linkedin.com/in/markus-rehkugler",
                 "https://www.rehkugler.info",
                 "https://www.markus-rehkugler.de",
                 "https://www.immo-gutachter.info"
@@ -316,6 +339,50 @@
             "inLanguage": ["de", "es"],
             "publisher": { "@id": "{{ SITE_URL }}/#person" }
         }
+    ]
+}
+</script>
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "@id": "{{ SITE_URL }}/#business",
+    "name": "Markus Rehkugler – Immobilienberatung & Unternehmerbegleitung",
+    "url": "{{ SITE_URL }}",
+    "image": "{{ SITE_URL }}{% static 'images/portrait-markus-rehkugler.webp' %}",
+    "description": "Immobilienberatung, Sachverständigengutachten und strukturierte Begleitung für Unternehmer und Investoren – spezialisiert auf Deutschland und Paraguay.",
+    "founder": { "@id": "{{ SITE_URL }}/#person" },
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Dr. Toribio Pacheco 4750",
+        "addressLocality": "Asunción",
+        "addressRegion": "Recoleta",
+        "postalCode": "1412",
+        "addressCountry": "PY"
+    },
+    "telephone": "+4915166555888",
+    "email": "mr@markus-rehkugler.info",
+    "areaServed": [
+        { "@type": "Country", "name": "Germany" },
+        { "@type": "Country", "name": "Paraguay" }
+    ],
+    "serviceType": [
+        "Immobilienbewertung",
+        "Verkehrswertgutachten",
+        "Strukturberatung Paraguay",
+        "Investitionsbegleitung",
+        "Unternehmerbegleitung"
+    ],
+    "knowsLanguage": ["de", "es"],
+    "sameAs": [
+        "https://www.instagram.com/markusrehkugler",
+        "https://www.youtube.com/@RehkuglerImmobilien",
+        "https://www.youtube.com/@Markus.Rehkugler",
+        "https://www.youtube.com/@MarkusRehkuglerParaguay",
+        "https://de.linkedin.com/in/markus-rehkugler",
+        "https://www.rehkugler.info",
+        "https://www.markus-rehkugler.de",
+        "https://www.immo-gutachter.info"
     ]
 }
 </script>
