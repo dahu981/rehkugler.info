@@ -1,5 +1,20 @@
+from datetime import datetime
+
 from django.contrib.sitemaps import Sitemap
 from django.urls import reverse
+
+LAST_MODIFIED = {
+    'core:home': datetime(2026, 6, 1),
+    'core:py_strukturberatung': datetime(2026, 5, 15),
+    'core:py_investieren': datetime(2026, 5, 15),
+    'core:py_immobilien': datetime(2026, 5, 15),
+    'core:py_leben': datetime(2026, 5, 15),
+    'core:py_videos': datetime(2026, 5, 15),
+    'core:py_download_eas': datetime(2026, 5, 15),
+    'core:py_download_steuern': datetime(2026, 5, 15),
+    'core:datenschutz': datetime(2026, 2, 24),
+    'core:impressum': datetime(2026, 2, 24),
+}
 
 
 class StaticSitemap(Sitemap):
@@ -16,6 +31,9 @@ class StaticSitemap(Sitemap):
 
     def location(self, item):
         return reverse(item)
+
+    def lastmod(self, item):
+        return LAST_MODIFIED.get(item)
 
     def priority(self, item):
         if item == 'core:home':

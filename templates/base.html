@@ -12,9 +12,11 @@
 
     <!-- hreflang: DE/ES -->
     {% get_current_language as CURRENT_LANGUAGE %}
-    <link rel="alternate" hreflang="de" href="{{ SITE_URL }}{{ request.path }}">
-    <link rel="alternate" hreflang="es" href="{{ SITE_URL }}/es{{ request.path }}">
-    <link rel="alternate" hreflang="x-default" href="{{ SITE_URL }}{{ request.path }}">
+    {% load hreflang_tags %}
+    {% strip_lang_prefix request.path as clean_path %}
+    <link rel="alternate" hreflang="de" href="{{ SITE_URL }}{{ clean_path }}">
+    <link rel="alternate" hreflang="es" href="{{ SITE_URL }}/es{{ clean_path }}">
+    <link rel="alternate" hreflang="x-default" href="{{ SITE_URL }}{{ clean_path }}">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
@@ -118,7 +120,26 @@
     {% block footer %}{% include 'partials/_footer.html' %}{% endblock %}
 
     <script src="{% static 'js/main.js' %}" defer></script>
-    {% block structured_data %}{% endblock %}
+
+    <!-- Base structured data: WebPage + BreadcrumbList (overridden by homepage) -->
+    {% block structured_data %}
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "url": "{{ SITE_URL }}{{ clean_path }}",
+        "name": "{% block schema_name %}{{ request.resolver_match.url_name|default:'Markus Rehkugler' }}{% endblock %}",
+        "isPartOf": { "@id": "{{ SITE_URL }}/#website" },
+        "about": { "@id": "{{ SITE_URL }}/#person" },
+        "author": { "@id": "{{ SITE_URL }}/#person" },
+        "inLanguage": "{{ LANGUAGE_CODE }}",
+        "speakable": {
+            "@type": "SpeakableSpecification",
+            "cssSelector": ["h1", "main > section:first-of-type p"]
+        }
+    }
+    </script>
+    {% endblock %}
     {% block extra_js %}{% endblock %}
 
     <!-- Metricool -->
