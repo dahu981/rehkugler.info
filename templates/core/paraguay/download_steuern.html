@@ -10,10 +10,11 @@
 <section class="relative min-h-[50vh] flex items-center justify-center overflow-hidden">
     <div class="absolute inset-0 bg-py-navy"></div>
     <div class="relative z-10 text-center max-w-3xl mx-auto px-6 py-28">
-        <p class="fade-up text-py-gold text-xs font-semibold tracking-[0.25em] uppercase mb-8">{% trans "Kostenloser Überblick" %}</p>
-        <h1 class="fade-up delay-100 text-3xl lg:text-5xl font-bold text-white leading-[1.08] mb-8">
-            {% trans "Steuern in Paraguay – Das Wichtigste im Überblick" %}
+        <p class="fade-up text-py-gold text-xs font-semibold tracking-[0.25em] uppercase mb-8">{% trans "Kostenloser Leitfaden" %}</p>
+        <h1 class="fade-up delay-100 text-3xl lg:text-5xl font-bold text-white leading-[1.08] mb-6">
+            {% trans "Selbständig in Paraguay – Das Steuersystem verstehen" %}
         </h1>
+        <p class="fade-up delay-150 text-white/80 text-lg">{% trans "Ein Leitfaden für Deutschsprachige" %}</p>
         <div class="fade-up delay-200 w-16 h-px bg-py-gold mx-auto"></div>
     </div>
 </section>
@@ -22,8 +23,8 @@
 <section class="py-24 lg:py-32 bg-white">
     <div class="max-w-xl mx-auto px-6">
         <div class="fade-up space-y-5 text-py-text/80 leading-relaxed mb-10">
-            <p>{% trans "Ein kompakter Überblick über das paraguayische Steuersystem: Territorialprinzip, IVA, IRE, IDU, IRP – was gilt, was nicht gilt, und was für Deutsche mit deutschen Einkünften oder Gesellschaften relevant wird." %}</p>
-            <p>{% trans "Kostenlos, nach Angabe Ihrer E-Mail-Adresse." %}</p>
+            <p>{% trans "IRP-RSP, IRE, IVA, IDU – was gilt für wen, ab wann, und was du praktisch brauchst. Mit den 5 häufigsten Irrtümern, die Selbständige teuer zu stehen kommen." %}</p>
+            <p>{% trans "Nach Angabe Ihrer E-Mail-Adresse können Sie den Leitfaden kostenlos herunterladen." %}</p>
         </div>
 
         <form method="post" class="fade-up delay-100">
@@ -38,7 +39,7 @@
             {% if form.email.errors %}
             <p class="text-red-600 text-sm mt-2">{{ form.email.errors.0 }}</p>
             {% endif %}
-            <p class="text-py-text/40 text-xs mt-4">{% trans 'Ihre E-Mail-Adresse wird ausschließlich für den Versand des Überblicks verwendet.' %} <a href="{% url 'core:datenschutz' %}" class="underline hover:text-py-gold">{% trans "Datenschutz" %}</a></p>
+            <p class="text-py-text/40 text-xs mt-4"><a href="{% url 'core:datenschutz' %}" class="underline hover:text-py-gold">{% trans "Datenschutz" %}</a></p>
         </form>
     </div>
 </section>

@@ -91,8 +91,53 @@
 </section>
 
 
-<!-- SECTION 3 – Für wen -->
+<!-- SECTION – PDF Downloads -->
 <section class="py-24 lg:py-32 bg-white">
+    <div class="max-w-3xl mx-auto px-6">
+        <p class="fade-up text-py-navy/50 text-xs font-semibold tracking-[0.2em] uppercase mb-3">{% trans "Kostenlose Leitfäden" %}</p>
+        <h2 class="fade-up delay-100 text-2xl sm:text-3xl lg:text-4xl font-bold text-py-text mb-12">
+            {% trans "Zum Einlesen." %}
+        </h2>
+
+        <div class="fade-up delay-200 grid md:grid-cols-2 gap-8">
+            <!-- EAS Leitfaden -->
+            <a href="{% url 'core:py_download_eas' %}" class="group relative border border-py-navy/10 p-8 pb-14 hover:border-py-gold transition-colors">
+                <div class="flex items-center gap-3 mb-5">
+                    <div class="w-10 h-10 bg-py-gold/10 flex items-center justify-center flex-shrink-0">
+                        <svg class="w-5 h-5 text-py-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                        </svg>
+                    </div>
+                    <span class="text-py-gold text-xs font-semibold tracking-[0.15em] uppercase">PDF</span>
+                </div>
+                <h3 class="text-lg font-bold text-py-text mb-1 group-hover:text-py-gold transition-colors">{% trans "Die EAS in Paraguay – Alles, was Sie wissen müssen" %}</h3>
+                <p class="text-sm font-semibold text-py-navy/50 mb-4">{% trans "Der Praxisleitfaden für deutsche Unternehmer" %}</p>
+                <p class="text-py-text/70 text-sm leading-relaxed">{% trans "Wann die EAS sinnvoll ist. Was sie kostet. Wie sie steuerlich funktioniert. Und welche Fehler die meisten beim Setup machen." %}</p>
+                <p class="absolute bottom-8 left-8 text-py-navy/40 text-xs">{% trans "Kostenlos, nach Angabe Ihrer E-Mail-Adresse." %}</p>
+            </a>
+
+            <!-- Steuern Leitfaden -->
+            <a href="{% url 'core:py_download_steuern' %}" class="group relative border border-py-navy/10 p-8 pb-14 hover:border-py-gold transition-colors">
+                <div class="flex items-center gap-3 mb-5">
+                    <div class="w-10 h-10 bg-py-gold/10 flex items-center justify-center flex-shrink-0">
+                        <svg class="w-5 h-5 text-py-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                        </svg>
+                    </div>
+                    <span class="text-py-gold text-xs font-semibold tracking-[0.15em] uppercase">PDF</span>
+                </div>
+                <h3 class="text-lg font-bold text-py-text mb-1 group-hover:text-py-gold transition-colors">{% trans "Selbständig in Paraguay – Das Steuersystem verstehen" %}</h3>
+                <p class="text-sm font-semibold text-py-navy/50 mb-4">{% trans "Ein Leitfaden für Deutschsprachige" %}</p>
+                <p class="text-py-text/70 text-sm leading-relaxed">{% trans "IRP-RSP, IRE, IVA, IDU – was gilt für wen, ab wann, und was du praktisch brauchst. Mit den 5 häufigsten Irrtümern, die Selbständige teuer zu stehen kommen." %}</p>
+                <p class="absolute bottom-8 left-8 text-py-navy/40 text-xs">{% trans "Kostenlos, nach Angabe Ihrer E-Mail-Adresse." %}</p>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+<!-- SECTION 3 – Für wen -->
+<section class="py-24 lg:py-32 bg-py-bg">
     <div class="max-w-3xl mx-auto px-6">
         <p class="fade-up text-py-navy/50 text-xs font-semibold tracking-[0.2em] uppercase mb-3">{% trans "Für wen" %}</p>
         <h2 class="fade-up delay-100 text-2xl sm:text-3xl lg:text-4xl font-bold text-py-text mb-8">

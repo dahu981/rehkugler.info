@@ -1048,3 +1048,139 @@ msgstr "Descargar PDF"
 
 msgid "Wenn Sie Ihre konkrete Situation einordnen wollen, ist ein Gespräch der nächste Schritt."
 msgstr "Si desea analizar su situación concreta, una conversación es el siguiente paso."
+
+# Hauptseite – Hero, Über mich, Arbeitsbereiche, Kontakt
+
+msgid "Immobilienexperte. Unternehmerbegleiter."
+msgstr "Experto inmobiliario. Acompañante empresarial."
+
+msgid "Dipl.-Finanzwirt (FH). Dipl.-Sachverständiger (DIA)."
+msgstr "Dipl.-Finanzwirt (FH). Dipl.-Sachverständiger (DIA)."
+
+msgid "Ich arbeite seit über 25 Jahren in Immobilien und Unternehmensstrukturen – mit Erfahrung auf beiden Seiten: analytisch und persönlich. Was mich antreibt, ist die Frage, wie Menschen in komplexen Situationen Klarheit gewinnen und sinnvoll handeln können."
+msgstr "Trabajo desde hace más de 25 años en inmuebles y estructuras empresariales – con experiencia en ambos lados: analítica y personal. Lo que me impulsa es la pregunta de cómo las personas pueden ganar claridad en situaciones complejas y actuar con sentido."
+
+msgid "Mehr über mich"
+msgstr "Más sobre mí"
+
+msgid "Ich bin Immobilienexperte und Dipl.-Sachverständiger (DIA). Seit über 25 Jahren bewerte ich Immobilien, berate Eigentümer und Investoren und arbeite an der Schnittstelle von Zahlen, Strukturen und Entscheidungen."
+msgstr "Soy experto inmobiliario y perito valuador diplomado (DIA). Desde hace más de 25 años valoro inmuebles, asesoro a propietarios e inversores y trabajo en la intersección de números, estructuras y decisiones."
+
+msgid "Parallel beschäftige ich mich seit über 30 Jahren ernsthaft mit dem, was Denken, Wahrnehmung und innere Haltung mit Entscheidungsqualität zu tun haben. Nicht als Therapeut, nicht als Coach im klassischen Sinn – sondern als jemand, der beides aus eigener Erfahrung kennt: unternehmerische Verantwortung und den Umgang mit persönlicher Krise."
+msgstr "Paralelamente, desde hace más de 30 años me ocupo seriamente de lo que el pensamiento, la percepción y la actitud interior tienen que ver con la calidad de las decisiones. No como terapeuta ni como coach en el sentido clásico, sino como alguien que conoce ambos lados por experiencia propia: la responsabilidad empresarial y el manejo de crisis personales."
+
+msgid "Ich lebe und arbeite zwischen Deutschland und Paraguay."
+msgstr "Vivo y trabajo entre Alemania y Paraguay."
+
+msgid "Meine Welten"
+msgstr "Mis mundos"
+
+msgid "Meine Arbeitsbereiche"
+msgstr "Mis áreas de trabajo"
+
+msgid "REHKUGLER Immobilien"
+msgstr "REHKUGLER Inmuebles"
+
+msgid "Gutachten, Bewertung und strukturierte Immobilienberatung – für Eigentümer, Investoren und Profis in Deutschland."
+msgstr "Peritajes, valoración y asesoría inmobiliaria estructurada – para propietarios, inversores y profesionales en Alemania."
+
+msgid "Transformation Guide"
+msgstr "Transformation Guide"
+
+msgid "Begleitung für Unternehmer, die feststecken – finanziell, strukturell oder innerlich. Meistens alles gleichzeitig."
+msgstr "Acompañamiento para empresarios que están atascados – financiera, estructural o interiormente. Casi siempre todo a la vez."
+
+msgid "Leben & Investieren in Paraguay"
+msgstr "Vivir & invertir en Paraguay"
+
+msgid "Paraguay ist kein Paradies. Aber es bietet echte Möglichkeiten – für Unternehmer, Investoren und Menschen, die Alternativen suchen. Ich lebe vor Ort und kenne beide Seiten."
+msgstr "Paraguay no es un paraíso. Pero ofrece oportunidades reales – para empresarios, inversores y personas que buscan alternativas. Vivo allí y conozco ambos lados."
+
+msgid "Fachliches Gespräch, strategischer Austausch oder einfach Fragen – ich bin erreichbar."
+msgstr "Conversación profesional, intercambio estratégico o simplemente preguntas – estoy disponible."
+
+msgid "15-minütiges Kennenlerngespräch – kostenfrei"
+msgstr "Conversación de 15 minutos – sin costo"
+
+msgid "Termin vereinbaren"
+msgstr "Agendar cita"
+
+# Impressum
+
+msgid "Angaben gemäß § 5 DDG"
+msgstr "Información según § 5 DDG"
+
+msgid "Verantwortlich für den Inhalt gemäß § 18 Abs. 2 MStV"
+msgstr "Responsable del contenido conforme al § 18, párr. 2 MStV"
+
+msgid "Haftungsausschluss"
+msgstr "Exención de responsabilidad"
+
+msgid "Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich."
+msgstr "A pesar del cuidadoso control del contenido, no asumimos responsabilidad por el contenido de enlaces externos. Los operadores de las páginas enlazadas son los únicos responsables de su contenido."
+
+msgid "Urheberrecht"
+msgstr "Derechos de autor"
+
+msgid "Die auf dieser Website veröffentlichten Inhalte und Werke unterliegen dem Urheberrecht. Jede vom Urheberrechtsgesetz nicht zugelassene Verwertung bedarf der vorherigen schriftlichen Zustimmung des Autors. Dies gilt insbesondere für Vervielfältigung, Bearbeitung, Übersetzung, Speicherung, Verarbeitung bzw. Wiedergabe von Inhalten."
+msgstr "Los contenidos y obras publicados en este sitio web están protegidos por derechos de autor. Cualquier uso no permitido por la ley de derechos de autor requiere el consentimiento previo por escrito del autor. Esto se aplica especialmente a la reproducción, edición, traducción, almacenamiento, procesamiento o reproducción de contenidos."
+
+msgid "Verbraucherstreitbeilegung (§ 36 VSBG)"
+msgstr "Resolución de disputas de consumidores (§ 36 VSBG)"
+
+msgid "Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit:"
+msgstr "La Comisión Europea dispone de una plataforma para la resolución de disputas en línea (OS):"
+
+msgid "Wir sind nicht verpflichtet und nicht bereit, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen."
+msgstr "No estamos obligados ni dispuestos a participar en procedimientos de resolución de disputas ante una entidad de arbitraje de consumo."
+
+msgid "Unsere E-Mail-Adresse finden Sie oben im Impressum."
+msgstr "Nuestra dirección de correo electrónico se encuentra arriba en el aviso legal."
+
+# Datenschutz – Ergänzungen
+
+msgid "Funktional"
+msgstr "Funcional"
+
+msgid "Speichert die ausgewählte Sprache"
+msgstr "Almacena el idioma seleccionado"
+
+msgid "Speicherdauer:"
+msgstr "Duración:"
+
+# Paraguay – Leitfäden
+
+msgid "Kostenlose Leitfäden"
+msgstr "Guías gratuitas"
+
+msgid "Zum Einlesen."
+msgstr "Para informarse."
+
+msgid "Die EAS in Paraguay – Alles, was Sie wissen müssen"
+msgstr "La EAS en Paraguay – Todo lo que necesita saber"
+
+msgid "Wann die EAS sinnvoll ist. Was sie kostet. Wie sie steuerlich funktioniert. Und welche Fehler die meisten beim Setup machen."
+msgstr "Cuándo conviene la EAS. Cuánto cuesta. Cómo funciona fiscalmente. Y qué errores cometen la mayoría al configurarla."
+
+msgid "Der Praxisleitfaden für deutsche Unternehmer"
+msgstr "La guía práctica para empresarios alemanes"
+
+msgid "Ein Leitfaden für Deutschsprachige"
+msgstr "Una guía para germanoparlantes"
+
+msgid "Nach Angabe Ihrer E-Mail-Adresse können Sie den Leitfaden kostenlos herunterladen."
+msgstr "Tras indicar su dirección de correo electrónico, puede descargar la guía de forma gratuita."
+
+msgid "Selbständig in Paraguay – Das Steuersystem verstehen"
+msgstr "Autónomo en Paraguay – Entender el sistema tributario"
+
+msgid "IRP-RSP, IRE, IVA, IDU – was gilt für wen, ab wann, und was du praktisch brauchst. Mit den 5 häufigsten Irrtümern, die Selbständige teuer zu stehen kommen."
+msgstr "IRP-RSP, IRE, IVA, IDU – qué se aplica a quién, desde cuándo, y qué necesitas en la práctica. Con los 5 errores más frecuentes que salen caros a los autónomos."
+
+# Navigation – Ergänzungen
+
+msgid "Leben & Investieren"
+msgstr "Vivir & invertir"
+
+msgid "Transformation"
+msgstr "Transformación"

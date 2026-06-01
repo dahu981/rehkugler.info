@@ -11,9 +11,10 @@
     <div class="absolute inset-0 bg-py-navy"></div>
     <div class="relative z-10 text-center max-w-3xl mx-auto px-6 py-28">
         <p class="fade-up text-py-gold text-xs font-semibold tracking-[0.25em] uppercase mb-8">{% trans "Kostenloser Leitfaden" %}</p>
-        <h1 class="fade-up delay-100 text-3xl lg:text-5xl font-bold text-white leading-[1.08] mb-8">
-            {% trans "EAS Paraguay – Der Praxisleitfaden" %}
+        <h1 class="fade-up delay-100 text-3xl lg:text-5xl font-bold text-white leading-[1.08] mb-6">
+            {% trans "Die EAS in Paraguay – Alles, was Sie wissen müssen" %}
         </h1>
+        <p class="fade-up delay-150 text-white/80 text-lg">{% trans "Der Praxisleitfaden für deutsche Unternehmer" %}</p>
         <div class="fade-up delay-200 w-16 h-px bg-py-gold mx-auto"></div>
     </div>
 </section>
@@ -22,8 +23,8 @@
 <section class="py-24 lg:py-32 bg-white">
     <div class="max-w-xl mx-auto px-6">
         <div class="fade-up space-y-5 text-py-text/80 leading-relaxed mb-10">
-            <p>{% trans "Wenn Sie die EAS als Gesellschaftsform prüfen: Was die EAS ist, für wen sie geeignet ist, was sie kostet, wie sie steuerlich funktioniert – und welche Fehler vermieden werden sollten." %}</p>
-            <p>{% trans "Kostenlos, nach Angabe Ihrer E-Mail-Adresse." %}</p>
+            <p>{% trans "Wann die EAS sinnvoll ist. Was sie kostet. Wie sie steuerlich funktioniert. Und welche Fehler die meisten beim Setup machen." %}</p>
+            <p>{% trans "Nach Angabe Ihrer E-Mail-Adresse können Sie den Leitfaden kostenlos herunterladen." %}</p>
         </div>
 
         <form method="post" class="fade-up delay-100">
@@ -38,7 +39,7 @@
             {% if form.email.errors %}
             <p class="text-red-600 text-sm mt-2">{{ form.email.errors.0 }}</p>
             {% endif %}
-            <p class="text-py-text/40 text-xs mt-4">{% trans 'Ihre E-Mail-Adresse wird ausschließlich für den Versand des Leitfadens verwendet.' %} <a href="{% url 'core:datenschutz' %}" class="underline hover:text-py-gold">{% trans "Datenschutz" %}</a></p>
+            <p class="text-py-text/40 text-xs mt-4"><a href="{% url 'core:datenschutz' %}" class="underline hover:text-py-gold">{% trans "Datenschutz" %}</a></p>
         </form>
     </div>
 </section>

@@ -1,7 +1,32 @@
+import logging
+
+from django.conf import settings
+from django.core.mail import send_mail
 from django.http import HttpResponse
 from django.shortcuts import render, redirect
 
 from .forms import LeadCaptureForm
+
+logger = logging.getLogger(__name__)
+
+RESOURCE_LABELS = {
+    'eas': 'EAS-Leitfaden (Paraguay)',
+    'steuern': 'Steuer-Leitfaden (Paraguay)',
+}
+
+
+def _notify_lead(email, resource):
+    label = RESOURCE_LABELS.get(resource, resource)
+    try:
+        send_mail(
+            subject=f'Neuer Download: {label}',
+            message=f'{email} hat den {label} heruntergeladen.',
+            from_email=settings.DEFAULT_FROM_EMAIL,
+            recipient_list=[settings.DEFAULT_FROM_EMAIL],
+            fail_silently=False,
+        )
+    except Exception:
+        logger.exception('Lead-Benachrichtigung konnte nicht gesendet werden')
 
 
 def home(request):
@@ -47,6 +72,7 @@ def py_download_eas(request):
             lead = form.save(commit=False)
             lead.resource = 'eas'
             lead.save()
+            _notify_lead(lead.email, lead.resource)
             return redirect('core:py_download_eas_success')
     else:
         form = LeadCaptureForm()
@@ -67,6 +93,7 @@ def py_download_steuern(request):
             lead = form.save(commit=False)
             lead.resource = 'steuern'
             lead.save()
+            _notify_lead(lead.email, lead.resource)
             return redirect('core:py_download_steuern_success')
     else:
         form = LeadCaptureForm()
