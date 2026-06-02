@@ -71,7 +71,7 @@
         .delay-300 { transition-delay: 0.36s; }
         .delay-400 { transition-delay: 0.48s; }
 
-        /* Nav transparent → solid */
+        /* Nav transparent → solid on scroll */
         #navbar { background: transparent; }
         #navbar.nav-solid {
             background: rgba(51, 65, 85, 0.97);
@@ -119,7 +119,7 @@
 
     {% block footer %}{% include 'partials/_footer.html' %}{% endblock %}
 
-    <script src="{% static 'js/main.js' %}" defer></script>
+    <script src="{% static 'js/main.js' %}?v=2" defer></script>
 
     <!-- Base structured data: WebPage + BreadcrumbList (overridden by homepage) -->
     {% block structured_data %}
