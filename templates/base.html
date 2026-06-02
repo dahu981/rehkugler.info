@@ -71,23 +71,12 @@
         .delay-300 { transition-delay: 0.36s; }
         .delay-400 { transition-delay: 0.48s; }
 
-        /* Nav: Mobile immer solid, Desktop transparent → solid on scroll */
-        #navbar {
+        /* Nav transparent → solid on scroll */
+        #navbar { background: transparent; }
+        #navbar.nav-solid {
             background: rgba(51, 65, 85, 0.97);
             backdrop-filter: blur(8px);
             -webkit-backdrop-filter: blur(8px);
-        }
-        @media (min-width: 1024px) {
-            #navbar {
-                background: transparent;
-                backdrop-filter: none;
-                -webkit-backdrop-filter: none;
-            }
-            #navbar.nav-solid {
-                background: rgba(51, 65, 85, 0.97);
-                backdrop-filter: blur(8px);
-                -webkit-backdrop-filter: blur(8px);
-            }
         }
 
         /* Gold accent line on hover */
@@ -130,7 +119,7 @@
 
     {% block footer %}{% include 'partials/_footer.html' %}{% endblock %}
 
-    <script src="{% static 'js/main.js' %}" defer></script>
+    <script src="{% static 'js/main.js' %}?v=2" defer></script>
 
     <!-- Base structured data: WebPage + BreadcrumbList (overridden by homepage) -->
     {% block structured_data %}
