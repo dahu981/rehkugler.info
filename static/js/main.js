@@ -3,15 +3,24 @@ var mobileMenu   = document.getElementById('mobile-menu');
 var mobileToggle = document.getElementById('mobile-toggle');
 var closeMenu    = document.getElementById('close-menu');
 
+var scrollY = 0;
 function openMenu() {
+    scrollY = window.scrollY;
     mobileMenu.classList.remove('translate-x-full');
     mobileToggle.setAttribute('aria-expanded', 'true');
+    document.body.style.position = 'fixed';
+    document.body.style.top = '-' + scrollY + 'px';
+    document.body.style.width = '100%';
     document.body.style.overflow = 'hidden';
 }
 function closeMenuFn() {
     mobileMenu.classList.add('translate-x-full');
     mobileToggle.setAttribute('aria-expanded', 'false');
+    document.body.style.position = '';
+    document.body.style.top = '';
+    document.body.style.width = '';
     document.body.style.overflow = '';
+    window.scrollTo(0, scrollY);
 }
 
 if (mobileToggle) {

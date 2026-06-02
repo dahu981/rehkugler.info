@@ -8,7 +8,7 @@
 <!-- ============================================================
      HERO
 ============================================================ -->
-<section id="hero" class="relative min-h-screen flex items-center overflow-hidden bg-brand-blue">
+<section id="hero" class="relative min-h-screen flex flex-col lg:flex-row items-start lg:items-center overflow-hidden bg-brand-blue">
 
     <!-- Skyline-Hintergrund, immer sichtbar -->
     <div class="absolute inset-0">
@@ -19,7 +19,7 @@
              aria-hidden="true"
              loading="eager" />
         <div class="absolute inset-0 bg-brand-blue/60"></div>
-        <div class="absolute inset-0 bg-brand-blue/40 lg:bg-transparent"></div>
+        <div class="absolute inset-0 bg-brand-blue/70 lg:bg-transparent"></div>
         <div class="absolute inset-0 hidden lg:block bg-gradient-to-r from-transparent from-0% via-brand-blue/70 via-25% to-brand-blue to-50%"></div>
     </div>
 
@@ -43,20 +43,9 @@
         </svg>
     </div>
 
-    <!-- Mobile Portrait: unten im Hero -->
-    <div class="absolute bottom-0 left-0 right-0 h-[45%] lg:hidden">
-        <img src="{% static 'images/hero-mr-v2.webp' %}"
-             alt="{% trans 'Markus Rehkugler' %}"
-             width="1024" height="683"
-             class="w-full h-full object-cover object-[40%_15%] grayscale"
-             style="height: 100%;"
-             loading="eager" />
-        <div class="absolute inset-0 bg-gradient-to-t from-transparent via-brand-blue/50 via-30% to-brand-blue"></div>
-    </div>
-
-    <!-- Text links -->
-    <div class="relative z-10 max-w-6xl mx-auto px-6 pt-28 pb-8 lg:py-32 w-full">
-        <div class="max-w-xl">
+    <!-- Text -->
+    <div class="relative z-10 max-w-6xl mx-auto px-6 pt-28 pb-12 lg:py-32 w-full">
+        <div class="max-w-xl mx-auto lg:mx-0 text-center lg:text-left">
             <p class="fade-up text-brand-gold text-xs font-semibold tracking-[0.25em] uppercase mb-4">
                 {% trans "Immobilienexperte. Unternehmerbegleiter." %}
             </p>
@@ -68,13 +57,13 @@
                 Markus Rehkugler
             </h1>
 
-            <div class="fade-up delay-200 w-16 h-px bg-brand-gold mb-5"></div>
+            <div class="fade-up delay-200 w-16 h-px bg-brand-gold mb-5 mx-auto lg:mx-0"></div>
 
             <p class="fade-up delay-200 text-xl lg:text-2xl font-semibold text-brand-gold mb-8">
                 {% trans "Struktur schafft Klarheit." %}
             </p>
 
-            <p class="fade-up delay-300 text-white/80 text-base leading-relaxed mb-10">
+            <p class="fade-up delay-300 text-white/90 lg:text-white/80 text-base leading-relaxed mb-10">
                 {% trans "Ich arbeite seit über 25 Jahren in Immobilien und Unternehmensstrukturen – mit Erfahrung auf beiden Seiten: analytisch und persönlich. Was mich antreibt, ist die Frage, wie Menschen in komplexen Situationen Klarheit gewinnen und sinnvoll handeln können." %}
             </p>
 
@@ -88,6 +77,17 @@
                     </svg>
                 </a>
             </div>
+        </div>
+    </div>
+
+    <!-- Mobile: Portrait als eigenständiges Bild unter dem Text -->
+    <div class="relative z-10 lg:hidden w-full px-6 pb-10">
+        <div class="max-w-[280px] mx-auto border border-brand-gold/30 shadow-lg shadow-black/30 overflow-hidden">
+            <img src="{% static 'images/hero-mr-v2.webp' %}"
+                 alt="{% trans 'Markus Rehkugler' %}"
+                 width="1024" height="683"
+                 class="w-full h-auto grayscale"
+                 loading="eager" />
         </div>
     </div>
 </section>
