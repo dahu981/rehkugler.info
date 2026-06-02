@@ -35,16 +35,23 @@ if (mobileMenu) {
     });
 }
 
-// ── Navbar solid on scroll
+// ── Navbar solid on scroll (scroll event + IntersectionObserver fallback)
 var navbar = document.getElementById('navbar');
 if (navbar) {
     window.addEventListener('scroll', function() {
-        if (window.scrollY > 60) {
+        if ((window.scrollY || window.pageYOffset || document.documentElement.scrollTop) > 60) {
             navbar.classList.add('nav-solid');
         } else {
             navbar.classList.remove('nav-solid');
         }
     }, { passive: true });
+
+    var hero = document.getElementById('hero');
+    if (hero && 'IntersectionObserver' in window) {
+        new IntersectionObserver(function(entries) {
+            navbar.classList.toggle('nav-solid', !entries[0].isIntersecting);
+        }, { threshold: 0.1 }).observe(hero);
+    }
 }
 
 // ── Scroll-reveal
